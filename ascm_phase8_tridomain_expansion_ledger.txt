@@ -1,0 +1,25 @@
+================================================================================
+ ASCM PHASE VIII: TERRESTRIAL NEUTRINO PHENOMENOLOGY, NON-LINEAR HALO/VOID
+ STATISTICS & HOLOGRAPHIC BLACK-HOLE PAGE CURVE AUDIT LEDGER
+================================================================================
+
+1. TERRESTRIAL NEUTRINO PHENOMENOLOGY & 0\nu\beta\beta (sec7_neutrino_0nubb_phenomenology.py)
+   - High-Scale Seesaw Inputs (Sec 7)  : M_R = diag(10^14, 10^15, 10^16) GeV, K_1 = 1.17734, \varepsilon_1 = -1.390156e-9
+   - Light Eigenvalues (Normal Order)  : m_1 = 0.0000 meV, m_2 = 8.6139 meV, m_3 = 50.1697 meV
+   - Effective 0\nu\beta\beta Mass     : m_{\beta\beta}^{ASCM} = |(m_\nu)_{ee}| = 1.4472 meV (Target for LEGEND-1000 / nEXO) [PASS]
+   - Tritium \beta-Endpoint Mass       : m_\beta^{ASCM} = 8.8260 meV (< 450 meV KATRIN bound; Project 8 target) [PASS]
+   - Cosmological Neutrino Mass Sum    : \sum m_\nu^{ASCM} = 0.0588 eV (< 0.072 eV DESI 2024 + Planck 2018 bound) [PASS]
+
+2. NON-LINEAR HALO MASS FUNCTIONS & COSMIC VOIDS (phase8_nonlinear_hmf_void_statistics.py)
+   - Spherical Collapse Threshold      : \delta_c^{ASCM}(M) = 1.68595 (modified by \mu(1, k_M) - 1 = +5.39e-3)
+   - High-Mass Cluster Abundance Shift : \Delta(dn/d\ln M)/(dn/d\ln M) = -6.42% at M_{200c} = 5 x 10^14 M_sun/h (z = 0)
+                                         (Reconciles eROSITA & SPT-SZ cluster counts via \Omega_{m,0}^{ASCM} = 0.299) [PASS]
+   - Cosmic Void Core Underdensity     : \delta_v^{ASCM}(r=0) = -0.8264 vs. -0.8200 (\Lambda CDM) (-0.78% emptier voids)
+   - Void Tangential Lensing Shear     : \Delta\Sigma_{void}^{ASCM}/\Delta\Sigma_{void}^{\Lambda CDM} - 1 = +0.37% [PASS]
+
+3. BLACK HOLE INFORMATION, PAGE CURVE & COMPLEXITY (phase8_holographic_page_curve_complexity.py)
+   - Generalized Entropy Functional    : S_gen(I_X) = A(\partial I_X)/(4 G_eff) + S_bulk(R U I_X) + (7/4)\xi^2 S_BH
+   - Unitary Page Transition Time      : t_Page / t_evap = 1 - (1/2)^{3/2}[1 - (21/16)\xi_\Lambda^2] = 0.64645 [PASS]
+   - Final Pure-State Recovery         : S_rad(t = t_evap) = 0.000000 (Unitarity & J^+(M^4) \cap \tilde{M}^4 = \emptyset preserved)
+   - Complexity-Action Growth Rate     : dC_A/dt = (2M/\pi\hbar)[1 - (1/2)I_\Lambda M_Pl^4/\rho_BH] <= 2M/(\pi\hbar) (Lloyd Bound) [PASS]
+================================================================================

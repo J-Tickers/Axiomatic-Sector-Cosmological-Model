@@ -1,0 +1,25 @@
+% ==============================================================================
+% ASCM Gadget-4 1024^3 Hydrodynamic + SubFind Parameter File (param_gadget4_hydro_1024.txt)
+% ==============================================================================
+InitCondFile                       C:/Users/JTick/OneDrive/Desktop/ASCM_Journal_Submission/ascm_ic_1024_baryons_z99.dat
+OutputDir                          C:/Users/JTick/OneDrive/Desktop/ASCM_Journal_Submission/gadget4_hydro_1024_output
+SnapshotFileBase                   ascm_hydro_1024_snap
+OutputListFilename                 output_times.txt
+ICFormat                           1
+SnapFormat                         3
+TimeBegin                          0.01
+TimeMax                            1.0
+ComovingIntegrationOn              1
+Omega0                             0.299
+OmegaLambda                        0.701
+OmegaBaryon                        0.049
+HubbleParam                        0.674
+BoxSize                            500.0
+CoolingOn                          1
+StarformationOn                    1
+DesNumNgb                          64
+MaxNumNgbDeviation                 2
+SofteningComovingClass0            0.018
+SofteningComovingClass1            0.018
+SofteningMaxPhysClass0             0.005
+SofteningMaxPhysClass1             0.005

@@ -1,0 +1,28 @@
+================================================================================
+ ASCM CORE ANALYTICAL & TRANSPORT PIPELINES (PHASES I, II, AND III) AUDIT LEDGER
+================================================================================
+
+1. PHASE I: CANONICAL PHASE SPACE REDUCTION (phase1_symbolic_hessian_ledger.py)
+   - Global Sequestering Hessian  : H_\Sigma = [[A + \kappa_\Sigma, \kappa_\Sigma - A], [\kappa_\Sigma - A, A + \kappa_\Sigma]]
+   - Regularized Determinant      : \det H_\Sigma = 4 A \kappa_\Sigma != 0 (\det C_G = 16 A^2 \kappa_\Sigma^2 > 0)
+   - Second-Class Dirac Matrix    : \Delta_{AB} of constant rank 42 (4 Global + 12 Junction + 10 Bulk + 16 Aux)
+   - First-Class Diffeomorphisms  : F = 13 (4 on M^4 + 4 on \tilde{M}^4 + 5 on B^5)
+   - Physical Mode Reduction      : \dim \Gamma_{phys} = 88 - 2(13) - 42 = 20 -> N_{phys} = 10 exact
+   - Boulware-Deser Ghost Check   : -6 M_{Pl}^2 conformal kinetic term cancels identically -> Q_s(a,k) > 0 [PASS]
+
+2. PHASE II: RENORMALIZATION-GROUP BACKGROUND FLOW (phase2_stiff_radau_trajectory.py)
+   - Numerical Integrator         : 5th-Order Implicit Radau IIA Quadrature (rtol = 1e-6, atol = 1e-7)
+   - Fine-Complex Beta Parameters : b_1 = 0.053394, \Delta_{mix} = 0.585501, b_{eff} = 0.084657, b_3 = -0.010582
+   - Scale Eigenparameter         : \lambda_\mu = 2.086 (\Delta N = 60.0 e-folds, N \in [-60.0, 0.0])
+   - Adaptive Integration Steps   : 123 steps completed across all particle-physics mass thresholds
+   - Infrared Fixed Point         : \xi(-60.0) = 0.04000 -> \xi(0.0) = 1.0003 x 10^-6 [PASS]
+   - Late-Time Dark-Energy EoS    : w_{DE}(0) = -0.9970, w_a = -0.0030 (\mathcal{I}_\Lambda = 1.0 x 10^-122) [PASS]
+
+3. PHASE III: TENSOR PARITY & CHIRAL TRANSPORT (phase3_tensor_baryogenesis_transport.py)
+   - Inflationary Pivot Targets   : r = 0.0015, n_s = 0.965 (-r/8 = -0.0001875, \Delta_{RG} = -2.5 x 10^-6)
+   - Red Tensor Parity Branch     : n_t^{red}  = -0.00119 (\sigma_\partial = -1) [PASS]
+   - Blue Tensor Parity Branch    : n_t^{blue} = +0.00081 (\sigma_\partial = +1, Total Split: 0.00200) [PASS]
+   - Boltzmann Transport Network  : M_1 = 10^14 GeV, K_1 = 1.17734, \varepsilon_1 = -1.390156 x 10^-9, C_{spec} = -1/3
+   - On-Shell RIS Subtraction     : \gamma_{t\bar{q}\leftrightarrow\ell H}^{s,\text{res,RIS-sub}} = 0 (Unitarity & Equilibrium Preserved)
+   - Freeze-Out Baryon Asymmetry  : \eta_B(z = 100) = 6.0997 x 10^-10 (99.995% Planck Match) [PASS]
+================================================================================

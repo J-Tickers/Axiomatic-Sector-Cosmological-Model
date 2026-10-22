@@ -1,0 +1,26 @@
+================================================================================
+ ASCM PHASE IX: EFT STRONG-COUPLING VALIDITY, PPN SOLAR-SYSTEM EXPLICITIZATION,
+ EXACT CMB PARITY TB/EB SPECTRA & CONTAINERIZATION AUDIT LEDGER
+================================================================================
+
+1. EFT STRONG-COUPLING VALIDITY MAPPING (phase9_eft_strong_coupling_mapper.py)
+   - Tree-Level s-Wave Unitarity Cutoff : \Lambda_{sc}(N) = M_* [1 + |c_1+c_2|\xi^2/(16\pi\varepsilon_H)(M_*/M_Pl)^2]^{-1/4}
+   - UV Inflationary Cutoff (N = -60.0) : \Lambda_{sc}(-60.0) = 1.84 x 10^16 GeV  >>  H_{inf} = 1.10 x 10^13 GeV
+   - Minimum Safety Ratio (\Lambda_sc/H): 1.67 x 10^3 (Perturbative unitarity preserved across all 60.0 e-folds) [PASS]
+   - IR Cutoff (N = 0.0)                : \Lambda_{sc}(0.0) = 2.40 x 10^16 GeV  >>  k_{NL}/a ~ 10^-31 GeV [PASS]
+
+2. PARAMETERIZED POST-NEWTONIAN (PPN) EXPLICITIZATION (phase9_ppn_solar_system_auditor.py)
+   - PPN Curvature |\gamma_{PPN} - 1|   : 4.10 x 10^-15  <<  2.3 x 10^-5 (Cassini Shapiro Time-Delay Bound) [PASS]
+   - PPN Non-Linearity |\beta_{PPN} - 1|: 2.50 x 10^-25  <<  8.0 x 10^-5 (Lunar Laser Ranging / Perihelion) [PASS]
+   - Time-Varying Gravity |\dot{G}/G_N| : 1.17 x 10^-23 yr^-1  <<  1.0 x 10^-13 yr^-1 (LLR Bound) [PASS]
+   - Preferred-Frame Parameters         : \alpha_1^{PPN} = \alpha_2^{PPN} = \alpha_3^{PPN} = 0 (Exact 4D Lorentz Invariance) [PASS]
+
+3. EXACT CMB PARITY-VIOLATION CROSS-SPECTRA (phase9_cmb_parity_tb_eb_spectra.py)
+   - Circular Polarization Asymmetry    : \Pi_{GW}(k_*; \sigma_\partial) = \sigma_\partial x 0.00853 (r = 0.0015)
+   - Reionization Bump (\ell ~ 5)       : D_\ell^{TB} = -/+ 1.82 x 10^-4 uK^2 | D_\ell^{EB} = -/+ 2.94 x 10^-5 uK^2
+   - Recombination Peak (\ell ~ 80)     : D_\ell^{TB} = -/+ 6.45 x 10^-4 uK^2 | D_\ell^{EB} = -/+ 8.72 x 10^-5 uK^2 [PASS]
+
+4. CONTAINERIZATION OF THE REPRODUCIBILITY SUITE (Dockerfile, requirements.txt & .ipynb)
+   - Docker Environment                 : Dockerfile (Python 3.11 + GSL + FFTW3 + HDF5 + OpenMPI) [READY]
+   - Interactive Execution Notebook     : ASCM_Interactive_Verification_Notebook.ipynb (Phases I-IX) [READY]
+================================================================================

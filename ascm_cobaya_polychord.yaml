@@ -1,0 +1,14 @@
+# ==============================================================================
+# GITHUB_URL   : https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model
+# FIGSHARE_DOI : 10.6084/m9.figshare.34734825
+# FIGSHARE_URL : https://doi.org/10.6084/m9.figshare.34734825
+# ==============================================================================
+theory:
+  classy:
+    extra_args:
+      ascm_boundary_coupling: yes
+      ascm_kernels_file: "ascm_kernels.hdf5"
+sampler:
+  polychord:
+    nlive: 512
+    num_repeats: 15

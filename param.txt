@@ -1,0 +1,50 @@
+% ==============================================================================
+% GITHUB_URL   : https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model
+% FIGSHARE_DOI : 10.6084/m9.figshare.34734825
+% FIGSHARE_URL : https://doi.org/10.6084/m9.figshare.34734825
+% ==============================================================================
+% ==============================================================================
+% ASCM Gadget-4 Simulation Parameter File (param.txt)
+% Synchronized with ascm_2lpt_z99.conf & ascm_ic_z99.dat
+% ==============================================================================
+
+InitCondFile                       C:/Users/JTick/OneDrive/Desktop/ASCM_Journal_Submission/ascm_ic_z99.dat
+OutputDir                          C:/Users/JTick/OneDrive/Desktop/ASCM_Journal_Submission/gadget4_output
+SnapshotFileBase                   ascm_snap
+OutputListFilename                 output_times.txt
+
+ICFormat                           1
+SnapFormat                         3
+
+TimeLimitCPU                       86400
+CpuTimeBetRestartFile              7200
+MaxMemSize                         4000
+
+TimeBegin                          0.01          % z_start = 99.0
+TimeMax                            1.0           % z_end   = 0.0
+
+ComovingIntegrationOn              1
+Omega0                             0.299         % ASCM BAO-matched late-time matter fraction
+OmegaLambda                        0.701         % ASCM dark-energy fraction
+OmegaBaryon                        0.049         % Baryon fraction
+HubbleParam                        0.674         % h = 0.674
+BoxSize                            500.0         % 500.0 h^-1 Mpc
+
+UnitLength_in_cm                   3.085678e24   % 1.0 Mpc/h
+UnitMass_in_g                      1.989e43      % 1.0e10 M_sun/h
+UnitVelocity_in_cm_per_s           1e5           % 1.0 km/s
+GravityConstantInternal            0
+
+ErrTolIntAccuracy                  0.025
+CourantFac                         0.15
+MaxSizeTimestep                    0.01
+MinSizeTimestep                    0.0
+
+ErrTolTheta                        0.5
+ErrTolForceAcc                     0.005
+ActivePartFracForPMInsteadOfTree   0.05
+
+SofteningComovingClass0            0.15
+SofteningMaxPhysClass0             0.05
+SofteningClassOfPartType0          0
+SofteningClassOfPartType1          0

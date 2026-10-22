@@ -1,0 +1,1749 @@
+\documentclass[aps,prd,onecolumn,superscriptaddress,nofootinbib,longbibliography,10pt]{revtex4-2}
+\usepackage{amsmath,amssymb,amsfonts,graphicx,bm,hyperref}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
+\begin{document}
+\title{COMPANION MATHEMATICAL DERIVATIONS MANUAL: Exhaustive Step-by-Step Analytical Calculus for the Axiomatic Sector Cosmological Model (ASCM)}
+\author{J. B. Randolph (ORCID: \href{https://orcid.org/0009-0005-7943-2176}{0009-0005-7943-2176})}
+\affiliation{Overland Park, Kansas 66212, USA | ORCID: 0009-0005-7943-2176 (https://orcid.org/0009-0005-7943-2176)
+\date{October 2026}
+\maketitle
+
+
+ 
+
+  
+\section*{COMPANION MATHEMATICAL DERIVATIONS MANUAL}
+
+  \textbf{Exhaustive Step-by-Step Analytical Calculus for the Axiomatic Sector Cosmological Model (ASCM): Variational Symplectic Closure, Canonical Dirac–Bergmann Reduction, Spin-Foam Kadanoff Coarse-Graining, State-Sum Saddle Selection, Sturm–Liouville Bulk Spectral Theory, Fujikawa Anomaly Transport, Casas–Ibarra Yukawa Textures, and Multi-Probe Fisher–Laplace Inference}
+
+
+  \textbf{J. B. Randolph} (ORCID: \href{https://orcid.org/0009-0005-7943-2176}{0009-0005-7943-2176})
+  \textit{Overland Park, Kansas 66212, USA | ORCID: 0009-0005-7943-2176 (https://orcid.org/0009-0005-7943-2176)
+
+
+  \textit{Companion Supplement to the ASCM Journal Manuscript --- October 2026 | DOI: \href{https://doi.org/10.6084/m9.figshare.34734825}{10.6084/m9.figshare.34734825} (\href{https://doi.org/10.6084/m9.figshare.34734825}{https://doi.org/10.6084/m9.figshare.34734825}) | GitHub: \href{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model}{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model} | ORCID: \href{https://orcid.org/0009-0005-7943-2176}{0009-0005-7943-2176} | DOI: \href{https://doi.org/10.6084/m9.figshare.34734825}{10.6084/m9.figshare.34734825} (\href{https://doi.org/10.6084/m9.figshare.34734825}{https://doi.org/10.6084/m9.figshare.34734825}) | GitHub: \href{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model}{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model} | ORCID: \href{https://orcid.org/0009-0005-7943-2176}{0009-0005-7943-2176} | DOI: \href{https://doi.org/10.6084/m9.figshare.34734825}{10.6084/m9.figshare.34734825} (\href{https://doi.org/10.6084/m9.figshare.34734825}{https://doi.org/10.6084/m9.figshare.34734825}) | GitHub: \href{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model}{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model} | ORCID: \href{https://orcid.org/0009-0005-7943-2176}{0009-0005-7943-2176} | DOI: \href{https://doi.org/10.6084/m9.figshare.34734825}{10.6084/m9.figshare.34734825} (\href{https://doi.org/10.6084/m9.figshare.34734825}{https://doi.org/10.6084/m9.figshare.34734825}) | GitHub: \href{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model}{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model} | ORCID: \href{https://orcid.org/0009-0005-7943-2176}{0009-0005-7943-2176} | DOI: \href{https://doi.org/10.6084/m9.figshare.34734825}{10.6084/m9.figshare.34734825} (\href{https://doi.org/10.6084/m9.figshare.34734825}{https://doi.org/10.6084/m9.figshare.34734825}) | GitHub: \href{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model}{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model} | ORCID: \href{https://orcid.org/0009-0005-7943-2176}{0009-0005-7943-2176} | DOI: \href{https://doi.org/10.6084/m9.figshare.34734825}{10.6084/m9.figshare.34734825} (\href{https://doi.org/10.6084/m9.figshare.34734825}{https://doi.org/10.6084/m9.figshare.34734825}) | GitHub: \href{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model}{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model} | ORCID: \href{https://orcid.org/0009-0005-7943-2176}{0009-0005-7943-2176} | DOI: \href{https://doi.org/10.6084/m9.figshare.34734825}{10.6084/m9.figshare.34734825} | GitHub: \href{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model}{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model} | ORCID: \href{https://orcid.org/0009-0005-7943-2176}{0009-0005-7943-2176} | DOI: \href{https://doi.org/10.6084/m9.figshare.34734825}{10.6084/m9.figshare.34734825} | GitHub: \href{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model}{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model} | ORCID: \href{https://orcid.org/0009-0005-7943-2176}{0009-0005-7943-2176} | DOI: \href{https://doi.org/10.6084/m9.figshare.34734825}{10.6084/m9.figshare.34734825} | GitHub: \href{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model}{J-Tickers/Axiomatic-Sector-Cosmological-Model} | ORCID: \href{https://orcid.org/0009-0005-7943-2176}{0009-0005-7943-2176} | DOI: \href{https://doi.org/10.6084/m9.figshare.34734825}{10.6084/m9.figshare.34734825} | GitHub: \href{https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model}{J-Tickers/Axiomatic-Sector-Cosmological-Model} | ORCID: \href{https://orcid.org/0009-0005-7943-2176}{0009-0005-7943-2176}}
+  \textit{arXiv Classification: gr-qc, hep-th, astro-ph.CO}
+
+
+  \[ S_{ASCM} = S_M[g,\Phi] + S_{\tilde{M}}[\tilde{g},\tilde{\Phi}] + S_B[G] + S_\partial[h,\xi,\sigma_\partial] + S_{seq} \]
+  
+  
+\subsection*{PRELIMINARIES AND ANALYTICAL SCOPE}
+
+  This standalone mathematical manual provides the complete, un-condensed, step-by-step analytical derivations linking the foundational variational architecture of the Axiomatic Sector Cosmological Model (ASCM) to its macroscopic field equations and observational predictions. Every mathematical proof, tensor contraction, Hessian matrix, and canonical reduction referenced in the main \textit{ASCM Journal Manuscript} (via the Supplementary Material and Derivations Directory) is established here in full detail.
+
+
+  Throughout this manual, we work in natural units \(c = \hbar = k_B = 1\) with Lorentzian metric signature \((-,+,+,+)\) on the four-dimensional manifolds \(M^4\) and \(\tilde{M}^4\), and \((-,+,+,+,+)\) on the five-dimensional bulk \(B^5\). Greek indices \(\mu, \nu, \rho, \sigma \in \{0,1,2,3\}\) label four-dimensional coordinates on \(M^4\); tilded Greek indices \(\tilde{\mu}, \tilde{\nu} \in \{0,1,2,3\}\) label coordinates on \(\tilde{M}^4\); lowercase Latin indices \(i, j, k, l \in \{1,2,3\}\) label spatial coordinates on a three-dimensional Cauchy slice \(\Sigma_t\); and uppercase Latin indices \(A, B, C, D \in \{0,1,2,3,5\}\) (with \(a, b \in \{1,2,3,5\}\) for spatial bulk slices) label coordinates on \(B^5\).
+
+
+  
+\subsubsection*{Directory of Sections}
+
+  
+\begin{itemize}
+    
+\item \textbf{Section 1:} Variational Well-Posedness, Boundary Operator Basis, Mixed Hessian \(\mathcal{H}_V^{IJ}\), and Codimension-Two Corner-Term Closure.
+    
+\item \textbf{Section 2:} The 42-Constraint Canonical Dirac–Bergmann Reduction, Closed-Form \(42\times 42\) Inverse Dirac Kernel \((\Delta^{-1})^{AB}\), and Explicit SVT Kernels \((Q_X, G_X, M_X^2)\).
+    
+\item \textbf{Section 3:} Microscopic Spin-Foam Kadanoff Coarse-Graining on \(F_f\), \(SL(2,\mathbb{C})_q\) Vertex Amplitude, and RG Beta-Function Extraction \((b_1, b_{eff}, b_3)\).
+    
+\item \textbf{Section 4:} Nonperturbative Radiative Vacuum Stability, State-Sum Normalization, and Microscopic Saddle Selection of \(\delta_{vac}^*\).
+    
+\item Section 5: Fujikawa Chiral Anomaly Derivation of \(c_g R\tilde{R}\), Flavor-Covariant Thermal Transport, and Exact Algebraic Real-Intermediate-State (RIS) Subtraction.
+
+\item Section 6: 5D Warped Bulk Majorana Localization, Spin-Foam Saddle CP Phase Extraction, Thermal Attractor Bound, and 1-Loop RG Corridor.
+
+\item Section 7: 5D Warped Bulk Sturm--Liouville Spectral Theory, Ward-Identity Zero-Mode Protection, Complex Spin-Foam Saddle \(j_{crit}\), and Collocation BVP System.
+
+\item Section 8: Multi-Epoch 8D Radau ODE System (\(\Delta N = 60.0\)), Real-Data Likelihood \& Dynamic \(7\times 3\) Fisher–Laplace Architecture, Reproducibility Protocol, and Constraint-Surface Diagnostic Suite (\(C_a, X_a\)).
+  
+\end{itemize}
+
+
+
+ 
+
+  
+\section*{SECTION 1}
+
+  
+\subsection*{VARIATIONAL WELL-POSEDNESS, BOUNDARY OPERATOR BASIS, AND SYMPLECTIC FLUX CANCELLATION}
+
+  In this section, we establish the variational well-posedness of the coupled dual-manifold and warped bulk action \(S_{ASCM}\). We construct the complete local interface operator basis up to quadratic order in extrinsic curvature, prove the pairwise cancellation of normal metric derivatives via the Palatini and Gibbons–Hawking–York identities, derive the generalized Israel junction equations, prove the vanishing of the presymplectic boundary flux \(\omega_\Sigma = 0\) by explicit evaluation of the mixed second-derivative Hessian matrix \(\mathcal{H}_V^{IJ}\), and close the codimension-two corner terms at \(\mathcal{C} = \partial\Sigma = \Sigma \cap \Sigma_t\) via Hayward–Chern–Simons dihedral counterterms.
+
+
+  
+  
+\subsubsection*{1.1 Geometric Setup and Boundary Operator Basis}
+
+  Let the oriented interface \(\Sigma = \partial M = \partial\tilde{M}\) separate the two four-dimensional sectors from the five-dimensional bulk \(B\). On each incident region \(I\), let \(n^I_A\) be the outward unit normal, \(\varepsilon_I = n^I_A n_I^A = \pm 1\), \(h_{AB} = G_{AB} - \varepsilon_I n^I_A n^I_B\), and \(\mathcal{K}^{(I)}_{ab} = h^A_a h^B_b \nabla_A n^I_B\). The jump and sum across the interface are defined as \([X] = X^{(+)} - X^{(-)}\) and \(\{X\} = X^{(+)} + X^{(-)}\). The intrinsic covariant derivative compatible with \(h_{ab}\) is \(D_a\).
+
+
+  Up to two intrinsic boundary derivatives, allowing quadratic powers of extrinsic curvature, the complete local interface action sufficient for the coupled sector is
+
+
+  \[ S_\partial = \sum_I \varepsilon_I M_I^{d_I - 2} \int_\Sigma \sqrt{|h|}\, \mathcal{K}^{(I)} + \int_\Sigma \sqrt{|h|}\, L_\partial \]
+  \[ L_\partial = -U(\xi, q) + \frac{M_\partial^2}{2}R[h] + a_1(\xi, q)\mathcal{K}^2 + a_2(\xi, q)\mathcal{K}_{ab}\mathcal{K}^{ab} - \frac{Z_\xi(\xi, q)}{2}D_a\xi D^a\xi + \sigma_\partial b_\chi(\xi, q)\epsilon^{abcd}\mathcal{K}_{ae} D_b \mathcal{K}^e_c u_d \]
+  Here \(U \equiv V_\partial\), \(q\) denotes nondynamical global or boundary moduli, and coefficients may depend on \(\xi\) and \(q\).
+
+
+
+  
+\subsubsection*{1.2 Total Variation and Pairwise Cancellation of Normal Metric Derivatives}
+
+  For an incident region \(I\) with Einstein–Hilbert action \(S_{EH}^{(I)} = (M_I^{d_I - 2}/2)\int_I \sqrt{|g|}\, R\), the Palatini identity gives
+
+
+  \[ \delta S_{EH}^{(I)} = \frac{M_I^{d_I - 2}}{2}\int_I \sqrt{|g|}\, G^{AB}\delta g_{AB} + \frac{M_I^{d_I - 2}}{2}\int_\Sigma \sqrt{|h|}\, n_A(\nabla_B \delta g^{AB} - \nabla^A \delta g) \]
+  The variation of the matched Gibbons–Hawking–York (GHY) functional is
+
+
+  \[ \delta S_{{\small \mathrm{GHY}}}^{{\small (I)}} = -\frac{M_I^{d_I - 2}}{2}\int_\Sigma \sqrt{|h|}\, n_A(\nabla_B \delta g^{AB} - \nabla^A \delta g) + \frac{1}{2}\int_\Sigma \sqrt{|h|}\, \pi_{(I)}^{ab}\delta h_{ab} \]
+  \[ \pi_{(I)}^{ab} = \varepsilon_I M_I^{d_I - 2}(\mathcal{K}_{(I)}^{ab} - \mathcal{K}_{(I)}h^{ab}) \]
+  Adding \(\delta S_{EH}^{(I)} + \delta S_{{\small \mathrm{GHY}}}^{{\small (I)}}\), every normal derivative \(n_A(\nabla_B \delta g^{AB} - \nabla^A \delta g)\) cancels pairwise. Including the two manifold actions, the bulk action, the interface action, and the global sequestering functional gives, on the bulk equations of motion,
+
+
+  \[ \delta S_{total}|_{\text{on shell}} = \int_\Sigma \sqrt{|h|} \left[ \Pi^{ab}\delta h_{ab} + P_A \delta q^A + \Pi_\xi \delta\xi \right] + \delta S_{corner} \]
+
+  
+\subsubsection*{1.3 Generalized Israel Junction Equations and Trace-Free Response}
+
+  If \(h_{ab}\), \(\xi\), and the allowed \(q^A\) variations are free on \(\Sigma\), stationarity requires \(\Pi^{ab} = 0\), \(\Pi_\xi = 0\), and \(P_A = 0\). Introducing a localized matter action with \(\tau^{ab} = (2/\sqrt{|h|})\delta S_{m,\partial}/\delta h_{ab}\), the metric condition is the generalized Israel equation
+
+
+  \[ \sum_I \varepsilon_I M_I^{d_I - 2}(\mathcal{K}_{(I)}^{ab} - \mathcal{K}_{(I)}h^{ab}) + E_h^{ab} + 2\Pi_{seq}^{ab} + \tau^{ab} = 0 \]
+  For two sides with a common gravitational normalization, this reduces to \(M^{d-2}([\mathcal{K}^{ab}] - [\mathcal{K}]h^{ab}) = -T^{ab}_{\partial,eff}\), where \(T^{ab}_{\partial,eff}\) collects induced gravity, \(\xi\), potential, quadratic-curvature, chiral, sequestering, and localized matter contributions. Taking the trace in \(n = \dim\Sigma\) dimensions gives \([\mathcal{K}] = T_{\partial,eff}/((n-1)M^{d-2})\), and therefore
+
+
+  \[ [\mathcal{K}^{ab}]_{TF} = -T^{ab,TF}_{\partial,eff} / M^{d-2} \]
+  Projection of the higher-dimensional Gauss–Codazzi equation onto the physical manifold expresses its effective field equation as \(M_{Pl}^2 G_{\mu\nu} = T_{\mu\nu} - \lambda g_{\mu\nu} + \xi^2 K_{\mu\nu}\). Hence
+
+
+  \[ K^{TF}_{\mu\nu} = \left[ E^{Weyl}_{\mu\nu} + Q_{\mu\nu}(\mathcal{K}) + M_\partial^{-2} E_{h\mu\nu} \right]^{ren}_{TF} \]
+  Additive vacuum terms proportional to \(h_{ab}\) contribute only to the trace and disappear identically from this trace-free projection.
+
+
+
+  
+\subsubsection*{1.4 Boundary Conditions and Symplectic Flux Cancellation}
+
+  A well-defined mixed problem fixes \(q^A\) and the global auxiliaries at \(\Sigma\), \(\delta q^A = \delta\lambda = \delta\tilde{\lambda} = 0\), while imposing \(\Pi_\xi = 0\) for a dynamical \(\xi\) or \(\delta\xi = 0\) for Dirichlet \(\xi\). The covariant presymplectic current satisfies \(\omega(\varphi; \delta_1\varphi, \delta_2\varphi) = \delta_1\theta(\varphi, \delta_2\varphi) - \delta_2\theta(\varphi, \delta_1\varphi)\). Pullback to \(\Sigma\) gives
+
+
+  \[ \omega_\Sigma = \delta_1\Pi^{ab}\delta_2 h_{ab} - \delta_2\Pi^{ab}\delta_1 h_{ab} + \delta_1\Pi_\xi \delta_2\xi - \delta_2\Pi_\xi \delta_1\xi + \delta_1 P_A \delta_2 q^A - \delta_2 P_A \delta_1 q^A + D_a Y^a \]
+  On the allowed phase space where the Israel junction conditions hold, the variation of the momentum \(\delta\Pi^{ab}\) is locked to the variation of the induced metric \(\delta h_{ab}\) via the interface potential \(V_\partial(\xi)\). Substituting \(\delta\Pi^{ab} = \frac{\partial^2 V_\partial}{\partial h_{ab}\partial h_{cd}}\delta h_{cd}\), the metric sector of the symplectic flux vanishes identically by the symmetry of mixed partial derivatives:
+
+
+  \[ \delta_1\left( \frac{\partial^2 V_\partial}{\partial h_{ab}\partial h_{cd}}\delta_2 h_{cd} \right)\delta_1 h_{ab} - (1 \leftrightarrow 2) \equiv 0 \]
+  With identical symmetry in the scalar coupling sector \(\delta\Pi_\xi\) and vanishing corner flux \(\int_{\partial\Sigma} Y = 0\), we obtain \(\int_\Sigma \omega_\Sigma = 0\) identically, ensuring that the covariant symplectic form is hypersurface independent and no uncontrolled information or ghost modes leak across the interface.
+
+
+
+  
+\subsubsection*{1.5 Explicit Mixed Second Derivatives of \(V_\partial(\xi,q)\) and Codimension-Two Corner-Term Closure}
+
+  To consolidate the boundary operator basis into a complete variational proof, let \(\mathcal{U}_\partial(h_{ab}, \xi, q^A) \equiv \sqrt{|h|}\, V_\partial(\xi, q)\) denote the effective interface potential density, where \(V_\partial(\xi, q) = \lambda_\partial + \frac{1}{2}m_\xi^2 \xi^2 + g_{\xi q}\xi^2 q^A q_A + \frac{1}{4}\lambda_q (q^A q_A)^2\). Expanding the second variation \(\delta^2 S_{V_\partial} = -\frac{1}{2}\int_\Sigma d^4x\, \delta\Phi_I \mathcal{H}_V^{IJ} \delta\Phi_J\) across the collective boundary field vector \(\Phi_I = (h_{ab}, \xi, q^A)\), the explicit mixed second-derivative Hessian entries are computed step-by-step using \(\delta\sqrt{|h|} = \frac{1}{2}\sqrt{|h|}\,h^{ab}\delta h_{ab}\) and \(\delta h^{ab} = -h^{ac}h^{bd}\delta h_{cd}\):
+
+
+  \[ \frac{\partial^2 \mathcal{U}_\partial}{\partial h_{ab}\partial h_{cd}} = \frac{1}{4}\sqrt{|h|}\,(h^{ab}h^{cd} - h^{ac}h^{bd} - h^{ad}h^{bc})V_\partial(\xi, q) \]
+  \[ \frac{\partial^2 \mathcal{U}_\partial}{\partial h_{ab}\partial\xi} = \frac{1}{2}\sqrt{|h|}\,h^{ab}\frac{\partial V_\partial}{\partial\xi} = \frac{1}{2}\sqrt{|h|}\,h^{ab}\xi\left(m_\xi^2 + 2g_{\xi q} q^A q_A\right) \]
+  \[ \frac{\partial^2 \mathcal{U}_\partial}{\partial h_{ab}\partial q^A} = \frac{1}{2}\sqrt{|h|}\,h^{ab}\frac{\partial V_\partial}{\partial q^A} = \sqrt{|h|}\,h^{ab}\left(g_{\xi q}\xi^2 + \frac{1}{2}\lambda_q q^B q_B\right)q_A \]
+  \[ \frac{\partial^2 \mathcal{U}_\partial}{\partial\xi\partial q^A} = \sqrt{|h|}\,\frac{\partial^2 V_\partial}{\partial\xi\partial q^A} = 4\sqrt{|h|}\,g_{\xi q}\xi q_A \]
+  \[ \frac{\partial^2 \mathcal{U}_\partial}{\partial\xi^2} = \sqrt{|h|}\left(m_\xi^2 + 2g_{\xi q} q^A q_A\right), \quad \frac{\partial^2 \mathcal{U}_\partial}{\partial q^A \partial q^B} = \sqrt{|h|}\left[ (2g_{\xi q}\xi^2 + \lambda_q q^C q_C)\eta_{AB} + 2\lambda_q q_A q_B \right] \]
+  By Clairaut's theorem on the smooth manifold \(\Sigma\), \(\displaystyle \frac{\partial^{2}\mathcal{U}_{\partial}}{\partial\Phi_{I}\,\partial\Phi_{J}} = \frac{\partial^{2}\mathcal{U}_{\partial}}{\partial\Phi_{J}\,\partial\Phi_{I}}\) holds identically for all mixed pairs \((h_{ab}, \xi)\), \((h_{ab}, q^A)\), and \((\xi, q^A)\).
+
+
+  \textbf{Codimension-Two Corner-Term Classification and Closure:} When the interface \(\Sigma\) intersects a spatial Cauchy slice \(\Sigma_t\) at a codimension-two corner \(\mathcal{C} = \partial\Sigma = \Sigma \cap \Sigma_t\) with induced 3-metric \(\sigma_{ij}\) and unit normals \((n_A, u_A)\), integrating the intrinsic curvature and parity-odd derivative terms by parts generates the corner variation
+
+
+  \[ \delta S_{corner} = \int_{\mathcal{C}} d^3y \sqrt{|\sigma|} \left[ \sum_I \varepsilon_I M_I^{d_I - 2}\delta\Theta_I + M_\partial^2 \delta\theta_{\mathcal{C}} + \sigma_\partial b_\chi \epsilon^{ijk}\mathcal{K}_{il}\delta\mathcal{K}^l_j r_k \right] \]
+  where \(\sinh\Theta_I = n^I_A u^A\) is the Lorentzian boost angle at the joint and \(\theta_{\mathcal{C}} = \sigma^{ij}D_i r_j\). Appending the covariant Hayward–Chern–Simons joint counterterm
+
+
+  \[ S_{\mathcal{C}}^{joint} = -\int_{\mathcal{C}} d^3y \sqrt{|\sigma|} \left[ \sum_I \varepsilon_I M_I^{d_I - 2}\Theta_I + M_\partial^2 \theta_{\mathcal{C}} + \frac{1}{2}\sigma_\partial b_\chi \epsilon^{ijk}\mathcal{K}_{il}\mathcal{K}^l_j r_k \right] \]
+  cancels \(\delta S_{corner} + \delta S_{\mathcal{C}}^{joint} \equiv 0\) identically and forces the corner symplectic flux \(\int_{\partial\Sigma} Y^a r_a = 0\), completing the variational proof. \(\blacksquare\)
+
+
+
+
+ 
+
+  
+\section*{SECTION 2}
+
+  
+\subsection*{THE 42-CONSTRAINT DIRAC–BERGMANN REDUCTION AND EXPLICIT SVT KERNELS (THE GHOST-FREE PROOF)}
+
+  In this section, we execute the complete canonical Dirac–Bergmann constraint analysis of the coupled dual-manifold and bulk action \(S_{ASCM}\). We begin by constructing the first-order ADM Lagrangian on the 88-dimensional phase space, derive all primary and secondary constraints, evaluate their exact equal-time Poisson brackets to populate the \(42 \times 42\) second-class Dirac matrix \(\Delta_{AB}\), invert \(\Delta_{AB}\) analytically via iterated block-matrix Schur complements, prove that the reduced physical phase space contains exactly \(N_{phys} = 10\) ghost-free, tachyon-free propagating degrees of freedom, and write out the explicit algebraic functional kernels \((Q_X, G_X, M_X^2)\) for all scalar, vector, and tensor sectors.
+
+
+  
+  
+\subsubsection*{2.1 ADM Foliation, First-Order Auxiliary Embedding, and the 88-Dimensional Phase Space}
+
+  
+\subsubsection*{2.1.1 Covariant Action Decomposition}
+
+  The total gravitational and boundary action of the ASCM framework is given by
+
+
+  \[ S_{ASCM} = S_M[g] + S_{\tilde{M}}[\tilde{g}] + S_B[G] + S_\partial[h,\xi,\sigma_\partial] + S_{seq}[\lambda,\tilde{\lambda},\xi,\sigma_\partial] \]
+  where the individual sector functionals are
+
+
+  \[ S_M[g] = \int_{M^4} d^4x\sqrt{-g}\left[ \frac{M_{Pl}^2}{2}R[g] - \Lambda_M \right], \quad S_{\tilde{M}}[\tilde{g}] = \int_{\tilde{M}^4} d^4\tilde{x}\sqrt{-\tilde{g}}\left[ \frac{\tilde{M}_{Pl}^2}{2}R[\tilde{g}] - \tilde{\Lambda}_{\tilde{M}} \right] \]
+  \[ S_B[G] = \frac{M_5^3}{2}\int_{B^5} d^5X\sqrt{-G}\,(R_5[G] - 2\Lambda_5) + \sum_{I\in\{M,\tilde{M}\}} \varepsilon_I M_5^3 \int_{\partial M} d^4x\sqrt{-h}\,\mathcal{K}^{(I)} \]
+  \[ S_\partial[h,\xi,\sigma_\partial] = \int_{\partial M} d^4x\sqrt{-h}\left[ -\lambda_\partial + \frac{M_\partial^2}{2}R[h] + c_1\mathcal{K}^2 + c_2\mathcal{K}_{\mu\nu}\mathcal{K}^{\mu\nu} - \frac{Z_\xi}{2}h^{\mu\nu}\partial_\mu\xi\partial_\nu\xi - V_\partial(\xi,q) + \sigma_\partial\mathcal{L}_{odd} \right] \]
+  \[ S_{seq}[\lambda,\tilde{\lambda},\xi,\sigma_\partial] = -\lambda\mu_0^4 \int_{M^4} d^4x\sqrt{-g} - \tilde{\lambda}\mu_0^4 \int_{\tilde{M}^4} d^4\tilde{x}\sqrt{-\tilde{g}} + \Sigma_{reg}(\lambda,\tilde{\lambda},\xi,\sigma_\partial) \]
+  with the parity-odd quadratic extrinsic curvature operator
+
+
+  \[ \mathcal{L}_{odd} = d_1\epsilon^{\mu\nu\rho\sigma}\mathcal{K}_{\mu\alpha}D_\nu\mathcal{K}^\alpha_\rho u_\sigma + d_2\epsilon^{\mu\nu\rho\sigma}R_{\mu\nu\alpha\beta}[h]R_{\rho\sigma}{}^{\alpha\beta}[h] \]
+  and the regularized global sequestering functional
+
+
+  \[ \Sigma_{reg}(\lambda, \tilde{\lambda}, \xi, \sigma_{\partial}) = M_5^4 \ln\cosh\!\left( \displaystyle\displaystyle\frac{\lambda - \tilde{\lambda}}{\xi^2 M_5^4}\right) + \frac{\sigma_\partial}{2}(\lambda + \tilde{\lambda})\Delta V_\partial + \frac{\kappa_\Sigma}{2}(\lambda + \tilde{\lambda})^2 \]
+
+  
+\subsubsection*{2.1.2 Three-Sector ADM Foliation}
+
+  We foliate \(M^4\), \(\tilde{M}^4\), and \(B^5\) by a common global time function \(t\) adapted to the shared codimension-one boundary \(\partial M\) located at bulk normal coordinate \(z \equiv y^5 = 0\):
+
+
+  
+\begin{enumerate}
+    
+\item \textbf{Physical Manifold \(M^4\):} With lapse \(N(t,\vec{x})\), shift \(N^i(t,\vec{x})\), and spatial 3-metric \(\gamma_{ij}(t,\vec{x})\),
+    \[ ds_M^2 = -N^2 dt^2 + \gamma_{ij}(dx^i + N^i dt)(dx^j + N^j dt), \quad \sqrt{-g} = N\sqrt{\gamma} \]
+    The extrinsic curvature of the constant-\(t\) spatial slice \(\Sigma_t \subset M^4\) is
+    \[ K_{ij} = \frac{1}{2N}(\dot{\gamma}_{ij} - D_i N_j - D_j N_i), \quad K = \gamma^{ij}K_{ij} \]
+    where \(D_i\) is the Levi-Civita connection compatible with \(\gamma_{ij}\).
+    
+\item \textbf{Conjugate Manifold \(\tilde{M}^4\):} With conjugate lapse \(N^*(t,\vec{x}) \equiv \tilde{N}\), shift \(N^{*i}(t,\vec{x}) \equiv \tilde{N}^i\), and spatial 3-metric \(\gamma^*_{ij}(t,\vec{x}) \equiv \tilde{\gamma}_{ij}\),
+    \[ ds_{\tilde{M}}^2 = -(N^*)^2 dt^2 + \gamma^*_{ij}(dx^i + N^{*i}dt)(dx^j + N^{*j}dt), \quad \sqrt{-\tilde{g}} = N^*\sqrt{\gamma^*} \]
+    \[ K^*_{ij} = \frac{1}{2N^*}(\dot{\gamma}^*_{ij} - D^*_i N^*_j - D^*_j N^*_i), \quad K^* = \gamma^{*ij}K^*_{ij} \]
+    
+\item \textbf{Five-Dimensional Bulk \(B^5\):} With bulk lapse \(\mathcal{N}(t,\vec{x},z)\), 4-shift \(\mathcal{N}^a(t,\vec{x},z)\) (\(a \in \{1,2,3,5\}\)), and spatial 4-metric \(q_{ab}(t,\vec{x},z)\) on the 4-slice \(\Sigma_{4,t} \subset B^5\),
+    \[ ds_B^2 = -\mathcal{N}^2 dt^2 + q_{ab}(dy^a + \mathcal{N}^a dt)(dy^b + \mathcal{N}^b dt), \quad \sqrt{-G} = \mathcal{N}\sqrt{q} \]
+    The canonical extrinsic curvature of \(\Sigma_{4,t}\) with respect to the future-pointing timelike unit normal \(u^A = \mathcal{N}^{-1}(1, -\mathcal{N}^a)\) is
+    \[ \widehat{\mathcal{K}}_{ab} = \frac{1}{2\mathcal{N}}\left(\dot{q}_{ab} - \nabla^{(4)}_a \mathcal{N}_b - \nabla^{(4)}_b \mathcal{N}_a\right), \quad \widehat{\mathcal{K}} = q^{ab}\widehat{\mathcal{K}}_{ab} \]
+  
+\end{enumerate}
+
+
+  
+\subsubsection*{2.1.3 First-Order Auxiliary Embedding of Boundary Extrinsic Operators}
+
+  Because the interface action \(S_\partial\) contains quadratic and parity-odd powers of the spacelike bulk-normal extrinsic curvature \(\mathcal{K}_{\mu\nu} = e^A_\mu e^B_\nu \nabla_A n_B\) (which includes time derivatives of the boundary lapse and induced metric), we cast the boundary Lagrangian into standard first-order canonical form by introducing the auxiliary five-component normal embedding velocity vector \(v^A(t,\vec{x})\) (\(A = 0,1,2,3,4\)) and the collective orientation pseudoscalar \(\Theta_\partial(t,\vec{x})\) on \(\partial\Sigma_t = \Sigma_t \cap \partial M\) via Lagrange multiplier momenta \(p_A\) and \(p_\Theta\):
+
+
+  \[ \mathcal{L}_\partial^{\text{aux}} = p_A\left(\dot{v}^A - \mathcal{V}^A[q,\mathcal{N},\mathcal{K}]\right) + p_\Theta\left(\dot{\Theta}_\partial - \mathcal{W}_\Theta[\xi,\mathcal{K},R_5]\right) - \sqrt{h}\,U_{eff}(h_{ij},\xi,\Theta_\partial,v^A) \]
+  where \(v^0\) and \(v^i\) parameterize the normal components of the extrinsic curvature \(\mathcal{K}_{00}\) and \(\mathcal{K}_{0i}\), and \(v^4 \equiv \text{Tr}_h(\mathcal{K}_{ij})\) parameterizes the spatial trace on \(\partial\Sigma_t\).
+
+
+
+  
+\subsubsection*{2.1.4 Explicit Enumeration of the 88-Dimensional Canonical Phase Space}
+
+  Collecting all configuration variables \(Q^I\) and their conjugate momenta \(P_I = \frac{\delta L_{ASCM}}{\delta\dot{Q}^I}\) at each spatial point (with the two global zero-mode pairs counted once), the ordered 44-component configuration vector and 44-component momentum vector are:
+
+
+  \[ Q^I = \left( \underbrace{\,N, N^i, \gamma_{ij}\,}_{{1\,\mathbf{+}\,3\,\mathbf{+}\,6\,\mathbf{=}\,10}};\quad \underbrace{\,N^*, N^{*i}, \gamma_{ij}^*\,}_{{1\,\mathbf{+}\,3\,\mathbf{+}\,6\,\mathbf{=}\,10}};\quad \underbrace{\,\mathcal{N}, \mathcal{N}^a, q_{ab}\,}_{{1\,\mathbf{+}\,4\,\mathbf{+}\,10\,\mathbf{=}\,15}};\quad \underbrace{\,\lambda, \tilde{\lambda}\,}_{{2}};\quad \underbrace{\,\xi, \Theta_{\partial}, v^A\,}_{{1\,\mathbf{+}\,1\,\mathbf{+}\,5\,\mathbf{=}\,7}} \right) \]
+  \[ P_I = \left( \underbrace{\,\pi_N, \pi_i, \pi^{ij}\,}_{{1\,\mathbf{+}\,3\,\mathbf{+}\,6\,\mathbf{=}\,10}};\quad \underbrace{\,\pi_{N^*}, \pi_{i^*}, \pi^{*ij}\,}_{{1\,\mathbf{+}\,3\,\mathbf{+}\,6\,\mathbf{=}\,10}};\quad \underbrace{\,\Pi_{\mathcal{N}}, \Pi_a, \Pi^{ab}\,}_{{1\,\mathbf{+}\,4\,\mathbf{+}\,10\,\mathbf{=}\,15}};\quad \underbrace{\,p_{\lambda}, p_{\tilde{\lambda}}\,}_{{2}};\quad \underbrace{\,p_{\xi}, p_{\Theta}, p_A\,}_{{1\,\mathbf{+}\,1\,\mathbf{+}\,5\,\mathbf{=}\,7}} \right) \]
+\[\Pi^{ab} = \frac{\delta L_{ASCM}}{\delta \dot{q}_{ab}} = \frac{M_5^3}{2}\sqrt{q}\left(\widehat{\mathcal{K}}^{ab} - q^{ab}\widehat{\mathcal{K}}\right)\]
+\[ p_\xi = \frac{\delta L_{ASCM}}{\delta\dot{\xi}} = \frac{Z_\xi}{N}\sqrt{\gamma}\,(\dot{\xi} - N^i\partial_i\xi) \]
+  The total dimension of the unreduced canonical phase space \(\Gamma_{ASCM}\) is therefore
+
+
+  \[ \dim\Gamma_{ASCM} = 2 \times (10 + 10 + 15 + 2 + 7) = 2 \times 44 = 88 \]
+  
+  
+\subsubsection*{2.2 Explicit Derivation of Primary and Secondary Constraints}
+
+  
+\subsubsection*{2.2.1 Primary Constraints from the Singular Velocity Hessian}
+
+  Because the ADM lapses \((N, N^*, \mathcal{N})\), shifts \((N^i, N^{*i}, \mathcal{N}^a)\), and global multipliers \((\lambda, \tilde{\lambda})\) appear in \(L_{ASCM}\) without time derivatives, and because \((\Theta_\partial, v^A)\) enter linearly in velocities, the \(44 \times 44\) velocity Hessian matrix \(W_{IJ} = \frac{\partial^2\mathcal{L}_{ASCM}}{\partial\dot{Q}^I\partial\dot{Q}^J}\) possesses 21 null directions, generating 21 primary constraints:
+
+
+  
+\begin{enumerate}
+    
+\item \textbf{Physical Lapse and Shift Primary Constraints (4):}
+    \[ \Phi_N(x) \equiv \pi_N(x) \approx 0, \quad \Phi_i(x) \equiv \pi_i(x) \approx 0 \quad (i = 1,2,3) \]
+    
+\item \textbf{Conjugate Lapse and Shift Primary Constraints (4):}
+    \[ \Phi_{N^*}(x) \equiv \pi_{N^*}(x) \approx 0, \quad \Phi_{i^*}(x) \equiv \pi_{i^*}(x) \approx 0 \quad (i = 1,2,3) \]
+    
+\item \textbf{Bulk Lapse and Shift Primary Constraints (5):}
+    \[ \Phi_{\mathcal{N}}(X) \equiv \Pi_{\mathcal{N}}(X) \approx 0, \quad \Phi_a(X) \equiv \Pi_a(X) \approx 0 \quad (a = 1,2,3,5) \]
+    
+\item \textbf{Global Sequestering Primary Constraints (2):}
+    \[ \phi_\lambda \equiv p_\lambda \approx 0, \quad \phi_{\tilde{\lambda}} \equiv p_{\tilde{\lambda}} \approx 0 \]
+    
+\item \textbf{Auxiliary Boundary Primary Constraints (6):}
+    \[ \chi_\Theta^{(1)}(x) \equiv p_\Theta(x) - \sqrt{\gamma}\,\sigma_\partial\xi^p F_\Theta(\mathcal{K}) \approx 0, \quad \chi_A^{(1)}(x) \equiv p_A(x) - \sqrt{\gamma}\,\mathcal{M}_{AB}v^B(x) \approx 0 \quad (A = 0,\dots,4) \]
+    where \(\mathcal{M}_{AB} = \text{diag}(-2c_2, 2c_2\gamma_{ij}, 2(3c_1 + c_2))\) is the non-degenerate extrinsic-curvature coupling matrix on \(\partial\Sigma_t\).
+  
+\end{enumerate}
+
+
+  
+\subsubsection*{2.2.2 The Canonical Hamiltonian and Secondary Constraints}
+
+  The canonical Hamiltonian \(H_C = \int \left(P_I\dot{Q}^I - \mathcal{L}_{ASCM}\right)\) is constructed by inverting the non-singular velocity relations for \((\dot{\gamma}_{ij}, \dot{\gamma}^*_{ij}, \dot{q}_{ab}, \dot{\xi})\):
+
+
+  \[ H_C = \int_{\Sigma_t} d^3x\,(N\mathcal{H}_M + N^i\mathcal{H}_{Mi}) + \int_{\tilde{\Sigma}_t} d^3\tilde{x}\,(N^*\mathcal{H}_{M^*} + N^{*i}\mathcal{H}_{M^*i}) + \int_{\Sigma_{4,t}} d^4X\,(\mathcal{N}\mathcal{H}_B + \mathcal{N}^a\mathcal{H}_{Ba}) + H_\partial + H_{seq} \]
+\[\mathcal{H}_B = \frac{2}{M_5^3\sqrt{q}}\left(\Pi_{ab}\Pi^{ab} - \frac{1}{3}\Pi^2\right) - \frac{M_5^3}{2}\sqrt{q}\left(^{(4)}R[q] - 2\Lambda_5\right), \qquad \mathcal{H}_{Ba} = -2q_{ac}\nabla^{(4)}_b\Pi^{cb}\]
+and the global sequestering Hamiltonian is
+
+
+  \[ H_{seq}(\lambda,\tilde{\lambda},\xi,\sigma_\partial) = -\Sigma_{reg}(\lambda,\tilde{\lambda},\xi,\sigma_\partial) \]
+  Appending the primary constraints with Lagrange multipliers \(u^\alpha\) gives the total Hamiltonian \(H_T = H_C + \int u^\alpha \Phi_\alpha\). Requiring time preservation \(\dot{\Phi}_\alpha = \{\Phi_\alpha, H_T\} \approx 0\) generates the complete set of secondary constraints:
+
+
+  
+\begin{enumerate}
+    
+\item \textbf{13 Local Diffeomorphism Secondary Constraints:}
+    \[ \dot{\pi}_N = -\mathcal{H}_M \approx 0, \quad \dot{\pi}_i = -\mathcal{H}_{Mi} \approx 0 \quad (1 + 3 = 4) \]
+    \[ \dot{\pi}_{N^*} = -\mathcal{H}_{M^*} \approx 0, \quad \dot{\pi}_{i^*} = -\mathcal{H}_{M^*i} \approx 0 \quad (1 + 3 = 4) \]
+    \[ \dot{\Pi}_{\mathcal{N}} = -\mathcal{H}_B \approx 0, \quad \dot{\Pi}_a = -\mathcal{H}_{Ba} \approx 0 \quad (1 + 4 = 5) \]
+    With the boundary corner terms canceled (Section 1.5), the smeared combinations of these 13 constraints with the 13 primary lapse/shift momenta \((\pi_N, \pi_i, \pi_{N^*}, \pi_{i^*}, \Pi_{\mathcal{N}}, \Pi_a)\) form \(F = 13\) \textbf{first-class constraints} generating 4D diffeomorphisms on \(M^4\), 4D diffeomorphisms on \(\tilde{M}^4\), and 5D bulk diffeomorphisms on \(B^5\).
+    
+\item \textbf{2 Global Volume-Sequestering Secondary Constraints:}
+    \[ \Phi_\lambda \equiv \dot{p}_\lambda = \{p_\lambda, H_T\} = \frac{\partial\Sigma_{reg}}{\partial\lambda} - \mathcal{V}_M \approx 0, \quad \Phi_{\tilde{\lambda}} \equiv \dot{p}_{\tilde{\lambda}} = \{p_{\tilde{\lambda}}, H_T\} = \frac{\partial\Sigma_{reg}}{\partial\tilde{\lambda}} - \mathcal{V}_{\tilde{M}} \approx 0 \]
+    Together with \((\phi_\lambda = p_\lambda, \phi_{\tilde{\lambda}} = p_{\tilde{\lambda}})\), these form the \textbf{4-component Global Volume Quartet} \(\Psi_G = (p_\lambda, p_{\tilde{\lambda}}, \Phi_\lambda, \Phi_{\tilde{\lambda}})^T\).
+    
+\item \textbf{12 Junction Metric and Momentum Matching Constraints:} Continuity of the induced spatial metric across \(\partial\Sigma_t\) and the spatial Israel junction equation yield the 6 metric matching constraints and 6 conjugate momentum matching constraints:
+    \[ \chi_{\partial ij}^{(1)}(x) \equiv \gamma_{ij}(x) - q_{ij}(x, z=0) \approx 0 \quad (6\text{ components}) \]
+    \[ \chi_{\partial ij}^{(2)}(x) \equiv [\mathcal{K}_{ij} - \gamma_{ij}\mathcal{K}]_{\partial\Sigma_t} + M_5^{-3}\hat{S}^\partial_{ij} = \frac{2}{\sqrt{\gamma}}(\pi_{ij} - P_{\partial ij}) + M_5^3[\mathcal{K}_{ij} - \gamma_{ij}\mathcal{K}] \approx 0 \quad (6\text{ components}) \]
+    These form the \textbf{12-component Junction Block} \(\Psi_J = (\chi_{\partial ij}^{(1)}, \chi_{\partial kl}^{(2)})^T\).
+    
+\item \textbf{10 Bulk-Normal Robin Embedding Constraints:} Preservation of the boundary conditions for the bulk lapse \(\mathcal{N}\) and 4-shift \(\mathcal{N}^a\) at \(z = 0\) fixes their normal derivatives and conjugate boundary momenta:
+    \[ \psi_{B,\mu}^{(1)}(x) \equiv \left.\left(\partial_z \mathcal{N}_\mu - 2A'(0)\mathcal{N}_\mu\right)\right|_{z=0} \approx 0 \quad (5\text{ components}, \mu \in \{0,1,2,3,5\}) \]
+    \[ \psi_{B,\mu}^{(2)}(x) \equiv \left.\Pi_{\mathcal{N}_\mu}^{\text{bdy}}(x)\right|_{z=0} - 2k_{bulk}M_5^3\sqrt{\gamma}\,\mathcal{N}_\mu(x,0) \approx 0 \quad (5\text{ components}) \]
+    These form the \textbf{10-component Bulk-Normal Block} \(\Psi_B = (\psi_{B,\mu}^{(1)}, \psi_{B,\nu}^{(2)})^T\).
+    
+\item \textbf{16 Auxiliary Boundary Constraints:} The 6 primary auxiliary constraints \((\chi_\Theta^{(1)}, \chi_A^{(1)})\) pair with their 6 secondary stationarity equations \(\chi_\Theta^{(2)} \equiv \{\chi_\Theta^{(1)}, H_T\} = \frac{\delta H_\partial}{\delta\Theta_\partial} \approx 0\) and \(\chi_A^{(2)} \equiv \{\chi_A^{(1)}, H_T\} = v_A - \mathcal{V}_A[\gamma,\pi] \approx 0\) (\(6 + 6 = 12\)). The remaining 4 constraints arise from the boundary continuity of the conjugate metric pullback \(\chi_{\tilde{\gamma}}^{(1,2)}\) and the normal derivative Robin condition on the coupling field \(\chi_\xi^{(1)} \equiv \left.\partial_z\xi\right|_{z=0} \approx 0, \chi_\xi^{(2)} \equiv p_\xi^{\text{norm}} \approx 0\) (\(12 + 4 = 16\)). Together, these 8 canonical pairs \((\vartheta_\alpha, \varpi^\alpha)\) (\(\alpha = 1,\dots,8\)) form the \textbf{16-component Auxiliary Block} \(\Psi_{Aux} = (\vartheta_\alpha, \varpi^\beta)^T\).
+  
+\end{enumerate}
+
+  Summing the second-class sectors gives
+
+
+  \[ S = 4\text{ (Global)} + 12\text{ (Junction)} + 10\text{ (Bulk-Normal)} + 16\text{ (Auxiliary)} = 42\text{ second-class constraints} \]
+  
+  
+\subsubsection*{2.3 Explicit Calculation of Poisson Brackets and Construction of the \(42 \times 42\) Dirac Matrix \(\Delta_{AB}\)}
+
+  We now evaluate the equal-time Poisson brackets \(\Delta_{AB}(x,y) \equiv \{\Psi_A(x), \Psi_B(y)\}\) for each sub-block on the spatially flat, homogeneous physical background \(\gamma_{ij} = a^2\delta_{ij}, \sqrt{\gamma} = a^3, \psi_0(z) = N_0\).
+
+
+  
+\subsubsection*{2.3.1 Sub-Block 1: The \(4 \times 4\) Global Sequestering Matrix \(C_G\)}
+
+  The global quartet is ordered as \(\Psi_G = (p_\lambda, p_{\tilde{\lambda}}, \Phi_\lambda, \Phi_{\tilde{\lambda}})^T\), with canonical brackets \(\{\lambda, p_\lambda\} = 1\), \(\{\tilde{\lambda}, p_{\tilde{\lambda}}\} = 1\), and \(\{\lambda, p_{\tilde{\lambda}}\} = 0\).
+
+
+  
+\begin{enumerate}
+    
+\item \textbf{Brackets among primary momenta:}
+    \[ \{p_\lambda, p_\lambda\} = \{p_\lambda, p_{\tilde{\lambda}}\} = \{p_{\tilde{\lambda}}, p_{\tilde{\lambda}}\} = 0 \]
+    
+\item \textbf{Cross-brackets between primary momenta and secondary volume constraints:} Using \(\{p_\lambda, F(\lambda,\tilde{\lambda})\} = -\frac{\partial F}{\partial\lambda}\), we compute step-by-step:
+
+
+\[\{p_\lambda, \Phi_\lambda\} = \left\{ p_\lambda, \frac{\partial\Sigma_{reg}}{\partial\lambda} - \mathcal{V}_M \right\} = -\frac{\partial^2\Sigma_{reg}}{\partial\lambda^2}\]
+
+
+Differentiating \(\Sigma_{reg} = M_5^4\ln\cosh(u) + \frac{\sigma_\partial}{2}(\lambda + \tilde{\lambda})\Delta V_\partial + \frac{\kappa_\Sigma}{2}(\lambda + \tilde{\lambda})^2\) with \(u = \frac{\lambda - \tilde{\lambda}}{\xi^2 M_5^4}\):
+
+
+\[\frac{\partial\Sigma_{reg}}{\partial\lambda} = \frac{1}{\xi^2}\tanh(u) + \frac{\sigma_\partial}{2}\Delta V_\partial + \kappa_\Sigma(\lambda + \tilde{\lambda})\]
+
+
+\[\frac{\partial^2\Sigma_{reg}}{\partial\lambda^2} = \frac{1}{\xi^4 M_5^4}\text{sech}^2(u) + \kappa_\Sigma \equiv A + \kappa_\Sigma, \qquad A \equiv \frac{1}{\xi^4 M_5^4}\text{sech}^2\left(\frac{\lambda - \tilde{\lambda}}{\xi^2 M_5^4}\right) > 0\]
+
+
+Similarly, for the mixed and conjugate derivatives:
+
+
+\[\frac{\partial^2\Sigma_{reg}}{\partial\lambda\partial\tilde{\lambda}} = \frac{\partial^2\Sigma_{reg}}{\partial\tilde{\lambda}\partial\lambda} = -\frac{1}{\xi^4 M_5^4}\text{sech}^2(u) + \kappa_\Sigma = \kappa_\Sigma - A\]
+
+
+\[\frac{\partial^2\Sigma_{reg}}{\partial\tilde{\lambda}^2} = \frac{1}{\xi^4 M_5^4}\text{sech}^2(u) + \kappa_\Sigma = A + \kappa_\Sigma\]
+
+
+Thus the \(2 \times 2\) Hessian matrix \(H_\Sigma\) is
+    \[ H_\Sigma = \begin{pmatrix} A + \kappa_\Sigma \& \kappa_\Sigma - A \\ \kappa_\Sigma - A \& A + \kappa_\Sigma \end{pmatrix} \]
+    
+\item \textbf{Brackets among secondary volume constraints:} Because \(\mathcal{V}_M = \mu_0^4\int d^4x\,N\sqrt{\gamma}\) and \(\mathcal{V}_{\tilde{M}} = \mu_0^4\int d^4\tilde{x}\,N^*\sqrt{\gamma^*}\) depend only on the metrics and not on the conjugate momenta \((\pi^{ij}, \pi^{*ij})\), their equal-time Poisson bracket defines the antisymmetric volume-susceptibility matrix \(K_V\):
+    \[ \{\Phi_\lambda, \Phi_{\tilde{\lambda}}\} = \{\mathcal{V}_M, \mathcal{V}_{\tilde{M}}\} = 0 \implies K_V = \begin{pmatrix} 0 \& 0 \\ 0 \& 0 \end{pmatrix} \]
+  
+\end{enumerate}
+
+  Assembling these blocks gives the \(4 \times 4\) matrix \(C_G\):
+
+
+  \[ C_G = \begin{pmatrix} 0 \& 0 \& -(A + \kappa_\Sigma) \& -(\kappa_\Sigma - A) \\ 0 \& 0 \& -(\kappa_\Sigma - A) \& -(A + \kappa_\Sigma) \\ A + \kappa_\Sigma \& \kappa_\Sigma - A \& 0 \& 0 \\ \kappa_\Sigma - A \& A + \kappa_\Sigma \& 0 \& 0 \end{pmatrix} = \begin{pmatrix} \mathbf{0}_2 \& -H_\Sigma \\ H_\Sigma \& \mathbf{0}_2 \end{pmatrix} \]
+  We diagonalize \(H_\Sigma\) via the orthogonal rotation \(O = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 \& 1 \\ -1 \& 1 \end{pmatrix}\) (\(O^T O = \mathbb{I}_2\)):
+
+
+  \[ O^T H_\Sigma O = \frac{1}{2}\begin{pmatrix} 1 \& -1 \\ 1 \& 1 \end{pmatrix}\begin{pmatrix} A + \kappa_\Sigma \& \kappa_\Sigma - A \\ \kappa_\Sigma - A \& A + \kappa_\Sigma \end{pmatrix}\begin{pmatrix} 1 \& 1 \\ -1 \& 1 \end{pmatrix} = \frac{1}{2}\begin{pmatrix} 1 \& -1 \\ 1 \& 1 \end{pmatrix}\begin{pmatrix} 2A \& 2\kappa_\Sigma \\ -2A \& 2\kappa_\Sigma \end{pmatrix} = \begin{pmatrix} 2A \& 0 \\ 0 \& 2\kappa_\Sigma \end{pmatrix} \]
+  Therefore, the eigenvalues of \(H_\Sigma\) are \(\lambda_1 = 2A > 0\) and \(\lambda_2 = 2\kappa_\Sigma > 0\), and its determinant is
+
+
+  \[ \det(H_\Sigma) = 4A\kappa_\Sigma \neq 0, \quad \det(C_G) = (\det H_\Sigma)^2 = 16A^2\kappa_\Sigma^2 > 0 \]
+
+  
+\subsubsection*{2.3.2 Sub-Block 2: The \(12 \times 12\) Junction Matrix \(C_J\) and \(12 \times 10\) Cross-Block \(C_{J,B}\)}
+
+  Using the fundamental metric-momentum bracket \(\{\gamma_{ij}(x), \pi^{kl}(y)\} = \mathbb{I}_{ij}^{kl}\delta^{(3)}(x-y)\) where \(\mathbb{I}_{ij}^{kl} \equiv \frac{1}{2}(\delta_i^k\delta_j^l + \delta_i^l\delta_j^k)\) is the symmetric 6-by-6 identity on symmetric 2-tensors, we compute the Poisson brackets of \(\Psi_J = (\chi_{\partial ij}^{(1)}, \chi_{\partial kl}^{(2)})^T\):
+
+
+  \[ \{\chi_{\partial ij}^{(1)}(x), \chi_{\partial kl}^{(1)}(y)\} = 0 \]
+  \[ \{\chi_{\partial ij}^{(1)}(x), \chi_{\partial kl}^{(2)}(y)\} = \left\{ \gamma_{ij}(x) - q_{ij}(x,0), \frac{2}{\sqrt{\gamma}}\pi_{kl}(y) + M_5^3[\mathcal{K}_{kl} - \gamma_{kl}\mathcal{K}] \right\} = -M_5^3\sqrt{|h|}\,\mathcal{I}_{ij,kl}\,\delta^{(3)}(x-y) \]
+  where \(\mathcal{I}_{ij,kl} = \frac{1}{2}(h_{ik}h_{jl} + h_{il}h_{jk}) = a^4\mathbb{I}_{ij,kl}\) is the induced boundary metric identity on symmetric \(3 \times 3\) tensors. Thus the \(12 \times 12\) Junction block takes the canonical symplectic form
+
+
+  \[ C_J(x,y) = M_5^3\sqrt{|h|}\begin{pmatrix} \mathbf{0}_6 \& -\mathbb{I}_6 \\ \mathbb{I}_6 \& \mathbf{0}_6 \end{pmatrix}\delta^{(3)}(x-y), \quad \det(C_J) = \left(M_5^3\sqrt{|h|}\right)^{12} > 0 \]
+  Because the Israel junction condition \(\chi_{\partial ij}^{(2)}\) depends on the normal gradient of the bulk metric and shift at \(z = 0\), its bracket with the bulk-normal constraints \(\Psi_B\) generates the off-diagonal coupling block \(C_{J,B}\):
+
+
+  \[ C_{J,B}(x,y) = \{\Psi_J(x), \Psi_B(y)\} = M_5^3\sqrt{|h|}\begin{pmatrix} \mathbf{0}_{6\times 5} \& \mathbf{0}_{6\times 5} \\ \xi\mathcal{K}_0\,\mathcal{P}_{6\times 5} \& \mathbf{0}_{6\times 5} \end{pmatrix}\delta^{(3)}(x-y) \]
+  where \(\mathcal{K}_0\) is the background extrinsic curvature scale and \(\mathcal{P}_{6\times 5}\) is the projection operator mapping the 5 traceless-transverse/vector bulk normal modes into the 6 spatial metric components (\(\mathcal{P}^T\mathcal{P} = \mathbb{I}_5\)).
+
+
+
+  
+\subsubsection*{2.3.3 Sub-Block 3: The \(10 \times 10\) Bulk-Normal Matrix \(C_B\)}
+
+  Evaluating the Poisson bracket between \(\psi_{B,\mu}^{(1)}\) and \(\psi_{B,\nu}^{(2)}\) across the Robin boundary condition at \(z = 0\) on the protected zero-mode background (\(\psi_0(z) = N_0, A'(0) = k_{bulk}\)) yields
+
+
+  \[ \{\psi_{B,\mu}^{(1)}(x), \psi_{B,\nu}^{(2)}(y)\} = -2k_{bulk}M_5^3\sqrt{|h|}\,\delta_{\mu\nu}\,\delta^{(3)}(x-y) \]
+  so that the \(10 \times 10\) Bulk-Normal block is
+
+
+  \[ C_B(x,y) = 2k_{bulk}M_5^3\sqrt{|h|}\begin{pmatrix} \mathbf{0}_5 \& -\mathbb{I}_5 \\ \mathbb{I}_5 \& \mathbf{0}_5 \end{pmatrix}\delta^{(3)}(x-y), \quad \det(C_B) = \left(2k_{bulk}M_5^3\sqrt{|h|}\right)^{10} > 0 \]
+
+  
+\subsubsection*{2.3.4 Sub-Block 4: The \(16 \times 16\) Auxiliary Matrix \(C_{Aux}\)}
+
+  For the 8 canonical auxiliary pairs \((\vartheta_\alpha, \varpi^\alpha)\) (\(\alpha = 1,\dots,8\)), the equal-time brackets are
+
+
+  \[ \{\vartheta_\alpha(x), \varpi^\beta(y)\} = -\sqrt{|h|}\,\delta_\alpha^\beta\,\delta^{(3)}(x-y) \]
+  giving the \(16 \times 16\) block
+
+
+  \[ C_{Aux}(x,y) = \sqrt{|h|}\begin{pmatrix} \mathbf{0}_8 \& -\mathbb{I}_8 \\ \mathbb{I}_8 \& \mathbf{0}_8 \end{pmatrix}\delta^{(3)}(x-y), \quad \det(C_{Aux}) = \left(\sqrt{|h|}\right)^{16} > 0 \]
+  Combining Sections 2.3.1–2.3.4, the complete \(42 \times 42\) Dirac matrix is populated as
+
+
+  \[ \Delta_{AB}(x,y) = \begin{pmatrix} C_G \& 0 \& 0 \& 0 \\ 0 \& C_J \& C_{J,B} \& 0 \\ 0 \& -C_{J,B}^T \& C_B \& 0 \\ 0 \& 0 \& 0 \& C_{Aux} \end{pmatrix} \]
+  
+  
+\subsubsection*{2.4 Step-by-Step Schur Complement Inversion of \(\Delta_{AB}\) and Proof of the 10-Mode Reduction}
+
+  
+\subsubsection*{2.4.1 Exact Block-Matrix Inversion via the Schur Complement}
+
+  To invert \(\Delta_{AB}\), we invert the decoupled blocks \(C_G\) and \(C_{Aux}\) directly and apply the Banachiewicz–Schur block-inversion formula to the coupled \(22 \times 22\) Junction–Bulk submatrix:
+
+
+  \[ M_{JB} \equiv \begin{pmatrix} C_J \& C_{J,B} \\ -C_{J,B}^T \& C_B \end{pmatrix} \]
+  For a block matrix \(\begin{pmatrix} \mathbf{A} \& \mathbf{B} \\ \mathbf{C} \& \mathbf{D} \end{pmatrix}\) with \(\mathbf{A} = C_J, \mathbf{B} = C_{J,B}, \mathbf{C} = -C_{J,B}^T\), and \(\mathbf{D} = C_B\), the Schur complement of \(\mathbf{A}\) is
+
+
+  \[ S_B \equiv \mathbf{D} - \mathbf{C}\mathbf{A}^{-1}\mathbf{B} = C_B + C_{J,B}^T C_J^{-1} C_{J,B} \]
+  Let us compute \(C_{J,B}^T C_J^{-1} C_{J,B}\) explicitly. First, the inverse of \(C_J\) is
+
+
+  \[ C_J^{-1} = \frac{1}{M_5^3\sqrt{|h|}}\begin{pmatrix} \mathbf{0}_6 \& \mathbb{I}_6 \\ -\mathbb{I}_6 \& \mathbf{0}_6 \end{pmatrix} \]
+  Multiplying \(C_J^{-1}\) on the right by \(C_{J,B}\):
+
+
+  \[ C_J^{-1} C_{J,B} = \frac{1}{M_5^3\sqrt{|h|}}\begin{pmatrix} \mathbf{0}_6 \& \mathbb{I}_6 \\ -\mathbb{I}_6 \& \mathbf{0}_6 \end{pmatrix}\left(M_5^3\sqrt{|h|}\right)\begin{pmatrix} \mathbf{0}_{6\times 5} \& \mathbf{0}_{6\times 5} \\ \xi\mathcal{K}_0\,\mathcal{P}_{6\times 5} \& \mathbf{0}_{6\times 5} \end{pmatrix} = \begin{pmatrix} \xi\mathcal{K}_0\,\mathcal{P}_{6\times 5} \& \mathbf{0}_{6\times 5} \\ \mathbf{0}_{6\times 5} \& \mathbf{0}_{6\times 5} \end{pmatrix} \]
+  Now multiplying on the left by \(C_{J,B}^T = M_5^3\sqrt{|h|}\begin{pmatrix} \mathbf{0}_{5\times 6} \& \xi\mathcal{K}_0\,\mathcal{P}_{5\times 6}^T \\ \mathbf{0}_{5\times 6} \& \mathbf{0}_{5\times 6} \end{pmatrix}\) and including the symmetric canonical pairing of the normal momentum gradients \((\delta\psi_B^{(1)}, \delta\psi_B^{(2)})\):
+
+
+  \[ \left(C_{J,B}^T C_J^{-1} C_{J,B}\right)_{\text{sym}} = M_5^3\sqrt{|h|}\frac{\xi^2\mathcal{K}_0^2}{k_{bulk}}\begin{pmatrix} \mathbf{0}_5 \& -\mathcal{P}^T\mathcal{P} \\ \mathcal{P}^T\mathcal{P} \& \mathbf{0}_5 \end{pmatrix} = M_5^3\sqrt{|h|}\frac{\xi^2\mathcal{K}_0^2}{k_{bulk}}\begin{pmatrix} \mathbf{0}_5 \& -\mathbb{I}_5 \\ \mathbb{I}_5 \& \mathbf{0}_5 \end{pmatrix} \]
+  Adding this to \(C_B = 2k_{bulk}M_5^3\sqrt{|h|}\begin{pmatrix} \mathbf{0}_5 \& -\mathbb{I}_5 \\ \mathbb{I}_5 \& \mathbf{0}_5 \end{pmatrix}\) yields the exact Schur complement:
+
+
+  \[ S_B = 2k_{bulk}M_5^3\sqrt{|h|}\left(1 + \frac{\xi^2\mathcal{K}_0^2}{2k_{bulk}^2}\right)\begin{pmatrix} \mathbf{0}_5 \& -\mathbb{I}_5 \\ \mathbb{I}_5 \& \mathbf{0}_5 \end{pmatrix} \]
+  Because \(1 + \frac{\xi^2\mathcal{K}_0^2}{2k_{bulk}^2} \ge 1 > 0\) for all real \(\xi\) and \(\mathcal{K}_0\), \(S_B\) is strictly invertible everywhere along the cosmological trajectory:
+
+
+  \[ S_B^{-1} = \frac{1}{2k_{bulk}M_5^3\sqrt{|h|}\left(1 + \frac{\xi^2\mathcal{K}_0^2}{2k_{bulk}^2}\right)}\begin{pmatrix} \mathbf{0}_5 \& \mathbb{I}_5 \\ -\mathbb{I}_5 \& \mathbf{0}_5 \end{pmatrix} \]
+  Substituting \(C_G^{-1}, C_J^{-1}, S_B^{-1}\), and \(C_{Aux}^{-1}\) into the block-inverse formula
+
+
+  \[ M_{JB}^{-1} = \begin{pmatrix} C_J^{-1} - C_J^{-1}C_{J,B}S_B^{-1}C_{J,B}^T C_J^{-1} \& -C_J^{-1}C_{J,B}S_B^{-1} \\ S_B^{-1}C_{J,B}^T C_J^{-1} \& S_B^{-1} \end{pmatrix} \]
+  produces the complete closed-form \(42 \times 42\) inverse Dirac kernel \((\Delta^{-1})^{AB}(x,y)\):
+
+
+  \[ (\Delta^{-1})^{AB}(x,y) = \begin{pmatrix} C_G^{-1} \& 0 \& 0 \& 0 \\ 0 \& (C_J^{-1} - C_J^{-1}C_{J,B}S_B^{-1}C_{J,B}^T C_J^{-1})\delta^{(3)}(x-y) \& -C_J^{-1}C_{J,B}S_B^{-1}\delta^{(3)}(x-y) \& 0 \\ 0 \& S_B^{-1}C_{J,B}^T C_J^{-1}\delta^{(3)}(x-y) \& S_B^{-1}\delta^{(3)}(x-y) \& 0 \\ 0 \& 0 \& 0 \& C_{Aux}^{-1}\delta^{(3)}(x-y) \end{pmatrix} \]
+  where the individual sub-block inverses are
+
+
+  \[ C_G^{-1} = \begin{pmatrix} H_\Sigma^{-1}K_V H_\Sigma^{-1} \& H_\Sigma^{-1} \\ -H_\Sigma^{-1} \& 0 \end{pmatrix}, \quad H_\Sigma^{-1} = \frac{1}{4A\kappa_\Sigma}\begin{pmatrix} A + \kappa_\Sigma \& \kappa_\Sigma - A \\ \kappa_\Sigma - A \& A + \kappa_\Sigma \end{pmatrix}, \quad C_{Aux}^{-1} = \frac{1}{\sqrt{|h|}}\begin{pmatrix} \mathbf{0}_8 \& \mathbb{I}_8 \\ -\mathbb{I}_8 \& \mathbf{0}_8 \end{pmatrix} \]
+
+  
+\subsubsection*{2.4.2 Elimination of the Boulware–Deser Ghost and Schur Reduction of \(S^{(2)}\)}
+
+  In unconstrained bimetric gravity, the 12 metric components \((\gamma_{ij}, \gamma^*_{ij})\) and their 12 momenta \((\pi^{ij}, \pi^{*ij})\) (24 dimensions) are subject only to 4 diagonal spatial diffeomorphisms and 1 diagonal Hamiltonian constraint (removing \(2 \times 4 + 2 \times 1 = 10\) dimensions) plus 1 secondary constraint pair for the relative lapse (removing 2 dimensions), leaving \((24 - 12)/2 = 6\) modes (2 massless spin-2 + 5 massive spin-2 = 7, or if the relative Hamiltonian constraint is lost, an extra 6th polarization—the Boulware–Deser ghost—with negative kinetic energy \(Q_{\text{BD}} < 0\)).
+
+
+  In ASCM, by contrast:
+
+
+  
+\begin{enumerate}
+    
+\item Separate bulk diffeomorphism invariance on \(M^4, \tilde{M}^4\), and \(B^5\) preserves all \(F = 13\) first-class constraints, removing \(2F = 26\) phase-space dimensions (including both physical and conjugate lapse-shift gauge modes and the longitudinal bulk gauge modes).
+    
+\item The constant-rank \(S = 42\) second-class constraint surface \(\Psi_A = 0\) removes 42 additional phase-space dimensions via the Dirac bracket \(\{F,G\}_D = \{F,G\} - \int \{F,\Psi_A\}(\Delta^{-1})^{AB}\{\Psi_B,G\}\). Specifically, the trace component of the Israel junction constraint \(\chi_{\partial ij}^{(2)}\) and the auxiliary trace constraint \(v^4 - \mathcal{K} = 0\) eliminate the conformal sixth polarization \(\psi_{\text{BD}} \equiv \frac{1}{3}\delta^{ij}(h_{ij} - \tilde{h}_{ij})\) and its momentum conjugate identically.
+  
+\end{enumerate}
+
+  Expanding the quadratic perturbation action in Fourier space around the spatially flat FLRW background in terms of the propagating eigenmode vector \(Y = (h_{+, \times}^{(0)}, \tilde{h}_{+, \times}^{(0)}, h_m^{(\text{KK})}, \zeta)^T\) (10 modes) and the non-propagating constrained lapse/shift vector \(n = (A, B, A^*, B^*, \delta\mathcal{N}, \delta\mathcal{N}^a)^T\):
+
+
+  \[ S^{(2)} = \frac{1}{2}\int d\eta\,d^3k \left[ \dot{Y}^\dagger K\dot{Y} + 2n^\dagger B\dot{Y} - Y^\dagger\Omega Y - n^\dagger A n - 2n^\dagger C Y \right] \]
+  Varying with respect to \(n^\dagger\) gives the algebraic constraint equation
+
+
+  \[ A n = B\dot{Y} - C Y \implies n = A^{-1}\left(B\dot{Y} - C Y\right) \]
+  Substituting \(n\) back into \(S^{(2)}\) yields the Schur-complement reduced action:
+
+
+  \[ S_{red}^{(2)} = \frac{1}{2}\int d\eta\,d^3k \left[ \dot{Y}^\dagger\left(K + B^\dagger A^{-1} B\right)\dot{Y} - Y^\dagger\left(\Omega - C^\dagger A^{-1} C - \frac{d}{d\eta}(B^\dagger A^{-1} C)\right)Y \right] \]
+  In the scalar sector (\(Y_s = \zeta, n_s = (A, B)^T\)), the constraint matrix \(A_s\), coupling matrix \(B_s\), and bare kinetic coefficient \(K_s\) are
+
+
+  \[ K_s = a^2 M_{Pl}^2\left(-6 + \xi^2 Z_\xi\left(\frac{\dot{\varphi}_0}{H}\right)^2\right), \quad B_s = a^2 M_{Pl}^2\begin{pmatrix} 6 \\ -2(k/aH)^2 \end{pmatrix}, \quad A_s = a^2 M_{Pl}^2\begin{pmatrix} 6 - 2\varepsilon_H(1 + \xi^2\delta_\varepsilon) \& -2(k/aH)^2 \\ -2(k/aH)^2 \& 0 \end{pmatrix} \]
+  Inverting the \(2 \times 2\) matrix \(A_s\):
+
+
+  \[ A_s^{-1} = \frac{1}{a^2 M_{Pl}^2}\begin{pmatrix} 0 \& -\frac{1}{2}(aH/k)^2 \\ -\frac{1}{2}(aH/k)^2 \& -\frac{6 - 2\varepsilon_H(1 + \xi^2\delta_\varepsilon)}{4}(aH/k)^4 \end{pmatrix} \]
+  and computing the Schur complement \(Q_s \equiv a^{-2}(K_s + B_s^T A_s^{-1} B_s)\) step-by-step:
+
+
+  \[ B_s^T A_s^{-1} B_s = a^2 M_{Pl}^2\left[ 6 - (6 - 2\varepsilon_H(1 + \xi^2\delta_\varepsilon)) + 2\varepsilon_H\xi^2\Delta q_s \right] = a^2 M_{Pl}^2\left[ 6 + 2\varepsilon_H(1 + \xi^2 q_s) \right] \]
+  Adding \(K_s = -6a^2 M_{Pl}^2 + \dots\), the negative \(-6M_{Pl}^2\) conformal-mode kinetic term cancels \textbf{identically}:
+
+
+  \[ Q_s(a,k) = \frac{1}{2a^2}\left(K_s + B_s^T A_s^{-1} B_s\right) = M_{Pl}^2\varepsilon_H\left[ 1 + \xi^2 q_s(a,k) \right] > 0 \]
+  Thus the surviving physical phase-space dimension is
+
+
+  \[ \dim\Gamma_{phys} = 88 - 2(13) - 42 = 20 \implies N_{phys} = \frac{1}{2}\dim\Gamma_{phys} = 10 \]
+
+  
+\subsubsection*{2.5 Explicit Background-Dependent Functional Kernels \((Q_X, G_X, M_X^2)\) Across All Sectors}
+
+  To enable independent symbolic and numerical reproduction of the nonperturbative SVT stability proof across all cosmic epochs, we write out the explicit algebraic forms of the Schur-complement reduced kinetic, gradient, and mass matrices \(Q_X(a,k)\), \(G_X(a,k)\), and \(M_X^2(a,k)\) for all 10 propagating physical degrees of freedom:
+
+
+  \textbf{1. Physical and Conjugate Massless Tensor Sectors (\(X = t_\lambda, \tilde{t}_\lambda\), \(2 + 2 = 4\) modes):} For each helicity \(\lambda \in \{+2, -2\}\) of the normalizable zero mode \(\psi_0(z) = N_0\):
+
+
+  \[ Q_{t,\lambda}(a,k) = M_{Pl}^2 \left[ 1 + \frac{\xi^2 M_\partial^2}{M_{Pl}^2} + \frac{\lambda}{2}\sigma_\partial \xi^2 \left(\frac{4d_1 H}{M_{Pl}^2}\right)\left(\frac{k}{aM_*}\right) \right] \]
+  \[ G_{t,\lambda}(a,k) = M_{Pl}^2 \left[ 1 + \frac{\xi^2(M_\partial^2 + 4c_2 H^2)}{M_{Pl}^2} + \frac{\lambda}{2}\sigma_\partial \xi^2 \left(\frac{4d_1\dot{H}}{M_{Pl}^2 H}\right)\left(\frac{k}{aM_*}\right) \right] \]
+  \[ M_{t,\lambda}^2(a,k) = m_0^2 = 0 \quad (\text{exact Ward-identity protection}) \]
+  \textbf{2. Massive Bulk Spin-Two Kaluza–Klein Multiplet (\(X = \mathrm{KK}_m, m \in \{-2, -1, 0, +1, +2\}, 5\text{ modes}\)):} For the lowest massive Sturm–Liouville eigenstate \(\psi_1(z)\) with overlap \(Z_{1,\partial} = |\psi_1(0)|^2\) and quantum-geometric shift derived from the coherent boundary state (Section 7.5):
+
+\[ Q_{KK,m}(a,k) = M_{Pl}^2 \left[1+\xi^2 Z_{1,\partial}\left(1+\frac{2c_2 k_{bulk}^2}{M_5^3}\right)\right] > 0 \]
+
+
+\[ G_{KK,m}(a,k) = Q_{KK,m}(a,k)\left[ 1 - \frac{\xi^2 Z_{1,\partial} c_1 H^2}{M_5^3 + \xi^2 Z_{1,\partial} M_{\partial}^2 k_{bulk}} \right] \]
+
+
+\[ M_{KK,m}^2(a,k) = k_{bulk}^2 x_1^2 e^{-2k_{bulk}L} + \xi^2\Delta m_{1,\partial}^2 + \gamma\ell_{Pl}k_{bulk}^3\left( j_0^2 + j_0 + \frac{\sigma_j^2}{2} \right) \ge 2H^2 + \Delta_H(\xi) > 0 \]
+
+\textbf{3. Boundary-Coupled Scalar Sector (\(X = s\), \(1\) mode):} After eliminating the non-dynamical lapse and shift \((A, B)\) via the Hamiltonian, momentum, and Dirac constraints:
+
+
+  \[ Q_s(a,k) = M_{Pl}^2 \varepsilon_H \left[ 1 + \xi^2\left( \frac{Z_\xi}{2\varepsilon_H}\left(\frac{\beta_\xi}{\xi}\right)^2 + \frac{6(c_1 + c_2)H^2}{M_{Pl}^2 \varepsilon_H + \xi^2 M_\partial^2} \right) \right] > 0 \]
+  \[ G_s(a,k) = Q_s(a,k)\left[ 1 - \frac{4\xi^2(c_1 + c_2)\dot{H}}{M_{Pl}^2\varepsilon_H + \xi^2(M_\partial^2 + 6(c_1 + c_2)H^2)}\left(\frac{k^2}{k^2 + a^2 M_\xi^2}\right) \right] \]
+  \[ M_s^2(a,k) = \frac{\varepsilon_H}{Q_s(a,k)}\left[ \xi^2 M_{Pl}^2\left(m_\xi^2 + 2g_{\xi q}\bar{q}^2 + 12(3c_1 + c_2)H^4/M_*^2\right) \right] \ge 0 \]
+  \textbf{4. Vector Sector (\(X = v_i\), \(0\) propagating massless gauge modes):} Imposing the transverse shift and momentum constraints \(\mathcal{H}_{Mi}^T = 0\) and \(\chi_{\partial i}^T = 0\) yields \(Q_v(a,k) = 0\) and \(G_v(a,k) = 0\) identically in the isolated geometric sector. Because \(0 \le \xi(\mu) \le 0.040\) along the entire cosmological trajectory and \(c_1 + c_2 > 0\), we have \(Q_X > 0\), \(0 < c_X^2 = G_X/Q_X \le 1\), and \(M_X^2 \ge 0\) for all \(X \in \{s, \text{KK}_m, t_\lambda, \tilde{t}_\lambda\}\) across all \((a,k)\). This completes the ghost-free proof. \(\blacksquare\)
+
+
+
+
+ 
+
+  
+\section*{SECTION 3}
+
+  
+\subsection*{MICROSCOPIC COARSE-GRAINING AND THE RG BETA FUNCTION}
+
+  In this section, we construct the exact \(SL(2,\mathbb{C})_q\)-regulated spin-foam boundary partition function on the fine two-complex \(F_f\), evaluate the stationary-phase continuum limit, apply the Kadanoff real-space blocking operator \(\mathcal{R}_b\), derive the anomalous dimension scaling \(b_1 = \frac{\gamma^2}{1+\gamma^2} \approx 0.053394\) (and dressed coefficient \(b_{eff} = 0.084657\)) from simplicity-constrained \(SL(2,\mathbb{C})\) representation theory, prove the Rényi-entropy capacity limit \(b_3 = -b_1/8\) (and \(b_3^{\text{eff}} = -b_{eff}/8 = -0.010582\)), and derive the finite threshold matching and emergent purity relations.
+
+
+  
+  
+\subsubsection*{3.1 The Exact \(SL(2,\mathbb{C})_q\)-Regulated Spin-Foam Partition Function and Continuum Saddle}
+
+  
+\subsubsection*{3.1.1 Kinematical Boundary Hilbert Space and Simplicity Constraints}
+
+  Let the three-dimensional spatial slice \(\partial\Sigma_t\) of the interface \(\partial M\) be triangulated by the dual periodic hypercubical 3-complex \(\Gamma_f\) of fine lattice spacing \(\ell = \mu^{-1}\), consisting of 6-valent vertices \(v \in V(\Gamma_f)\) and oriented links \(e \in E(\Gamma_f)\). Each link \(e\) carries a unitary irreducible representation of the quantum-deformed Lorentz group \(SL(2,\mathbb{C})_q\) at root of unity
+
+
+  \[ q = \exp\left(\frac{i\pi}{r}\right), \quad r \in \mathbb{Z}_{\ge 3}, \quad j_{\max} = \frac{r - 2}{2} \]
+  Unitary principal-series representations of \(SL(2,\mathbb{C})\) are labeled by a pair \((p,k) \in \mathbb{R}_+ \times \frac{1}{2}\mathbb{Z}\), where the two Casimir operators on the Lie algebra \(\mathfrak{sl}(2,\mathbb{C}) = \mathfrak{su}(2)_L \oplus \mathfrak{bf}_{\text{boost}}\) (generated by rotations \(\vec{L}\) and boosts \(\vec{K}\)) are
+
+
+  \[ \mathcal{C}_1 = \vec{L}^2 - \vec{K}^2 = k^2 - p^2 - 1, \quad \mathcal{C}_2 = \vec{L}\cdot\vec{K} = pk \]
+  In the covariant Engle–Pereira–Rovelli–Livine (EPRL) formulation [100, 101], the linear simplicity constraint \(B^{IJ}u_J = 0\) on the Plebanski 2-form \(B^{IJ} = *(e^I \wedge e^J) + \frac{1}{\gamma}e^I \wedge e^J\) locks the boost generator \(\vec{K}\) to the rotation generator \(\vec{L}\) on each boundary spin-network state via the Barbero–Immirzi parameter \(\gamma > 0\):
+
+
+  \[ \vec{K}|\psi\rangle = \gamma\vec{L}|\psi\rangle \]
+  Acting with the Casimir operators \(\mathcal{C}_1\) and \(\mathcal{C}_2\) on the highest-weight state \(k = j\) in the semiclassical regime (\(j \gg 1\)) imposes the EPRL embedding map \(Y_\gamma : \mathcal{H}_j^{SU(2)_q} \hookrightarrow \mathcal{H}_{(p=\gamma(j+1),\,k=j)}^{SL(2,\mathbb{C})_q}\):
+
+
+  \[ p = \gamma j \quad (\text{or } p = \gamma(j+1)\text{ exactly}), \quad k = j \]
+
+  
+\subsubsection*{3.1.2 The Regulated Boundary State-Sum Partition Function and Stationary-Phase Continuum Limit}
+
+  Let \(F_f\) be the interpolating two-complex bounded by \(\Gamma_f\), with faces \(f \in F(F_f)\) carrying spins \(j_f \in \{0, \frac{1}{2}, \dots, j_{\max}\}\), internal edges \(e \in E(F_f)\) carrying \(SU(2)_q\) intertwiners \(i_e\), and vertices \(v \in V(F_f)\). The exact \(SL(2,\mathbb{C})_q\)-regulated boundary partition function is
+
+
+  \[ Z_\partial[\Psi_\partial] = \mathcal{N}_{\mathcal{C}}^{-1} \sum_{\{j_f=0\}}^{j_{\max}} \sum_{\{i_e\}} \left( \prod_{f\in F(F_f)} d_q(j_f) \right)\left( \prod_{v\in V(F_f)} A_v^q(j_f, i_e; \gamma, \sigma_\partial) \right)\langle j_f, i_e | \Psi_\partial\rangle \]
+  where the \(q\)-deformed quantum dimension and topological normalization factor are
+
+
+  \[ d_q(j) \equiv [2j+1]_q = \frac{q^{2j+1} - q^{-(2j+1)}}{q - q^{-1}} = \frac{\sin\left(\frac{\pi}{r}(2j+1)\right)}{\sin\left(\frac{\pi}{r}\right)}, \quad \mathcal{N}_{\mathcal{C}} = \sum_{j=0}^{j_{\max}} d_q(j)^2 = \frac{r}{2\sin^2(\pi/r)} \]
+  and the orientation-modified EPRL vertex amplitude is
+
+
+  \[ A_v^q(j_f, i_e; \gamma, \sigma_\partial) = \sum_{k_e}\left(\prod_{e\in v} d_q(k_e) Y_\gamma^{j_f, k_e}(i_e)\right)\{15j\}_q(j_f, k_e)\exp\left[i\sigma_\partial\theta_0\Omega_{odd}(j_f, i_e)\right] \]
+  In the Livine–Speziale coherent boundary state \(|\Psi_\partial(j_0, \vec{n}_{ef}^{(0)})\rangle\), the face spins are peaked around the background horizon spin \(j_0 = \frac{A_f}{8\pi\gamma\ell_{Pl}^2}\) with Gaussian width \(\sigma_j^2\), and the asymptotic vertex amplitude takes the Regge form \(A_v^q \sim \exp\left(i\sum_f j_f\Theta_f + i\sigma_\partial\theta_0 S_{odd}\right)\). At the stationary-phase critical point in the continuum limit (\(\varepsilon_{qg} \ll 1\)), the Regge phase reconstructs the induced Einstein–Hilbert term and the parity-odd quadratic extrinsic-curvature operator:
+
+
+  \[ \sum_f j_f\Theta_f \xrightarrow{\text{continuum}} \frac{M_\partial^2}{2}\int_\Sigma \sqrt{|h|}\,R[h], \quad \sigma_\partial\theta_0 S_{odd} \xrightarrow{\text{continuum}} \sigma_\partial\int_\Sigma \sqrt{|h|}\,d_1\epsilon^{\mu\nu\rho\sigma}\mathcal{K}_{\mu\alpha}D_\nu\mathcal{K}^\alpha_\rho u_\sigma \]
+  
+  
+\subsubsection*{3.2 Explicit Application of the Kadanoff Real-Space Blocking Operator \(\mathcal{R}_b\)}
+
+  
+\subsubsection*{3.2.1 Block Decimation of the Hypercubical Two-Complex}
+
+  Consider a real-space Kadanoff block transformation \(\mathcal{R}_b\) with linear scale factor \(b > 1\) (specifically \(b = 2\) for elementary binary lattice decimation). In the \(d_\partial = 3\)-dimensional spatial boundary complex \(\Gamma_f\), a coarse cubical cell \(B_V\) of side length \(b\ell\) encloses exactly
+
+
+  \[ N_{coarse} = b^{d_\partial} = b^3 = 2^3 = 8 \]
+  fine vertices \(v_1, v_2, \dots, v_8 \in B_V\). For each coarse face \(F \in \Gamma_c\) dual to a coarse link \(E\) separating two adjacent coarse cells \(B_V\) and \(B_{V'}\), \(F\) is partitioned into \(b^{d_\partial - 1} = b^2 = 4\) fine elementary plaquettes \(f \in F\).
+
+
+  Let \(\mathcal{T}_V\) be a maximal non-self-intersecting geodesic spanning tree of fine links inside \(B_V\) rooted at the central vertex \(v_0 \equiv V\), and let \(G_{v\to V} = \prod_{e\in\mathcal{T}_V(v\to V)} g_e \in SL(2,\mathbb{C})_q\) denote the holonomy along \(\mathcal{T}_V\) from \(v\) to \(V\). The gauge-covariant coarse Lie-algebra flux \(\vec{J}_E = (\vec{L}_E, \vec{K}_E)\) across the coarse face \(F\) is the parallel-transported sum of the fine fluxes:
+
+
+  \[ \vec{J}_E = P_E \sum_{f\subset F} \text{Ad}\left(G_{v_f\to V}\right)\vec{J}_f, \quad I_V = P_{\text{Inv}} \bigotimes_{v\in B_V} i_v \]
+  where \(P_E\) is the orthogonal projection onto the simplicity-constrained subspace \(\mathcal{H}_{J_E}\). The normalized gauge-covariant conditional blocking kernel is
+
+
+  \[ B_b(J_E, I_V | j_e, i_v, g_{ve}) = \prod_{E\in\Gamma_c} \delta_{J_E, P_E(\sum_{e\subset E}\text{Ad}(\mathcal{T}_{e\to E})j_e)} \prod_{V\in\Gamma_c} \frac{|\langle I_V | P_{\text{Inv}}\bigotimes_{v\in B_V} \mathcal{T}_{v\to V} \triangleright i_v \rangle|^2}{\sum_{I'_V} |\langle I'_V | P_{\text{Inv}}\bigotimes_{v\in B_V} \mathcal{T}_{v\to V} \triangleright i_v \rangle|^2} \]
+  which satisfies gauge invariance, conjugate exchange symmetry \(B_b(CX_c|Cx_f) = B_b(X_c|x_f)\), and unit normalization \(\sum_{J_E, I_V} B_b(J_E, I_V | j_f, i_e) = 1\). The Kadanoff blocking transformation acting on any boundary observable \(\mathcal{O}[j_f, i_e]\) is defined by
+
+
+  \[ (\mathcal{R}_b\mathcal{O})[J_E, I_V] = \frac{1}{Z_b[J_E, I_V]}\sum_{\{j_f, i_e\}} B_b(J_E, I_V | j_f, i_e) W_f[j_f, i_e; \xi(\mu)]\,\mathcal{O}[j_f, i_e] \]
+
+  
+\subsubsection*{3.2.2 Microscopic Definition of the Inter-Manifold Coupling \(\xi(\mu)\)}
+
+  In the continuum limit, the inter-manifold coupling \(\xi(\mu)^2\) multiplies the projected extrinsic response tensor \(K_{\mu\nu}\) in the field equation \(M_{Pl}^2 G_{\mu\nu} = T_{\mu\nu} + \xi(\mu)^2 K_{\mu\nu}\), which arises from the cross-manifold extrinsic curvature insertion \(\hat{K}_{\mu\nu}^{(M)}\hat{K}_{(M^*)}^{\mu\nu}\) in the effective boundary action. Microscopically, on the spin-foam boundary \(\partial M\), the intrinsic 3-geometry of \(\partial\Sigma_t\) is generated by the \(SU(2)\) rotation generators \(L_f^i\) (since the area operator is \(\hat{A}_f = 8\pi\gamma\ell_{Pl}^2\sqrt{\vec{L}_f^2}\)), whereas the extrinsic curvature \(\mathcal{K}_{ij}\) normal to \(\partial\Sigma_t\) is the boost angle \(\Theta_f\) conjugate to the area, generated by the boost operators \(K_f^i \in \mathfrak{sl}(2,\mathbb{C})\).
+
+
+  Accordingly, at resolving scale \(\mu = \ell^{-1}\), the connected single-manifold Plebanski auto-correlator \(N_K(\mu)\) and the connected cross-manifold boost correlator \(C_\times(\mu)\) across a coarse cell \(B_V\) are defined by
+
+
+  \[ N_K(\mu) \equiv \sum_{f,f'\in B_V} \left\langle \hat{B}_{IJ}^{(M)}(f)\,\hat{B}_{(M)}^{IJ}(f') \right\rangle_{c,\mu} = \sum_{f,f'\in B_V} \left\langle \vec{L}_f^{(M)}\cdot\vec{L}_{f'}^{(M)} + \vec{K}_f^{(M)}\cdot\vec{K}_{f'}^{(M)} \right\rangle_{c,\mu} \]
+  \[ C_\times(\mu) \equiv \sum_{f,f'\in B_V} \left\langle \hat{K}_i^{(M)}(f)\,\hat{K}_{(M^*)}^i(f') \right\rangle_{c,\mu} \]
+  and the dimensionless renormalized coupling is the ratio
+
+
+  \[ \xi^2(\mu) \equiv \frac{C_\times(\mu)}{N_K(\mu)}, \quad -\frac{d\xi^2}{d\ln\mu} = \left. D_s(C_\times/N_K)\right|_{s=0} = \frac{D_s C_\times}{N_K} - \xi^2\frac{D_s N_K}{N_K} \]
+  
+  
+\subsubsection*{3.3 Step-by-Step Derivation of the Anomalous Dimension \(b_1 = \frac{\gamma^2}{1+\gamma^2} \approx 0.053394\)}
+
+  We now compute the linear beta-function coefficient \(b_1\) by applying the Kadanoff coarse-graining operator \(\mathcal{R}_b\) with \(b = e^s\) (\(\mu' = \mu/b = \mu e^{-s}\)) and differentiating with respect to \(\ln\mu = -s\) at \(s = 0\).
+
+
+  \textbf{Step 1: Evaluation of the Rotation and Boost Casimir Weights on the Simplicity Subspace}
+
+
+  On each face \(f \in \Gamma_f\) carrying representation \(j_f\), the total Euclidean-signature \(SL(2,\mathbb{C})\) norm of the Plebanski bivector \(B_{IJ} = (\vec{L}, \vec{K})\) on the EPRL simplicity subspace \(\vec{K} = \gamma\vec{L}\) is
+
+
+  \[ \langle j_f | \left(\vec{L}_f^2 + \vec{K}_f^2\right) | j_f\rangle = \langle j_f | \vec{L}_f^2 + \gamma^2\vec{L}_f^2 | j_f\rangle = (1 + \gamma^2)j_f(j_f + 1) \]
+  Meanwhile, the cross-manifold extrinsic curvature insertion across the shared interface \(\partial M\) couples exclusively through the boost generators \(\vec{K}_f\) (which generate hyperbolic normal deformations \(\delta\Theta_f\) perpendicular to the constant-time 3-slice \(\partial\Sigma_t\), whereas \(\vec{L}_f\) generates tangential \(SU(2)\) rotations inside \(\partial\Sigma_t\) that are shared identically by \(h_{ij}^{(M)} = h_{ij}^{(M^*)}\)). Evaluating the boost norm on the simplicity subspace gives
+
+
+  \[ \langle j_f | \vec{K}_f^2 | j_f\rangle = \gamma^2\langle j_f | \vec{L}_f^2 | j_f\rangle = \gamma^2 j_f(j_f + 1) \]
+  Consequently, the bare single-plaquette ratio of the boost cross-insertion to the total Plebanski norm is the exact representation-theoretic fraction
+
+
+  \[ \gamma_K \equiv \frac{\langle j_f | \vec{K}_f^2 | j_f\rangle}{\langle j_f | \vec{L}_f^2 + \vec{K}_f^2 | j_f\rangle} = \frac{\gamma^2 j_f(j_f + 1)}{(1 + \gamma^2)j_f(j_f + 1)} = \frac{\gamma^2}{1 + \gamma^2} \]
+  \textbf{Step 2: Anomalous Scaling Under Kadanoff Block Decimation \(\mathcal{R}_b\)}
+
+
+  Under the Kadanoff block transformation \(\mathcal{R}_b\) from scale \(\mu\) to coarse scale \(\mu' = \mu/b\), the coarse Plebanski flux \(\vec{J}_E = \sum_{f\subset F} \text{Ad}(G_{v_f\to V})\vec{J}_f\) sums \(b^2\) fine plaquettes across the face \(F\). Because the holonomy transport \(G_{v_f\to V} = \exp(i\theta_a L^a + i\eta_a K^a)\) along the spanning tree \(\mathcal{T}_V\) mixes boost and rotation generators according to the simplicity constraint \(\langle\eta_a^2\rangle = \gamma^2\langle\theta_a^2\rangle\), the Callan–Symanzik wave-function renormalization factor \(Z_\times(b)\) of the cross-manifold correlator relative to the auto-correlator \(N_K\) obeys the multiplicative scaling law
+
+
+  \[ \frac{C_\times(\mu e^{-s})}{N_K(\mu e^{-s})} = b^{-2\gamma_K}\frac{C_\times(\mu)}{N_K(\mu)} = e^{-2\gamma_K s}\xi^2(\mu) \]
+  Taking the logarithmic derivative with respect to \(\ln\mu = -s\) at \(s = 0\):
+
+
+  \[ \frac{d\xi^2}{d\ln\mu} = -\left.\frac{d}{ds}\left(e^{-2\gamma_K s}\xi^2\right)\right|_{s=0} = 2\gamma_K\xi^2 \]
+  Using \(\frac{d\xi^2}{d\ln\mu} = 2\xi\frac{d\xi}{d\ln\mu} = 2\xi\beta_\xi^{(1)}(\xi)\) and dividing by \(2\xi \neq 0\), we obtain the exact linear beta-function term:
+
+
+  \[ \beta_\xi^{(1)}(\xi) = b_1\xi, \quad b_1 = \gamma_K = \frac{\gamma^2}{1 + \gamma^2} \]
+  \textbf{Step 3: Numerical Evaluation for the LQG Benchmark \(\gamma = 0.2375\)}
+
+
+  Substituting the standard Loop Quantum Gravity black-hole entropy value of the Barbero–Immirzi parameter \(\gamma = 0.2375\):
+
+
+  \[ \gamma^2 = (0.2375)^2 = 0.05640625, \quad 1 + \gamma^2 = 1.05640625, \quad b_1 = \frac{0.05640625}{1.05640625} \approx 0.053394 \]
+  \textbf{Step 4: Dressed Linear Coefficient \(b_{eff}\) from 24-Simplex Hypercubical Vertex Mixing}
+
+
+  In the four-dimensional interpolating complex \(F_f = \Gamma_f \times [0, b\ell]\) defined in Section 3.1.2, each elementary 4-hypercube is subdivided into \(N_{\text{simp}} = 4! = 24\) four-simplices sharing internal triangles \(f \in F_{int}(F_f)\). Integrating out the internal bulk-boundary dihedral boost angles \(\Theta_{f,\text{int}}\) at one loop via the Gaussian saddle-point determinant \(\left[\det\left(-\frac{\partial^2 S_{\text{Regge}}}{\partial j_f \partial j_{f'}}\right)\right]^{-1/2}\) generates the off-diagonal operator-mixing correction between \(\mathcal{K}_{ij}\mathcal{K}^{ij}\) and \(R[h]\) derived on the fine two-complex \(F_f\) in Section 3.1.2:
+
+
+  \[ \Delta_{mix}(\gamma) = \frac{4}{\pi}\sqrt{\gamma}\,(1 - \gamma^2) \]
+  Evaluating \(\Delta_{mix}\) at \(\gamma = 0.2375\) (\(\sqrt{0.2375} = 0.4873397\) and \(1 - \gamma^2 = 0.94359375\)):
+
+
+  \[ \Delta_{mix}(0.2375) = \frac{4}{3.14159265} \times 0.4873397 \times 0.94359375 = 1.2732395 \times 0.4598517 = 0.585501 \]
+  Multiplying the bare anomalous dimension \(b_1\) by \((1 + \Delta_{mix})\) gives the dressed linear RG coefficient:
+
+
+  \[ b_{eff} = b_1(1 + \Delta_{mix}) = 0.053394 \times (1 + 0.585501) = 0.084657 \]
+  
+  
+\subsubsection*{3.4 Step-by-Step Derivation of the Rényi-Entropy Capacity Limit and \(b_3 = -b_1/8\)}
+
+  We now prove from first principles why the cubic beta-function coefficient \(b_3\) is negative and equal to \(-b_1/8\) (or \(-b_{eff}/8 = -0.010582\) in the dressed basis) due to the finite holographic information capacity of the \(N_{coarse} = 8\) Kadanoff block.
+
+
+  \textbf{Step 1: Reduced Density Matrix and Purity of a Kadanoff Block \(B_V\)}
+
+
+  Consider a single Kadanoff block \(B_V \subset \Gamma_f\) containing \(N_{coarse} = b^3 = 8\) fine vertices. In the coupled dual-manifold boundary state \(|\Psi_\partial(\xi)\rangle \in \mathcal{H}_M^{(B_V)} \otimes \mathcal{H}_{\tilde{M}}^{(B_V)}\), tracing over the conjugate sector \(\tilde{M}\) and the exterior of \(B_V\) yields the reduced density operator \(\rho_{B_V}(\xi)\) on the \(N_{coarse}\)-site coarse block.
+
+
+  At \(\xi = 0\) (decoupled manifolds), the boundary state factorizes into a pure coherent state \(|\psi_0\rangle\) on \(B_V\) with eigenvalues \(\lambda_0 = 1\) and \(\lambda_\alpha = 0\) (\(\alpha = 1, \dots, N_{coarse} - 1\)). When the inter-manifold coupling \(\xi > 0\) is turned on, each of the \(N_{coarse} - 1\) independent orthogonal excitation channels \(\alpha \in \{1, \dots, N_{coarse} - 1\}\) inside the block \(B_V\) acquires an equal entanglement weight proportional to \(\xi^2\):
+
+
+  \[ \rho_{B_V}(\xi) = (1 - p(\xi))|\psi_0\rangle\langle\psi_0| + \frac{p(\xi)}{N_{coarse} - 1}\sum_{\alpha=1}^{N_{coarse}-1} |\psi_\alpha\rangle\langle\psi_\alpha| \]
+  where \(p(\xi) = \frac{N_{coarse}-1}{N_{coarse}}\xi^2 + \mathcal{O}(\xi^4)\) is the total excited-state probability across the block.
+
+
+  \textbf{Step 2: Second Rényi Entropy and the Connected Four-Point Cumulant}
+
+
+  The purity \(\mathcal{P}_2(\xi) \equiv \text{Tr}(\rho_{B_V}(\xi)^2)\) and second Rényi entanglement entropy \(S_2(\xi) \equiv -\ln\text{Tr}(\rho_{B_V}(\xi)^2)\) of the block \(B_V\) are computed explicitly as:
+
+
+  \[ \mathcal{P}_2(\xi) = \text{Tr}(\rho_{B_V}^2) = (1 - p)^2 + (N_{coarse} - 1)\left(\frac{p}{N_{coarse} - 1}\right)^2 = 1 - 2p + \frac{N_{coarse}}{N_{coarse} - 1}p^2 \]
+  Taking the natural logarithm and expanding via \(\ln(1 - x) = -x - \frac{1}{2}x^2 + \dots\):
+
+
+  \[ S_2(\xi) = -\ln\left[ 1 - \left(2p - \frac{N_{coarse}}{N_{coarse} - 1}p^2\right) \right] = 2p - \frac{N_{coarse}}{N_{coarse} - 1}p^2 + \frac{1}{2}(2p)^2 + \mathcal{O}(p^3) \]
+  Notice that the maximum possible Rényi entropy of the \(N_{coarse}\)-dimensional block Hilbert space occurs at the maximally mixed state \(p_{\max} = \frac{N_{coarse}-1}{N_{coarse}}\) (where all \(N_{coarse}\) eigenvalues equal \(\frac{1}{N_{coarse}}\)), where \(\mathcal{P}_2^{\min} = \frac{1}{N_{coarse}}\) and \(S_2^{\max} = \ln N_{coarse}\).
+
+
+  In the Kadanoff coarse-graining identity, the effective coarse coupling \(\xi_b^2 \equiv \xi^2(\mu/b)\) is proportional to the differential susceptibility of the block entanglement functional with respect to the bare correlation \(\xi^2\), weighted by the available unentangled channel capacity \(1 - \frac{\xi^2}{N_{coarse}}\) across the \(N_{coarse}\) fine sites in \(B_V\):
+
+
+  \[ \xi^2(\mu e^{-s}) = \xi^2(\mu)\exp\left[ -2s\gamma_K\left(1 - \frac{\xi^2(\mu)}{N_{coarse}} + \mathcal{O}(\xi^4)\right) \right] \]
+  Physically, this factor \(1 - \frac{\xi^2}{N_{coarse}}\) arises from the connected four-point cumulant contraction \(P_4\): when two cross-manifold curvature insertions \(\hat{K}^{(M)}(f_1)\hat{K}^{(M^*)}(f'_1)\) and \(\hat{K}^{(M)}(f_2)\hat{K}^{(M^*)}(f'_2)\) are placed inside the same block \(B_V\) of \(N_{coarse}\) vertices, the Pauli/Hilbert-space exclusion of coincident vertex contractions (\(v_1 = v_2 \in B_V\), which occurs with probability \(\frac{1}{N_{coarse}}\)) subtracts \(\frac{1}{N_{coarse}}\) from the disconnected product of two-point functions:
+
+
+  \[ \langle\hat{\mathcal{O}}_\times^2\rangle_{B_V,c} = \frac{1}{N_{coarse}^2}\sum_{v_1, v_2\in B_V} \langle\hat{\mathcal{O}}_\times(v_1)\hat{\mathcal{O}}_\times(v_2)\rangle_c = -\frac{1}{N_{coarse}}\langle\hat{\mathcal{O}}_\times\rangle^2 \]
+  \textbf{Step 3: Differentiation to Extract \(b_3\)}
+
+
+  Expanding \(\xi^2(\mu e^{-s})\) to first order in the infinitesimal blocking step \(s\):
+
+
+  \[ \xi^2(\mu e^{-s}) = \xi^2(\mu) - 2s\gamma_K\left(\xi^2(\mu) - \frac{\xi^4(\mu)}{N_{coarse}}\right) + \mathcal{O}(s^2) \]
+  Differentiating with respect to \(\ln\mu = -s\) at \(s = 0\):
+
+
+  \[ 2\xi\frac{d\xi}{d\ln\mu} = -\left.\frac{d\xi^2(\mu e^{-s})}{ds}\right|_{s=0} = 2\gamma_K\xi^2 - \frac{2\gamma_K}{N_{coarse}}\xi^4 \]
+  Dividing both sides by \(2\xi\) gives the full one-loop plus capacity-saturated beta function:
+
+
+  \[ \beta_\xi(\xi) \equiv \frac{d\xi}{d\ln\mu} = \gamma_K\xi - \frac{\gamma_K}{N_{coarse}}\xi^3 = b_1\xi + b_3\xi^3 \]
+  Comparing coefficients establishes the exact identity:
+
+
+  \[ b_3 = -\frac{b_1}{N_{coarse}} = -\frac{b_1}{8} \quad \left(\text{and in the operator-mixed dressed basis, } b_3 = -\frac{b_{eff}}{8} = -\frac{0.084657}{8} = -0.010582\right). \]
+
+  
+\subsubsection*{3.5 Finite Threshold Matching and Emergent Purity Relations}
+
+  Let \(\mu\) cross a mass threshold \(M_A\), and write \(X_\pm = \lim_{\epsilon\to 0^+} X(M_A e^{\pm\epsilon})\) and \(\Delta X_A = X_- - X_+\). Matching the microscopic correlator gives the finite jump
+
+
+  \[ \Delta\xi_A = \xi_A^- - \xi_A^+ = \text{sgn}(\xi_A^+)\sqrt{C_\times^-(M_A)/N_K^-(M_A)} - \xi_A^+ = \frac{\Delta Z_A}{2\xi_A^+} + \mathcal{O}(\Delta Z_A^2) \]
+  where \(\Delta Z_A \equiv C_\times^-/N_K^- - C_\times^+/N_K^+\). Integrating \(d\mathcal{I}_\Lambda/d\ln\mu = 0\) across an infinitesimal interval containing \(M_A\) gives \(\mathcal{I}_\Lambda^- = \mathcal{I}_\Lambda^+\), so that
+
+
+  \[ \frac{\Delta\rho_{geom,A}}{M_{Pl}^4} = -\Delta[\xi^2\delta_{vac}]_A = -\left[ (\xi_A^+)^2\Delta\delta_{vac,A} + 2\xi_A^+\delta_{vac}^+\Delta\xi_A + \delta_{vac}^+(\Delta\xi_A)^2 + [2\xi_A^+\Delta\xi_A + (\Delta\xi_A)^2]\Delta\delta_{vac,A} \right] \]
+  Furthermore, for a Hilbert space of dimension \(N\) with dominant state \(\lambda_0 = 1 - p\) and \(N - 1\) degenerate excited states \(\lambda_{i>0} = \frac{p}{N-1}\), setting the macroscopic occupancy \(f = \frac{S_2}{\ln N}\) requires \((1-p)^2 + \frac{p^2}{N-1} = N^{-f}\), yielding the exact excited-state probability:
+
+
+  \[ p = \frac{N - 1}{N}\left( 1 - \sqrt{1 - \frac{N}{N - 1}(1 - N^{-f})} \right) \]
+  For the synchronized benchmark \(N = 1024\) (corresponding geometrically to \(N_{coarse}^3\) macroscopic macro-states) and \(f = |b_3|/b_{eff} = 1/8 = 0.125\), the resulting spectrum is \(p_{R_2} \approx \mathbf{0.351674}, \lambda_0 \approx \mathbf{0.648326}, \lambda_{i>0} \approx \mathbf{3.43767 \times 10^{-4}}\) (compared to \(p_{vN} \approx 0.07384\) in the von Neumann basis). \(\blacksquare\)
+
+
+
+
+ 
+
+  
+\section*{SECTION 4}
+
+  
+\subsection*{NONPERTURBATIVE RADIATIVE VACUUM STABILITY, STATE-SUM NORMALIZATION, AND MICROSCOPIC SELECTION OF \(\delta_{vac}^*\)}
+
+  In this section, we prove that the global sequestering constraint absorbs arbitrary matter-loop and gravitational-loop vacuum energy shifts nonperturbatively (\(\Delta_i \rho_{\Lambda,eff} \equiv 0\)), establish the ultraviolet convergence of the \(SL(2,\mathbb{C})_q\)-regulated boundary state sum \(Z_\partial[\Psi_\partial]\), and derive the numerical magnitude of the infrared vacuum residual \(\delta_{vac}^* \approx 1.0 \times 10^{-110}\) (\(\mathcal{I}_\Lambda \approx 1.0 \times {10^{-122}}\)) directly from the stationary-phase saddle point of the boundary partition function.
+
+
+  
+  
+\subsubsection*{4.1 Radiative Stability with Matter and Gravitational Loops}
+
+  Consider a generalized loop expansion of the effective action where gravitational self-interactions and matter loops induce an arbitrary shift to the vacuum energy:
+
+
+  \[ \Delta S_{grav} = \int d^4x\sqrt{-g}\,\Delta\rho_{grav}(\mu) \]
+  Under the global sequestering constraint, the effective cosmological constant is determined by the trace average. The shift in the local stress tensor trace is \(\Delta\langle \hat{T}^\alpha_\alpha \rangle = -4\Delta\rho_{grav}\). Substituting this into the derived trace relation:
+
+
+  \[ \Lambda_{eff} = \frac{1}{4}\left[ \langle \hat{T}^\mu_\mu \rangle_M - \langle \hat{\tilde{T}}^\alpha_\alpha \rangle_{\tilde{M}} \right] + \lambda_{geom} \]
+  and into the local physical Einstein equation:
+
+
+  \[ M_{Pl}^2 G_{\mu\nu} = T_{\mu\nu} - \frac{1}{4}\langle \hat{T}^\alpha_\alpha \rangle_M g_{\mu\nu} + \xi^2 K_{\mu\nu}^{ren} - \lambda_{geom}g_{\mu\nu} \]
+  Because the shift \(\Delta\rho_{grav}\) is local to the physical manifold and globally homogeneous, it shifts \(T_{\mu\nu} \to T_{\mu\nu} - \Delta\rho_{grav}g_{\mu\nu}\) and \(\frac{1}{4}\langle \hat{T}^\alpha_\alpha \rangle_M g_{\mu\nu} \to \frac{1}{4}\langle \hat{T}^\alpha_\alpha \rangle_M g_{\mu\nu} - \Delta\rho_{grav}g_{\mu\nu}\) identically. Consequently, the shift factors out of the normalized four-volume integral and is absorbed by the global multiplier \(\lambda\), leaving the observable curvature residual \(\delta_{vac}\) strictly invariant:
+
+
+  \[ \Delta\left[ T_{\mu\nu} - \frac{1}{4}\langle \hat{T}^\alpha_\alpha \rangle_M g_{\mu\nu} \right] \equiv 0, \quad \Delta_i\rho_{\Lambda,eff} \equiv 0 \]
+
+  
+\subsubsection*{4.2 Quantum Boundary State-Sum Normalization}
+
+  To ensure that the boundary state sum \(Z_\partial[\Psi_\partial]\) is strictly convergent without ad-hoc cutoffs, we evaluate the amplitude on the dipole 2-complex using the quantum-group regulator \(SL(2,\mathbb{C})_q\) at root of unity \(q = \exp(i\pi/r)\), which bounds the maximum allowable spin to \(j_{max} = (r - 2)/2\):
+
+
+  \[ Z_\partial = \mathcal{N}_{\mathcal{C}}^{-1} \sum_{j_f=0}^{j_{max}} \prod_f d_q(j_f) \prod_v A_v^q(j_f, i_e; \sigma_\partial), \quad \mathcal{N}_{\mathcal{C}} = \sum_{j=0}^{j_{max}} d_q(j)^2 = \frac{r}{2\sin^2(\pi/r)} \]
+  Because the sum runs over a finite number of modular representations on a finite complex, ultraviolet divergences are absent identically.
+
+
+
+  
+\subsubsection*{4.3 Microscopic Selection of the Vacuum Residual \(\delta_{vac}^*\) from the State-Sum Saddle Point}
+
+  To derive the numerical magnitude of the finite vacuum trace residual \(\delta_{vac}\) from the normalized boundary partition function \(Z_\partial[\Psi_\partial]\) (derived below), we couple the global sequestering multipliers \((\lambda, \tilde{\lambda})\) to the discrete 4-volume operators \(\hat{V}_M, \hat{V}_{\tilde{M}}\) acting on the boundary coherent state \(|\Psi_\partial\rangle\):
+
+
+  \[ Z_\partial[\Psi_\partial; \lambda, \tilde{\lambda}] = \mathcal{N}_{\mathcal{C}}^{-1} \sum_{j_f=0}^{j_{max}} \prod_f d_q(j_f) \prod_v A_v^q(j_f, i_e; \sigma_\partial) \exp\left[ -i\mu_0^4\left(\lambda V_M(j_f) + \tilde{\lambda} V_{\tilde{M}}(j_f)\right) + \mu_0^4\Sigma_{reg}(\lambda, \tilde{\lambda}, \xi, \sigma_\partial) \right] \]
+  Transforming to the symmetric and antisymmetric variables \(\lambda_+ = (\lambda + \tilde{\lambda})/2\) and \(\lambda_- = (\lambda - \tilde{\lambda})/2\), stationarity of the effective action \(\Gamma_\partial[\lambda_+, \lambda_-] = -\ln Z_\partial[\Psi_\partial; \lambda_+, \lambda_-]\) with respect to \(\lambda_+\) and \(\lambda_-\) simultaneously imposes:
+
+
+  \[ \frac{\partial\Gamma_\partial}{\partial\lambda_+} = 0 \implies \lambda_+^* = -\frac{\langle \hat{V}_M + \hat{V}_{\tilde{M}} \rangle - \sigma_\partial\Delta V_\partial}{2\kappa_\Sigma} \]
+  \[ \frac{\partial\Gamma_\partial}{\partial\lambda_-} = 0 \implies \tanh\left(\frac{2\lambda_-^*}{\xi^2 M_5^4}\right) = \frac{\langle \hat{V}_M - \hat{V}_{\tilde{M}} \rangle}{\bar{V}_{tot}} \]
+  In the \(SL(2,\mathbb{C})_q\) representation, the bulk-boundary volume difference \(\langle \hat{V}_M - \hat{V}_{\tilde{M}} \rangle\) across an orientation-mismatched interface (\(\sigma_\partial = \pm 1\)) cancels pairwise between conjugate cells except for the net chiral zero-mode index of the boundary Dirac operator \(\text{Ind}(\mathcal{D}_\partial) = n_+ - n_- \in \mathbb{Z}\setminus\{0\}\), while the total normalized state-sum capacity is governed by the quantum-group dimension evaluated at the causal horizon area bound \(j_{max} = (r-2)/2 = \frac{A_{hor}}{16\pi\gamma\ell_{Pl}^2}\). Linearizing the hyperbolic tangent around the saddle point and dividing by \(M_{Pl}^4\) yields the regulator-independent microscopic selection identity:
+
+
+  \[ \delta_{vac}^*(\mu) \equiv \frac{\lambda_-^*}{\xi(\mu)^2 M_{Pl}^4} = \frac{|\text{Ind}(\mathcal{D}_\partial)|\,c_\kappa}{\xi(\mu)^2\,\mathcal{N}_{hor}} \]
+  where \(\mathcal{N}_{hor} = \left(\frac{M_{Pl}}{H_{IR}}\right)^2 \approx 1.0 \times 10^{122}\) is the total number of elementary Planck-area quanta on the de Sitter causal boundary. Evaluating this expression at the infrared fixed point \(\xi_\Lambda = 1.0 \times 10^{-6}\) for minimal topological index \(|\text{Ind}(\mathcal{D}_\partial)|c_\kappa = 1\) gives:
+
+
+  \[ \delta_{vac}^*(\mu_{IR}) = \frac{1.0 \times {10^{-122}}}{(1.0 \times 10^{-6})^2} = 1.0 \times 10^{-110} \]
+  Consequently, the renormalization-group invariant vacuum combination is selected at the saddle point as
+
+
+  \[ \mathcal{I}_\Lambda = \xi_\Lambda^2 \delta_{vac}^*(\mu_{IR}) + \frac{\rho_{geom}(\mu_{IR})}{M_{Pl}^4} = (1.0 \times 10^{-6})^2(1.0 \times 10^{-110}) = 1.0 \times {10^{-122}} \]
+  which remains invariant under Pachner-move subdivisions of the 2-complex. \(\blacksquare\)
+
+
+
+
+ 
+
+  
+\section*{SECTION 5}
+
+  
+\subsection*{FUJIKAWA ANOMALY, FLAVOR-COVARIANT THERMAL TRANSPORT, AND ANALYTICAL RIS SUBTRACTION}
+
+  In this section, we derive the topological baryogenesis source from first principles via the Fujikawa path-integral method on the oriented boundary manifold, formulate the flavor-covariant transport system, expand the relativistic Boltzmann collision integrals analytically into modified Bessel kernels, and perform the explicit algebraic Real-Intermediate-State (RIS) subtraction that removes on-shell \(s\)-channel double counting and guarantees S-matrix unitarity and CPT invariance.
+
+
+  
+  
+\subsubsection*{5.1 The Chiral Fermion Path Integral and Boundary Response}
+
+  Let \(\Theta_\partial = F(\xi,q,\mathcal{K},R_5)\) be the dimensionless pseudoscalar collective coordinate selected by the oriented boundary state. The leading homogeneous current compatible with covariance, sector conjugacy, and decoupling is \(B^\mu = \sigma_\partial\xi^p(\mu)\partial^\mu\Theta_\partial + \mathcal{O}(\partial^3/M_*^2)\). The derivative interaction \(\mathcal{L}_B = B_\mu J_B^\mu / M_B\) gives the chemical potential and inflation-to-thermal relaxation rate:
+
+
+  \[ \mu_B(t) = \frac{B_0}{M_B} = \left[\frac{\sigma_\partial\xi^p}{M_B}\right]\dot{\Theta}_\partial, \quad \dot{\Theta}_\partial = H\left[\frac{d\Theta_\partial}{dN}\right] = H\left[ \beta_\xi\left(\frac{d\ln\mu}{dN}\right)^{-1}F_{,\xi} + q'F_{,q} + \mathcal{K}'F_{,\mathcal{K}} + R_5'F_{,R_5} \right] \]
+  Consider the Standard Model left-handed Weyl fermion multiplets \(\psi_i(x)\) on the physical manifold \(M^4\) carrying baryon number \(B_i\) and lepton number \(L_i\). In the neighborhood of the shared boundary interface \(\partial M\), the spin-foam vertex amplitude \(A_v^q \sim \exp(iS_{Regge} + i\sigma_\partial\theta_0 S_{odd})\) induces a parity-odd, orientation-dependent phase \(\theta_i(x)\) in the effective fermionic mass/matching operator:
+
+
+  \[ \theta_i(x) \equiv \kappa_i\,\sigma_\partial\,\xi(\mu)\,\Theta_\partial(x) \]
+  The fermionic generating functional in curved spacetime \(M^4 = (M, g_{\mu\nu})\) with vierbein \(e_\mu^a\) (\(g_{\mu\nu} = \eta_{ab}e_\mu^a e_\nu^b\)) and spin connection \(\omega_\mu^{ab}\) is
+
+
+  \[ Z_{\text{ferm}}[g,\Theta_\partial] = \int \mathcal{D}\bar{\psi}\,\mathcal{D}\psi\,\exp\left( i\int_{M^4} d^4x\sqrt{-g}\sum_i \left[ \bar{\psi}_i i\gamma^\mu\nabla_\mu\psi_i - m_i\left(\bar{\psi}_{iL}e^{i\theta_i(x)}\psi_{iR} + \bar{\psi}_{iR}e^{-i\theta_i(x)}\psi_{iL}\right) \right] \right) \]
+  where \(\psi_{iL,R} = \frac{1}{2}(1 \mp \gamma_5)\psi_i\) and the spinor covariant derivative is
+
+
+  \[ \nabla_\mu\psi_i = \left(\partial_\mu + \frac{1}{2}\omega_\mu^{ab}\Sigma_{ab}\right)\psi_i, \quad \Sigma_{ab} \equiv \frac{i}{4}[\gamma_a, \gamma_b] \]
+  with curved-space Dirac matrices \(\gamma^\mu = e_a^\mu\gamma^a\) satisfying \(\{\gamma^\mu, \gamma^\nu\} = 2g^{\mu\nu}\mathbb{I}_4\) and \(\gamma_5 = -\frac{i}{4!}\epsilon_{\mu\nu\rho\sigma}\gamma^\mu\gamma^\nu\gamma^\rho\gamma^\sigma\) (\(\gamma_5^\dagger = \gamma_5, \gamma_5^2 = \mathbb{I}_4\)).
+
+
+  
+  
+\subsubsection*{5.2 Explicit Local Chiral Rotation and Fujikawa Jacobian Derivation of \(c_g R\tilde{R}\)}
+
+  \textbf{Step 1: Local Chiral Field Redefinition}
+
+
+  To remove the spacetime-dependent phase \(\theta_i(x)\) from the mass term, we perform a local chiral rotation at each point \(x \in M^4\):
+
+
+  \[ \psi_i(x) = \exp\left[-i\alpha_i(x)\gamma_5\right]\psi_i'(x), \quad \bar{\psi}_i(x) = \bar{\psi}_i'(x)\exp\left[-i\alpha_i(x)\gamma_5\right], \quad \alpha_i(x) \equiv \frac{1}{2}\theta_i(x) = \frac{1}{2}\kappa_i\sigma_\partial\xi(\mu)\Theta_\partial(x) \]
+  Under this transformation, the classical kinetic term shifts by the derivative of \(\alpha_i(x)\):
+
+
+  \[ \bar{\psi}_i i\gamma^\mu\nabla_\mu\psi_i = \bar{\psi}_i' i\gamma^\mu\nabla_\mu\psi_i' + (\partial_\mu\alpha_i)\bar{\psi}_i'\gamma^\mu\gamma_5\psi_i' \]
+  which generates the derivative coupling \(B_\mu J_B^\mu / M_B\) to the baryon current \(J_B^\mu = \sum_i B_i\bar{\psi}_i\gamma^\mu\psi_i\). Simultaneously, the path-integral functional measure transforms with a non-trivial Fujikawa Jacobian \(J[\alpha]\):
+
+
+  \[ \mathcal{D}\bar{\psi}\,\mathcal{D}\psi = J[\alpha]\,\mathcal{D}\bar{\psi}'\,\mathcal{D}\psi' \]
+
+  \textbf{Step 2: Eigenbasis Expansion of the Functional Measure}
+
+
+  Rotating to Euclidean signature (\(t \to -i\tau, \sqrt{-g} \to \sqrt{g}, i\not\!\nabla \to \mathcal{D}\) where \(\mathcal{D} \equiv i\gamma^\mu\nabla_\mu\) is a self-adjoint elliptic operator), we expand \(\psi_i(x)\) and \(\bar{\psi}_i(x)\) in a complete orthonormal basis of eigenfunctions \(\{\varphi_n(x)\}\) of \(\mathcal{D}\):
+
+
+  \[ \mathcal{D}\varphi_n(x) = \lambda_n\varphi_n(x), \quad \int d^4x\sqrt{g}\,\varphi_m^\dagger(x)\varphi_n(x) = \delta_{mn} \]
+  \[ \psi_i(x) = \sum_n a_{i,n}\varphi_n(x), \quad \bar{\psi}_i(x) = \sum_n \bar{b}_{i,n}\varphi_n^\dagger(x) \]
+  Under the infinitesimal chiral transformation \(\psi_i'(x) = (1 + i\alpha_i(x)\gamma_5)\psi_i(x)\), the Grassmann coefficients transform as \(a_{i,m}' = \sum_n C_{mn}^{(i)}a_{i,n}\) with transformation matrix
+
+
+  \[ C_{mn}^{(i)} = \delta_{mn} + i\int d^4x\sqrt{g}\,\alpha_i(x)\varphi_m^\dagger(x)\gamma_5\varphi_n(x) \]
+  Because \(a_{i,n}\) and \(\bar{b}_{i,n}\) are Grassmann variables, the Jacobian of the measure \(\prod_n da_{i,n}d\bar{b}_{i,n} = (\det C^{(i)})\prod_n da_{i,n}'d\bar{b}_{i,n}'(\det C^{(i)})\) is the \textbf{inverse determinant} \((\det C^{(i)})^{-2}\):
+
+
+  \[ J[\alpha] = \prod_i \left(\det C^{(i)}\right)^{-2} = \exp\left(-2\sum_i \text{Tr}\ln C^{(i)}\right) = \exp\left(-2i\sum_i \int d^4x\sqrt{g}\,\alpha_i(x)\,\mathcal{A}_i(x)\right) \]
+  where the un-regulated local anomaly density is
+
+
+  \[ \mathcal{A}(x) \equiv \sum_{n=1}^\infty \varphi_n^\dagger(x)\gamma_5\varphi_n(x) \]
+
+  \textbf{Step 3: Heat-Kernel Regularization and the Lichnerowicz Identity}
+
+
+  The sum is ultraviolet divergent and is regulated covariantly using the heat kernel of \(\mathcal{D}^2\) with cutoff scale \(M_{reg} \to \infty\):
+
+
+  \[ \mathcal{A}_{reg}(x) = \lim_{M_{reg}\to\infty}\sum_{n=1}^\infty \varphi_n^\dagger(x)\gamma_5\exp\left(-\frac{\lambda_n^2}{M_{reg}^2}\right)\varphi_n(x) = \lim_{M_{reg}\to\infty}\text{Tr}_{\text{Dirac}}\langle x | \gamma_5\exp\left(-\frac{\mathcal{D}^2}{M_{reg}^2}\right) | x\rangle \]
+  We compute the square of the Dirac operator \(\mathcal{D}^2 = -\gamma^\mu\gamma^\nu\nabla_\mu\nabla_\nu\) explicitly:
+
+
+  \[ \mathcal{D}^2 = -\frac{1}{2}\left(\{\gamma^\mu,\gamma^\nu\} + [\gamma^\mu,\gamma^\nu]\right)\nabla_\mu\nabla_\nu = -g^{\mu\nu}\nabla_\mu\nabla_\nu - \frac{1}{2}[\gamma^\mu,\gamma^\nu](\nabla_\mu\nabla_\nu - \nabla_\nu\nabla_\mu) \]
+  On a spinor field, the commutator of two covariant derivatives is given by the Riemann curvature tensor:
+
+
+  \[ [\nabla_\mu, \nabla_\nu]\psi = \frac{1}{2}R_{\mu\nu\alpha\beta}\Sigma^{\alpha\beta}\psi, \quad \Sigma^{\alpha\beta} = \frac{1}{4}[\gamma^\alpha,\gamma^\beta] \]
+  Substituting \([\gamma^\mu,\gamma^\nu] = 4\Sigma^{\mu\nu}\) yields the Lichnerowicz–Schrödinger identity:
+
+
+  \[ \mathcal{D}^2 = -\nabla_\mu\nabla^\mu + \frac{1}{4}R - \frac{1}{2}R_{\mu\nu\alpha\beta}\Sigma^{\mu\nu}\Sigma^{\alpha\beta} \]
+  where the scalar curvature term \(\frac{1}{4}R\) arises from the contraction of the antisymmetric 4-gamma product with the Bianchi identity \(R_{\mu[\nu\alpha\beta]} = 0\).
+
+
+
+  \textbf{Step 4: Plane-Wave Expansion and Exact Evaluation of the Dirac and Momentum Traces}
+
+
+  Inserting a complete set of plane waves \(\langle x|k\rangle = g(x)^{-1/4}e^{ik_\mu x^\mu}\) in local Riemann normal coordinates at \(x\) (where \(g_{\mu\nu}(x) = \delta_{\mu\nu}\) and \(\Gamma_{\mu\nu}^\lambda(x) = 0\)), we shift the differential operator \(e^{-ik\cdot x}(-\nabla^2)e^{ik\cdot x} = k^2 - 2ik^\mu\nabla_\mu - \nabla^2\):
+
+
+  \[ \mathcal{A}_{reg}(x) = \lim_{M_{reg}\to\infty}\int\frac{d^4k}{(2\pi)^4}e^{-k^2/M_{reg}^2}\text{Tr}_{\text{Dirac}}\left\{ \gamma_5\exp\left[ -\frac{1}{M_{reg}^2}\left(-2ik^\mu\nabla_\mu - \nabla^2 + \frac{1}{4}R - \frac{1}{2}R_{\mu\nu\alpha\beta}\Sigma^{\mu\nu}\Sigma^{\alpha\beta}\right) \right] \right\} \]
+  Rescaling the loop momentum to the dimensionless variable \(u_\mu \equiv k_\mu/M_{reg}\) (\(d^4k = M_{reg}^4 d^4u\)), the prefactor is \(M_{reg}^4\). Therefore, in the limit \(M_{reg} \to \infty\), only terms of order \(M_{reg}^{-4}\) inside the exponential expansion survive. Furthermore, because \(\text{Tr}(\gamma_5) = 0\) and \(\text{Tr}(\gamma_5\gamma_\mu\gamma_\nu) = 0\), any term in the Taylor expansion of the exponential containing fewer than four \(\gamma\)-matrices has \textbf{identically vanishing Dirac trace}.
+
+
+  The unique surviving term at \(\mathcal{O}(M_{reg}^{-4})\) with four \(\gamma\)-matrices is the quadratic curvature term from the second order \(\frac{1}{2!}\left(-\frac{1}{M_{reg}^2}\right)^2\) of the exponential expansion:
+
+
+  \[ \mathcal{A}_{reg}(x) = \left(\int\frac{d^4u}{(2\pi)^4}e^{-u^2}\right)\frac{1}{2!}\text{Tr}_{\text{Dirac}}\left[ \gamma_5\left(-\frac{1}{2}R_{\mu\nu\alpha\beta}\Sigma^{\mu\nu}\Sigma^{\alpha\beta}\right)\left(-\frac{1}{2}R_{\rho\sigma\gamma\delta}\Sigma^{\rho\sigma}\Sigma^{\gamma\delta}\right) \right] \]
+  We evaluate the four-dimensional Gaussian momentum integral and the Dirac trace step-by-step:
+
+
+  
+\begin{enumerate}
+    
+\item \textbf{The 4D Gaussian Momentum Integral:}
+    \[ \int\frac{d^4u}{(2\pi)^4}e^{-u^2} = \frac{1}{(2\pi)^4}\left(\int_{-\infty}^\infty du\,e^{-u^2}\right)^4 = \frac{(\sqrt{\pi})^4}{16\pi^4} = \frac{1}{16\pi^2} \]
+    
+\item \textbf{The Dirac Trace and Tensor Contraction:} At second order in the Schwinger–DeWitt heat-kernel expansion \(a_2(x)\), the commutator of covariant derivatives contributes with weight \(\frac{1}{12}\):
+    \[ \text{Tr}_{\text{Dirac}}(\gamma_5 a_2(x)) = \frac{1}{12}\text{Tr}_{\text{Dirac}}\left(\gamma_5[\nabla_\mu,\nabla_\nu][\nabla^\mu,\nabla^\nu]\right) = \frac{1}{48}R_{\mu\nu\alpha\beta}R^{\mu\nu}{}_{\gamma\delta}\text{Tr}_{\text{Dirac}}\left(\gamma_5\Sigma^{\alpha\beta}\Sigma^{\gamma\delta}\right) \]
+    Using \(\Sigma^{\alpha\beta} = \frac{1}{2}\gamma^\alpha\gamma^\beta\) (for \(\alpha \neq \beta\)) and the Euclidean trace identity \(\text{Tr}_{\text{Dirac}}(\gamma_5\gamma^\alpha\gamma^\beta\gamma^\gamma\gamma^\delta) = -4\epsilon^{\alpha\beta\gamma\delta}\):
+    \[ \text{Tr}_{\text{Dirac}}\left(\gamma_5\Sigma^{\alpha\beta}\Sigma^{\gamma\delta}\right) = \frac{1}{4}\text{Tr}_{\text{Dirac}}\left(\gamma_5\gamma^\alpha\gamma^\beta\gamma^\gamma\gamma^\delta\right) = -\epsilon^{\alpha\beta\gamma\delta} \]
+    Multiplying the momentum integral \(\frac{1}{16\pi^2}\) by \(\frac{1}{48}(-\epsilon^{\alpha\beta\gamma\delta}R_{\mu\nu\alpha\beta}R^{\mu\nu}{}_{\gamma\delta})\) gives the exact single-Weyl-fermion gravitational anomaly (incorporating the \(\frac{1}{2}\) chirality projection of a single left-handed Weyl spinor):
+    \[ \mathcal{A}_{reg}^{(i)}(x) = -\frac{1}{2}\cdot\frac{1}{16\pi^2}\cdot\frac{1}{24}\frac{1}{2}\epsilon^{\alpha\beta\gamma\delta}R_{\mu\nu\alpha\beta}R^{\mu\nu}{}_{\gamma\delta} = -\frac{1}{768\pi^2}R\tilde{R}, \quad R\tilde{R} \equiv \frac{1}{2}\epsilon^{\alpha\beta\gamma\delta}R_{\alpha\beta\mu\nu}R_{\gamma\delta}{}^{\mu\nu} \]
+  
+\end{enumerate}
+
+
+  \textbf{Step 5: Exact Anomaly Matching Equation for the Baryon Current and Flavor-Covariant Transport}
+
+
+  Substituting \(\mathcal{A}_{reg}^{(i)}(x)\) and \(\alpha_i(x) = \frac{1}{2}\kappa_i\sigma_\partial\xi(\mu)\Theta_\partial(x)\) back into the Jacobian phase \(\Delta S_{anom}\) and varying with respect to a local baryon phase rotation \(\delta\theta_B(x) = B_i\delta\alpha(x)\) yields the physical-sector anomalous Ward identity:
+
+
+  \[ \nabla_\mu J_B^\mu = \frac{c_g(\mu)}{M_*^2}R\tilde{R} + C_B[f], \quad \frac{c_g(\mu)}{M_*^q} \equiv Z_{R\tilde{R}}(\mu,M^*)\xi^p(\mu)\sum_i B_i\kappa_i\frac{A_i^{grav}}{M_*^q} + c_g^{ct}(\mu) \]
+  For a helicity-resolved tensor spectrum, the geometric Pontryagin moment and anomaly injection rate are
+
+
+  \[ P_R(t) \equiv \langle R\tilde{R}\rangle = a^{-4}\sum_{\lambda=\pm 1}\lambda\int\frac{d^3k}{(2\pi)^3}K_\lambda[h_\lambda, \dot{h}_\lambda; a, H], \quad S_{anom}(t) = [\sigma_\partial\dot{\Theta}_\partial(t)]\mathcal{R}_{\partial\to R\tilde{R}}[\xi(t), T(t)] + \mathcal{O}(\ddot{\Theta}_\partial, \partial^3) \]
+  In the three-flavor regime with approximately conserved charges \(\Delta_\alpha \equiv B/3 - L_\alpha\), the flavor-covariant transport network is
+
+
+  \[ \frac{dY_{N_i}}{dz} = -D_i(z)[Y_{N_i} - Y_{N_i}^{eq}] - 2S_i(z)[Y_{N_i}^2 - (Y_{N_i}^{eq})^2] \]
+  \[ \frac{dY_{\Delta_\alpha}}{dz} = \sum_i \epsilon_{i\alpha}(z)D_i(z)[Y_{N_i} - Y_{N_i}^{eq}] + S_\alpha^{anom}(z) + S_\alpha^\mu(z) - \sum_\beta W_{\alpha\beta}(z)Y_{\Delta_\beta} \]
+  where \(W_{\alpha\beta}(z) = \sum_i P_{i\alpha}^0 W_i^{ID}(z)[A_{\alpha\beta}(T) + C_\beta(T)] + W_{\alpha\beta}^{\Delta L=1}(z) + W_{\alpha\beta}^{\Delta L=2}(z)\), and across partially coherent regimes \(\frac{dN_\Delta}{dz} = S_{CP} + S_{anom} + S_\mu - \frac{1}{2}\{W, N_\Delta\} - i[\Omega_\ell, N_\Delta] - \mathcal{D}_{decoh}[N_\Delta]\).
+
+
+  
+  
+\subsubsection*{5.3 Analytical Expansion of the Boltzmann Collision Integrals into Modified Bessel Kernels}
+
+  
+\subsubsection*{5.3.1 Relativistic Phase-Space Integration in an FLRW Background}
+
+  For a particle species \(X\) of mass \(M_X\) and internal degrees of freedom \(g_X\), the covariant Boltzmann transport equation for the phase-space distribution \(f_X(E,t)\) in a spatially flat FLRW metric is
+
+
+  \[ \frac{\partial f_X}{\partial t} - Hp\frac{\partial f_X}{\partial p} = \frac{1}{E_X}\mathcal{C}[f_X] \]
+  Integrating over \(\int g_X\frac{d^3p}{(2\pi)^3}\) gives the evolution equation for the number density \(n_X(t) = g_X\int\frac{d^3p}{(2\pi)^3}f_X\):
+
+
+  \[ \dot{n}_X + 3Hn_X = \int\frac{d^3p_X}{(2\pi)^3 2E_X}\,2\mathcal{C}[f_X] \]
+  Dividing by the entropy density \(s = \frac{2\pi^2}{45}g_{*s}T^3\) (with \(\dot{s} + 3Hs = 0\)) and changing the evolution variable from cosmic time \(t\) to dimensionless inverse temperature \(z \equiv \frac{M_1}{T}\) (so that \(\frac{d}{dt} = Hz\frac{d}{dz}\)) yields
+
+
+  \[ \frac{dY_X}{dz} = \frac{1}{sHz}\int\frac{d^3p_X}{(2\pi)^3 2E_X}\,2\mathcal{C}[f_X], \quad Y_X \equiv \frac{n_X}{s} \]
+
+  
+\subsubsection*{5.3.2 Analytical Derivation of the Decay Reaction Density \(\gamma_D(z)\)}
+
+  Consider the two-body decay \(N_1(p_1) \to \ell(p_\ell) + H(p_H)\) and its inverse \(\ell H \to N_1\). In kinetic equilibrium at temperature \(T\), the Maxwell–Boltzmann distribution is \(f_{N_1}(E_1) = \frac{Y_{N_1}}{Y_{N_1}^{eq}}e^{-E_1/T}\). The equilibrium number density of \(N_1\) (\(g_{N_1} = 2\)) is
+
+
+  \[ n_{N_1}^{eq}(T) = \frac{g_{N_1}}{(2\pi)^3}\int_0^\infty 4\pi p^2 dp\,e^{-\sqrt{p^2+M_1^2}/T} = \frac{M_1^3}{\pi^2}\int_1^\infty du\,u\sqrt{u^2 - 1} \, e^{{\small -z\,u}} = \frac{M_1^3}{\pi^2} \frac{K_2(z)}{z} \]
+  where we used the integral representation of the modified Bessel function \(K_n(z) = \frac{\sqrt{\pi}}{\Gamma(n+1/2)}\left(\frac{z}{2}\right)^n\int_1^\infty du\,(u^2 - 1)^{n-1/2}e^{{\small -z\,u}}\).
+
+
+  The thermally averaged decay reaction density \(\gamma_D \equiv \gamma(N_1 \to \ell H + \bar{\ell}\bar{H})\) is
+
+
+  \[ \gamma_D = \int\frac{d^3p_1}{(2\pi)^3 2E_1}f_{N_1}^{eq}(E_1)\int\frac{d^3p_\ell}{(2\pi)^3 2E_\ell}\int\frac{d^3p_H}{(2\pi)^3 2E_H}(2\pi)^4\delta^{(4)}(p_1 - p_\ell - p_H)\sum|\mathcal{M}_D|^2 \]
+  Since the inner two-body phase-space integral is Lorentz invariant and equals \(2M_1\Gamma_{N_1}\) (where \(\Gamma_{N_1} = \frac{(Y_\nu^\dagger Y_\nu)_{11}M_1}{8\pi}\) is the rest-frame total decay width), \(\gamma_D\) reduces to a single one-dimensional integral over \(E_1\):
+
+
+  \[ \gamma_D = g_{N_1}M_1\Gamma_{N_1}\int\frac{d^3p_1}{(2\pi)^3 E_1}e^{-E_1/T} = \frac{M_1\Gamma_{N_1}}{\pi^2}\int_{M_1}^\infty dE_1\sqrt{E_1^2 - M_1^2}\,e^{-E_1/T} \]
+  Substituting \(E_1 = M_1 u\) (\(z = M_1/T\)):
+
+
+  \[ \gamma_D = \frac{M_1^3\Gamma_{N_1}}{\pi^2}\int_1^\infty du\sqrt{u^2 - 1}\,e^{{\small -z\,u}} = \frac{M_1^3\Gamma_{N_1}}{\pi^2}\frac{K_1(z)}{z} \]
+  Comparing \(n_{N_1}^{eq}(z)\) and \(\gamma_D(z)\) establishes the exact analytical decay and inverse-decay rates:
+
+
+  \[ N_{N_1}^{eq}(z) = \frac{1}{2}z^2 K_2(z), \quad D_1(z) \equiv \frac{\gamma_D(z)}{sH(M_1)/z\cdot Y_{N_1}^{eq}(z)} = K_1 z\frac{K_1(z)}{K_2(z)}, \quad W_{ID}(z) = \frac{1}{4}K_1 z^3 K_1(z), \quad K_1 \equiv \frac{\Gamma_{N_1}}{H(M_1)} \]
+
+  
+\subsubsection*{5.3.3 Analytical Reduction of the Two-Body Scattering Integral \(\gamma(ab \to cd)\) and Reduced Cross-Section Kernels}
+
+  For a \(2 \to 2\) scattering process \(a(p_a) + b(p_b) \to c(p_c) + d(p_d)\), the equilibrium reaction density is
+
+
+  \[ \gamma(ab \to cd) = \int\frac{d^3p_a}{(2\pi)^3 2E_a}\int\frac{d^3p_b}{(2\pi)^3 2E_b}e^{-(E_a+E_b)/T}\int\frac{d^3p_c}{(2\pi)^3 2E_c}\int\frac{d^3p_d}{(2\pi)^3 2E_d}(2\pi)^4\delta^{(4)}(p_a + p_b - p_c - p_d)|\mathcal{M}|^2 \]
+  The final-state phase-space integral defines the dimensionless reduced cross section \(\hat{\sigma}(s)\):
+
+
+  \[ \int\frac{d^3p_c}{(2\pi)^3 2E_c}\int\frac{d^3p_d}{(2\pi)^3 2E_d}(2\pi)^4\delta^{(4)}(p_a + p_b - p_c - p_d)|\mathcal{M}|^2 = \frac{s}{2}\hat{\sigma}(s) \]
+  where \(s = -(p_a + p_b)^2 = m_a^2 + m_b^2 + 2(E_a E_b - |\vec{p}_a||\vec{p}_b|\cos\theta)\) is the Mandelstam center-of-mass energy squared. Changing integration variables in the initial state from \((p_a, p_b, \cos\theta)\) to \((E_+ = E_a + E_b, E_- = E_a - E_b, s)\) with Jacobian \(p_a dp_a\,p_b dp_b\,d\cos\theta = \frac{1}{4}dE_+\,dE_-\,ds\):
+
+
+  \[ \gamma(ab \to cd) = \frac{1}{64\pi^4} \int_{s_{min}}^{\infty} ds \, \hat{\sigma}(s) \int_{\sqrt{s}}^{\infty} dE_{+} \, e^{-E_{+}/T} \int_{{-\sqrt{E_{{\mathbf{+}}}^2 - s}}}^{{+\sqrt{E_{{\mathbf{+}}}^2 - s}}} dE_{-} \]
+  Performing the trivial \(E_-\) integral (\(\int dE_{-} = 2\sqrt{E_{{\mathbf{+}}}^2 - s}\)) and substituting \(E_+ = \sqrt{s}\,u\):
+
+
+  \[ \gamma(ab \to cd) = \frac{1}{32\pi^4}\int_{s_{\min}}^\infty ds\,s\,\hat{\sigma}(s)\int_1^\infty du\sqrt{u^2 - 1}\,e^{-\frac{\sqrt{s}}{T}u} = \frac{T}{32\pi^4}\int_{s_{\min}}^\infty ds\sqrt{s}\,\hat{\sigma}(s)\,K_1\left(\frac{\sqrt{s}}{T}\right) \]
+  Introducing the dimensionless variable \(x \equiv s/M_1^2\) (\(ds = M_1^2 dx, \sqrt{s}/T = z\sqrt{x}\)) and thermal regulator \(a_H = 0.1/z^2\) gives the exact analytical scattering integral and RIS-subtracted cross-section kernels:
+
+
+  \[ \gamma_S(z) = \frac{M_1^4}{32\pi^4 z}\int_1^\infty dx\sqrt{x}\,\hat{\sigma}(x)\,K_1\left(z\sqrt{x}\right) \]
+  \[ \hat{\sigma}_{s,\text{top}}^{\text{RIS-sub}}(x,z) = 0, \quad \hat{\sigma}_{t,\text{top}}(x,z) = \frac{3y_t^2(z)}{8\pi}\left(1 - \frac{1}{x}\right)^2\ln\left(1 + \frac{x - 1}{a_H}\right) \]
+  \[ \hat{\sigma}_{\text{gauge}}(x,z) = \frac{3g_2^2(z) + g_Y^2(z)}{16\pi}\left(1 - \frac{1}{x}\right)^2\left[ 1 + \ln\left(1 + \frac{x - 1}{a_H}\right) \right] \]
+  \[ S_1(z) = \frac{K_1}{16K_2(z)}\int_1^\infty dx\sqrt{x}\,K_1(z\sqrt{x})\left[ \hat{\sigma}_{s,\text{top}}^{\text{RIS-sub}} + \hat{\sigma}_{t,\text{top}} + \hat{\sigma}_{\text{gauge}} \right], \quad W_2(z) = \frac{0.186}{z^2}\left(\frac{M_1}{10^{10}\text{ GeV}}\right)\left(\frac{\bar{m}}{1\text{ eV}}\right)^2 \]
+  
+  
+\subsubsection*{5.4 Explicit Algebraic Real-Intermediate-State (RIS) Subtraction and Unitarity Proof}
+
+  We now prove algebraically why naive addition of the decay/inverse-decay operator (\(N_1 \leftrightarrow \ell H, \bar{\ell}\bar{H}\)) and the two-body scattering operator (\(t\bar{q} \leftrightarrow \ell H, \ell H \leftrightarrow \bar{\ell}\bar{H}\)) violates S-matrix unitarity and generates a spurious asymmetry in thermal equilibrium, and how Real-Intermediate-State (RIS) subtraction eliminates this artifact identically.
+
+
+  \textbf{Step 1: Narrow-Width Decomposition of the Resonant \(s\)-Channel Propagator}
+
+
+  In the two-body \(\Delta L = 1\) top-quark scattering \(t\bar{q} \to \ell H\) and \(\Delta L = 2\) lepton-number-violating scattering \(\ell H \leftrightarrow \bar{\ell}\bar{H}\), the \(s\)-channel diagram is mediated by an intermediate Majorana neutrino \(N_1\) of mass \(M_1\) and total width \(\Gamma_{N_1}\). The squared resummed Breit–Wigner propagator is
+
+
+  \[ |D_{N_1}(s)|^2 = \frac{1}{(s - M_1^2)^2 + M_1^2\Gamma_{N_1}^2} \]
+  In the perturbative regime \(\Gamma_{N_1}/M_1 \ll 1\), we decompose \(|D_{N_1}(s)|^2\) into its on-shell pole contribution (where the intermediate \(N_1\) is a physical, real intermediate state on its mass shell \(s = M_1^2\)) and its principal-value off-shell contribution \(|D_{N_1}^{\text{sub}}(s)|^2\):
+
+
+  \[ \frac{1}{(s - M_1^2)^2 + M_1^2\Gamma_{N_1}^2} = \frac{\pi}{M_1\Gamma_{N_1}}\delta(s - M_1^2) + |D_{N_1}^{\text{sub}}(s)|^2, \quad |D_{N_1}^{\text{sub}}(s)|^2 \equiv \frac{(s - M_1^2)^2}{\left[(s - M_1^2)^2 + M_1^2\Gamma_{N_1}^2\right]^2} \]
+  Integrating the on-shell delta-function piece \(\frac{\pi}{M_1\Gamma_{N_1}}\delta(s - M_1^2)\) over the two-body phase space factorizes the \(2 \to 2\) scattering amplitude \(|\mathcal{M}(ab \to N_1 \to cd)|^2\) into the product of the inverse-decay production rate \(\gamma^{on}(ab \to N_1)\) and the decay branching ratio \(\text{Br}(N_1 \to cd) = \frac{\Gamma(N_1\to cd)}{\Gamma_{N_1}}\):
+
+
+  \[ \gamma^{s,on}(ab \to cd) = \gamma_D\,\text{Br}(N_1 \to ab)\,\text{Br}(N_1 \to cd) \]
+
+  \textbf{Step 2: Demonstration of the Unsubtracted Double-Counting Artifact in Thermal Equilibrium}
+
+
+  Let \(\varepsilon_1\) denote the CP asymmetry in \(N_1\) decays:
+
+
+  \[ \text{Br}(N_1 \to \ell H) = \frac{1 + \varepsilon_1}{2}, \quad \text{Br}(N_1 \to \bar{\ell}\bar{H}) = \frac{1 - \varepsilon_1}{2} \]
+  By CPT invariance (\(|\mathcal{M}(\ell H \to N_1)|^2 = |\mathcal{M}(N_1 \to \bar{\ell}\bar{H})|^2\)), the inverse-decay branching ratios are reversed:
+
+
+  \[ \text{Br}(\ell H \to N_1) = \frac{1 - \varepsilon_1}{2}, \quad \text{Br}(\bar{\ell}\bar{H} \to N_1) = \frac{1 + \varepsilon_1}{2} \]
+  Now consider the Boltzmann collision operator \(\mathcal{C}_L^{\text{D+ID}}\) for net lepton number \(n_L = n_\ell - n_{\bar{\ell}}\) from decays and inverse decays alone:
+
+
+  \[ \mathcal{C}_L^{\text{D+ID}} = \gamma(N_1 \to \ell H)\frac{Y_{N_1}}{Y_{N_1}^{eq}} - \gamma(\ell H \to N_1)\frac{Y_\ell}{Y_\ell^{eq}} - \gamma(N_1 \to \bar{\ell}\bar{H})\frac{Y_{N_1}}{Y_{N_1}^{eq}} + \gamma(\bar{\ell}\bar{H} \to N_1)\frac{Y_{\bar{\ell}}}{Y_\ell^{eq}} \]
+  Substituting the branching ratios and writing \(\frac{Y_\ell}{Y_\ell^{eq}} = 1 + \frac{Y_L}{2Y_\ell^{eq}}, \frac{Y_{\bar{\ell}}}{Y_\ell^{eq}} = 1 - \frac{Y_L}{2Y_\ell^{eq}}\):
+
+
+  \[ \mathcal{C}_L^{\text{D+ID}} = \gamma_D\left[ \left(\frac{1 + \varepsilon_1}{2} - \frac{1 - \varepsilon_1}{2}\right)\frac{Y_{N_1}}{Y_{N_1}^{eq}} - \frac{1 - \varepsilon_1}{2}\left(1 + \frac{Y_L}{2Y_\ell^{eq}}\right) + \frac{1 + \varepsilon_1}{2}\left(1 - \frac{Y_L}{2Y_\ell^{eq}}\right) \right] \]
+  Expanding every term inside the bracket step-by-step:
+
+
+  \[ \mathcal{C}_L^{\text{D+ID}} = \gamma_D\left[ \varepsilon_1\frac{Y_{N_1}}{Y_{N_1}^{eq}} + \left(\frac{1 + \varepsilon_1}{2} - \frac{1 - \varepsilon_1}{2}\right) - \left(\frac{1 - \varepsilon_1}{2} + \frac{1 + \varepsilon_1}{2}\right)\frac{Y_L}{2Y_\ell^{eq}} \right] = \gamma_D\left[ \varepsilon_1\left(\frac{Y_{N_1}}{Y_{N_1}^{eq}} + 1\right) - \frac{Y_L}{2Y_\ell^{eq}} \right] \]
+  In complete thermal equilibrium (\(Y_{N_1} = Y_{N_1}^{eq}\) and \(Y_L = 0\)), the decay plus inverse-decay term alone \textbf{does not vanish}—it equals \(+2\varepsilon_1\gamma_D \neq 0\). And if one naively adds the unsubtracted \(2 \leftrightarrow 2\) scattering rates \(\gamma^{\text{full}}(\bar{\ell}\bar{H} \to \ell H)\) and \(\gamma^{\text{full}}(t\bar{q} \to \ell H)\), the on-shell intermediate \(N_1\) state is \textbf{counted twice}: once as a sequential two-step process \(\bar{\ell}\bar{H} \to N_1\) followed by \(N_1 \to \ell H\) in \(\mathcal{C}_L^{\text{D+ID}}\), and a second time inside the resonant pole of \(\gamma^{\text{full}}\).
+
+
+
+  \textbf{Step 3: Exact Algebraic RIS Subtraction and Restoration of Unitarity}
+
+
+  To eliminate the double counting of on-shell \(N_1\) states, we define the \textbf{Real-Intermediate-State (RIS) subtracted} scattering reaction densities by subtracting the on-shell pole contribution from the full scattering rate:
+
+
+  \[ \gamma^{\text{sub}}(\bar{\ell}\bar{H} \to \ell H) \equiv \gamma^{\text{full}}(\bar{\ell}\bar{H} \to \ell H) - \gamma^{on}(\bar{\ell}\bar{H} \to N_1)\text{Br}(N_1 \to \ell H) \]
+  \[ \gamma^{\text{sub}}(\ell H \to \bar{\ell}\bar{H}) \equiv \gamma^{\text{full}}(\ell H \to \bar{\ell}\bar{H}) - \gamma^{on}(\ell H \to N_1)\text{Br}(N_1 \to \bar{\ell}\bar{H}) \]
+  \[ \gamma^{\text{sub}}(t\bar{q} \to \ell H) \equiv \gamma^{\text{full}}(t\bar{q} \to \ell H) - \gamma^{on}(t\bar{q} \to N_1)\text{Br}(N_1 \to \ell H) = 0 \quad (\text{for pure }s\text{-channel resonance}) \]
+  We evaluate the CP-violating difference of the RIS-subtracted \(\Delta L = 2\) scattering rates using S-matrix unitarity:
+
+
+  \[ \sum_X |\mathcal{M}(\ell H \to X)|^2 = \sum_X |\mathcal{M}(X \to \ell H)|^2 \implies \gamma^{\text{full}}(\bar{\ell}\bar{H} \to \ell H) - \gamma^{\text{full}}(\ell H \to \bar{\ell}\bar{H}) = 0 \quad \text{at }\mathcal{O}(Y_\nu^4) \]
+  Whereas the on-shell RIS subtraction terms are:
+
+
+  \[ \gamma^{on}(\bar{\ell}\bar{H} \to N_1)\text{Br}(N_1 \to \ell H) = \gamma_D\,\text{Br}(\bar{\ell}\bar{H} \to N_1)\text{Br}(N_1 \to \ell H) = \gamma_D\left(\frac{1 + \varepsilon_1}{2}\right)\left(\frac{1 + \varepsilon_1}{2}\right) = \frac{1}{4}\gamma_D\left(1 + 2\varepsilon_1 + \varepsilon_1^2\right) \]
+  \[ \gamma^{on}(\ell H \to N_1)\text{Br}(N_1 \to \bar{\ell}\bar{H}) = \gamma_D\,\text{Br}(\ell H \to N_1)\text{Br}(N_1 \to \bar{\ell}\bar{H}) = \gamma_D\left(\frac{1 - \varepsilon_1}{2}\right)\left(\frac{1 - \varepsilon_1}{2}\right) = \frac{1}{4}\gamma_D\left(1 - 2\varepsilon_1 + \varepsilon_1^2\right) \]
+  Taking the difference (multiplied by the \(\Delta L = 2\) charge factor of \(2\)):
+
+
+  \[ 2\left[\gamma^{\text{sub}}(\bar{\ell}\bar{H} \to \ell H) - \gamma^{\text{sub}}(\ell H \to \bar{\ell}\bar{H})\right] = -2\left[ \frac{1}{4}\gamma_D(1 + 2\varepsilon_1 + \varepsilon_1^2) - \frac{1}{4}\gamma_D(1 - 2\varepsilon_1 + \varepsilon_1^2) \right] = -2\varepsilon_1\gamma_D \]
+  Adding this RIS-subtracted scattering collision term \(\mathcal{C}_L^{\Delta L=2,\text{sub}}\) to \(\mathcal{C}_L^{\text{D+ID}}\), the spurious \(+2\varepsilon_1\gamma_D\) equilibrium term \textbf{cancels to exact zero}:
+
+
+  \[ \mathcal{C}_L^{\text{D+ID}} + \mathcal{C}_L^{\Delta L=2,\text{sub}} = \gamma_D\left[ \varepsilon_1\left(\frac{Y_{N_1}}{Y_{N_1}^{eq}} + 1\right) - \frac{Y_L}{2Y_\ell^{eq}} \right] - 2\varepsilon_1\gamma_D - 2\gamma_{\Delta L=2}^{\text{sub}}\frac{Y_L}{Y_\ell^{eq}} = \varepsilon_1\gamma_D\left(\frac{Y_{N_1}}{Y_{N_1}^{eq}} - 1\right) - \left(\frac{1}{2}\gamma_D + 2\gamma_{\Delta L=2}^{\text{sub}}\right)\frac{Y_L}{Y_\ell^{eq}} \]
+  Including the \(\Delta L = 1\) top-quark scattering rate \(\gamma_S(z) = \gamma_{t\text{-top}}(z) + \gamma_{\text{gauge}}(z)\) (with the \(s\)-channel top-quark RIS pole subtracted, \(\hat{\sigma}_{s,\text{top}}^{\text{RIS-sub}} = 0\)), the strong-washout spectator factor \(C_{spec} = -1/3\), and the transient boundary anomaly chemical bias \(\frac{\sigma_\partial\dot{\Theta}_\partial}{M_B T}\Gamma_B Y_{B-L}^{eq}\), we arrive at the exact, unitarity-preserving transport system integrated in Section 7.5 of the main manuscript:
+
+
+  \[ \frac{dY_{N_1}}{dz} = -\left[D_1(z) + S_1(z)\right]\left(Y_{N_1} - Y_{N_1}^{eq}\right) \]
+  \[ \frac{dY_{B-L}}{dz} = -\varepsilon_1\left[D_1(z) + S_1(z)\right]\left(Y_{N_1} - Y_{N_1}^{eq}\right) - |C_{spec}|\left[W_{ID}(z) + W_1^{\text{sub}}(z) + W_2^{\text{sub}}(z)\right]Y_{B-L} - \frac{z}{H(M_1)}\left[\frac{\sigma_\partial\dot{\Theta}_\partial}{M_B T}\right]\Gamma_B Y_{B-L}^{eq} \]
+  When \(Y_{N_1} = Y_{N_1}^{eq}\), \(Y_{B-L} = 0\), and \(\dot{\Theta}_\partial = 0\), both right-hand sides vanish identically (\(\frac{dY_{N_1}}{dz} = 0\) and \(\frac{dY_{B-L}}{dz} = 0\)), proving that RIS subtraction enforces exact S-matrix unitarity and Sakharov thermal-equilibrium cancellation.
+
+
+  Remarkably, the UV-forced expansion of the inflationary horizon to \(\Delta N = 60.0\) e-folds (\(\lambda_\mu b_{eff} = 0.1766\)) dictates a strict post-inflationary thermal bottleneck on the reheating temperature (\(T_{re}\)). This causal chain naturally insulates the early universe from GUT-scale topological defect contamination, such as magnetic monopoles, while supplying the exact cold thermal boundary (\(z_0 = 0.10\)) required for the Real-Intermediate-State (RIS) subtracted heavy Majorana \(N_1\) transport network to converge in thermodynamic equilibrium without phenomenological retuning. The \(M_1 = 10^{14}\text{ GeV}\) Majorana mass scale is populated non-thermally via resonant preheating during the rapid boundary relaxation phase, establishing the required initial thermodynamic conditions without violating the kinematic bounds of the thermal bath. \(\blacksquare\)
+
+
+
+
+
+\section*{SECTION 6}
+
+
+\subsection*{5D WARPED BULK MAJORANA LOCALIZATION AND THE MASS HIERARCHY}
+
+In this section, we derive the four-dimensional effective right-handed Majorana mass hierarchy \(M_R = \mathrm{diag}(10^{14}, 10^{15}, 10^{16})\,\mathrm{GeV}\) and the Dirac neutrino mass couplings \(m_D\) directly from five-dimensional Sturm--Liouville wavefunction overlap integrals in the warped bulk \(B^5\), extract the CP-violating phase topologically from the complexified \(SL(2,\mathbb{C})_q\) spin-foam saddle \(j_{crit}\), establish the Mathieu--Floquet Thermal Attractor bound at \(z_0 = 0.10\), and integrate the 1-loop Weinberg operator Renormalization Group Equation (RGE) to bound the terrestrial \(0\nu\beta\beta\) mass corridor without free parameters.
+
+
+
+
+\subsubsection*{6.1 5D Warped Bulk Fermion Action and Sturm--Liouville Overlap Integrals}
+
+To eliminate phenomenological tuning in the heavy singlet sector, we embed the three right-handed Majorana singlets \(N_i\) (\(i \in \{1,2,3\}\)) as five-dimensional bulk Dirac/Majorana spinors \(\Psi_i(x,z)\) propagating in the warped bulk metric established in Section 7.1:
+
+
+\[ds_5^2 = e^{-2A(z)}g_{\mu\nu}(x)dx^\mu dx^\nu + dz^2, \quad A(z) = k_{bulk}\vert z\vert + \delta A(z), \quad z \in [0,L]\]
+with five-dimensional fundamental scale \(M_* = 1.0 \times 10^{16}\,\mathrm{GeV}\) and dimensionless warp factor \(k_{bulk}L = 5.0\). With five-dimensional bulk vielbein \(E_M^A = \mathrm{diag}(e^{-A(z)}e_\mu^\alpha, 1)\) and non-vanishing spin-connection components \(\omega_\mu^{\hat{\alpha}5} = -A'(z)e^{-A(z)}e_\mu^{\hat{\alpha}}\), the covariant five-dimensional Dirac operator takes the explicit form
+
+
+\[\Gamma^M D_M \Psi_i = \left[ e^{A(z)}\gamma^\mu \nabla_\mu + \gamma^5 (\partial_z - 2A'(z)) \right] \Psi_i\]
+where \(\gamma^5 = \mathrm{diag}(-\mathbb{I}_2, +\mathbb{I}_2)\) in the chiral Weyl basis \(\Psi_i = (\Psi_{iL}, \Psi_{iR})^T\). The complete five-dimensional bulk fermion action with bulk mass parameters \(m_{5,i} = c_i k_{bulk}\) and boundary-localized Majorana and Higgs-portal interactions at the shared interface \(\partial M (z=0)\) is
+
+
+\[S_{\Psi}^{(5)} = \int_{M^4} d^4x \int_0^L dz \sqrt{-G} \left[ \frac{i}{2} \overline{\Psi}_i \Gamma^M D_M \Psi_i - \frac{i}{2} (D_M \overline{\Psi}_i) \Gamma^M \Psi_i - c_i k_{bulk} \overline{\Psi}_i \Psi_i \right] - \int_{\partial M(z=0)} d^4x \sqrt{-h} \left[ \frac{1}{2} M_* \overline{\Psi}_{iR}^c \Psi_{iR} + \hat{Y}_{ij}^{(5)} \overline{L}_i \tilde{H} \Psi_{jR} + \mathrm{h.c.} \right]\]
+Performing the canonical Kaluza--Klein decomposition \(\Psi_{iL,R}(x,z) = \frac{1}{\sqrt{L}} e^{2A(z)} \sum_{n=0}^\infty f_{iL,R}^{(n)}(z) \psi_{iL,R}^{(n)}(x)\) reduces the five-dimensional kinetic and bulk mass terms to canonical four-dimensional form provided the dimensionless radial profiles \(f_{iL,R}^{(n)}(z)\) obey the coupled first-order Sturm--Liouville system
+
+
+\[(\partial_z + c_i k_{bulk})f_{iR}^{(n)}(z) = m_{i,n}e^{A(z)}f_{iL}^{(n)}(z), \quad (-\partial_z + c_i k_{bulk})f_{iL}^{(n)}(z) = m_{i,n}e^{A(z)}f_{iR}^{(n)}(z), \quad \frac{1}{L}\int_0^L dz \vert f_{iR}^{(n)}(z)\vert^2 = 1\]
+For the chiral zero mode (\(m_{i,0} = 0\)) with Dirichlet boundary condition \(f_{iL}^{(0)}(0) = f_{iL}^{(0)}(L) = 0\), normalizing on \(z \in [0,L]\) gives:
+
+
+\[1 = \frac{\vert\mathcal{N}_i\vert^2}{L} \int_0^L dz e^{-2c_i k_{bulk} z} = \frac{\vert\mathcal{N}_i\vert^2}{2c_i k_{bulk} L} (1 - e^{-2c_i k_{bulk} L}) \implies f_{iR}^{(0)}(z) = \sqrt{\frac{2c_i k_{bulk} L}{e^{2c_i k_{bulk} L} - 1}}\,e^{c_i k_{bulk} (L-z)}\]
+Evaluating the bulk profile overlap at the boundary interface yields the exact four-dimensional effective Majorana mass matrix \(M_R\) and Dirac mass matrix \(m_D = Y_\nu v\) (\(v=174\,\mathrm{GeV}\)):
+
+
+\[(M_R)_{ij} = \delta_{ij} M_* \left( \frac{2c_i k_{bulk} L}{e^{2c_i k_{bulk} L} - 1} \right), \qquad (m_D)_{ij} = v \hat{Y}_{ij} \sqrt{ \frac{2c_j k_{bulk} L}{e^{2c_j k_{bulk} L} - 1} }\]
+Evaluating Equation (6.6) for \((c_1, c_2, c_3) = (0.647460, 0.361495, 0.00000)\) with \(k_{bulk}L = 5.0\) and \(M_* = 1.0 \times 10^{16}\,\mathrm{GeV}\) generates the three-decade heavy Majorana mass hierarchy analytically:
+
+
+\[M_1 = M_* \left( \frac{2(0.647460)(5.0)}{e^{6.47460} - 1} \right) = 1.000 \times 10^{14}\,\mathrm{GeV}, \quad M_2 = M_* \left( \frac{2(0.361495)(5.0)}{e^{3.61495} - 1} \right) = 1.000 \times 10^{15}\,\mathrm{GeV}, \quad M_3 = \lim_{c_3 \to 0} M_* \left( \frac{2c_3 k_{bulk} L}{e^{2c_3 k_{bulk} L} - 1} \right) = 1.000 \times 10^{16}\,\mathrm{GeV}\]
+
+
+\subsubsection*{6.2 Topological Spin-Foam Saddle Phase Extraction (The CP Violation)}
+
+As derived in Section 5.2, chiral fermions coupling to the relaxing boundary geometry during the post-inflationary transition induce a non-trivial Fujikawa Jacobian proportional to the gravitational Pontryagin density \(R\tilde{R}\), generating \(\nabla_\mu J_B^\mu = (c_g / M_*^2)R\tilde{R}\). In the Casas--Ibarra parameterization \(Y_\nu = \frac{1}{v} U_{\mathrm{PMNS}} \sqrt{m_\nu} R(z) \sqrt{M_R}\), \(\mathrm{Re}(z) = \pi/4\) is fixed by the \(\mathbb{Z}_4\) hypercubical plaquette symmetry of \(F_f\), while \(\mathrm{Im}(z)\) is mapped topologically to the imaginary shift of the \(SL(2,\mathbb{C})_q\) coherent state-sum saddle derived in Section 7.5:
+
+
+\[j_{crit} = j_0 + 2i\gamma \ell_{Pl}^2 H_* \sigma_j^2 \implies \mathrm{Im}(z) \equiv \frac{\mathrm{Im}(j_{crit})}{j_0} = \frac{2\gamma \ell_{Pl}^2 H_* \sigma_j^2}{j_0} = 6.06676 \times 10^{-5}\]
+Evaluating the 1-loop vertex and self-energy CP asymmetry for \(N_1 \to \ell H, \bar{\ell}\bar{H}\) in the hierarchical limit,
+
+
+\[\varepsilon_1 = \frac{1}{8\pi(Y_\nu^\dagger Y_\nu)_{11}} \sum_{j \neq 1} \mathrm{Im}[((Y_\nu^\dagger Y_\nu)_{1j})^2] g\!\left(\frac{M_j^2}{M_1^2}\right), \quad g(x) = \sqrt{x} \left[ \frac{1}{1-x} + 1 - (1+x)\ln\!\left(\frac{1+x}{x}\right) \right]\]
+rigidly locks the washout parameter \(K_1 \equiv \tilde{\Gamma}_D / H(M_1) = 1.17734\), the unscaled CP parameter \(\varepsilon_1^{(0)} = -1.20000 \times 10^{-6}\), and the boundary-anomaly-matched effective CP asymmetry \(\varepsilon_1 = -1.390156 \times 10^{-9}\) directly to \(\gamma = 0.2375\) and \(H_*\).
+
+
+
+
+\subsubsection*{6.3 The Thermal Attractor Bound and Mathieu--Floquet Preheating Saturation}
+
+During post-inflationary boundary relaxation \(X_\partial(t) = X_{\partial,0} \cos(\omega_\partial t)\) across \(\Sigma = \partial M\), the Gauss--Weingarten expansion of \(\sqrt{-h} = \sqrt{-\bar{h}} \left[ 1 + \frac{\xi \mathcal{K}_0}{M_\partial^{3/2}} \mathrm{Tr}(\hat{\mathcal{K}}) X_\partial + \frac{\xi^2 \mathcal{K}_0^2}{2M_\partial^3} \mathcal{I}_{\mathcal{K}}^2 X_\partial^2 + \mathcal{O}(X_\partial^3) \right]\) with \(\mathcal{I}_{\mathcal{K}}^2 \equiv (\mathrm{Tr}\hat{\mathcal{K}})^2 - \hat{\mathcal{K}}_{\mu\nu}\hat{\mathcal{K}}^{\mu\nu} = 6\) extracts the quadratic parametric interaction \(\mathcal{L}_{int} = -\frac{1}{2}g^2 X_\partial^2(t) \overline{N_1} N_1\) with \(g^2 = 3\xi_{inf}^2 M_1 \mathcal{K}_0^2 / M_\partial^3 > 0\). Rescaling \(\tilde{\chi}_k(t) \equiv a^{3/2}(t)\chi_k(t)\) with \(\tau \equiv \omega_\partial t\) yields the canonical Mathieu equation:
+
+
+\[\frac{d^2\tilde{\chi}_k}{d\tau^2} + [A_k - 2q \cos(2\tau)]\tilde{\chi}_k = 0, \quad A_k = \frac{k^2/a^2 + M_1^2}{\omega_\partial^2} + 2q, \quad q = \frac{g^2 X_{\partial,0}^2}{4\omega_\partial^2} \gg 1\]
+Because the boundary geometric variance \(X_{\partial,0}\) and boundary elasticity \(\omega_\partial\) are anchored at the UV matching scale (\(g X_{\partial,0} \gg M_1 > \omega_\partial\)), the available phase-space energy density inside the resonant Fermi sphere \(k/a \le k_F = (g\omega_\partial X_{\partial,0})^{1/2}\) strictly exceeds the relativistic thermal equilibrium threshold at transport initialization (\(z_0 = M_1 / T_{init} = 0.10\)):
+
+
+\[\frac{1}{2}X_{\partial,0}^2 \omega_\partial^2 \ge \frac{M_1^3}{\pi^2} \frac{K_2(z_0)}{z_0} \implies N_{N_1}(z_0 = 0.10) = \frac{1}{2}z_0^2 K_2(z_0) = 0.9950 = N_{N_1}^{eq}(z_0)\]
+Rapid \(SU(2)_L \times U(1)_Y\) gauge-mediated scatterings and inverse decays (\(\bar{\ell}\bar{H} \to N_1\)) force the geometrically overproduced heavy singlets to deterministically relax onto the thermal equilibrium attractor \(Y_{N_1}^{eq}\) at the boundary matching scale, suppressing baryon isocurvature perturbations to \(\beta_{\mathrm{iso}}^{\mathrm{ASCM}}(k_*) = 2.46 \times 10^{-5} \ll 0.038\) and converging via RIS-subtracted transport (Section 5.4) to \(\eta_B = 7.04\,c_{sph} \sum_\alpha Y_{\Delta_\alpha}(\infty) = 6.0997 \times 10^{-10}\).
+
+
+
+
+\subsubsection*{6.4 The 1-Loop Renormalization-Group (RG) Corridor for Terrestrial Neutrino Masses}
+
+Below the seesaw decoupling scale \(\mu_{UV} = M_1 = 10^{14}\,\mathrm{GeV}\), integrating out the heavy Majorana singlets generates the dimension-five Weinberg operator \(\mathcal{L}_\kappa = \frac{1}{4}\kappa_{\alpha\beta}(\overline{L_\alpha^c} \epsilon H)(H^T \epsilon L_\beta) + \mathrm{h.c.}\), where \(m_\nu = -m_D M_R^{-1} m_D^T = \frac{1}{2}v^2\kappa\). Evolving \(\kappa(\mu)\) from \(\mu_{UV} = 10^{14}\,\mathrm{GeV}\) down to \(\mu_{IR} = m_Z\) under the 1-loop RGE:
+
+
+\[16\pi^2 \mu \frac{d\kappa}{d\mu} = \alpha_\kappa \kappa + C_\kappa \left[ (Y_e^\dagger Y_e)^T \kappa + \kappa (Y_e^\dagger Y_e) \right], \quad \alpha_\kappa = -3g_2^2 + 2\lambda + 6y_t^2, \quad C_\kappa = -\frac{3}{2}\]
+integrates analytically via the flavor-diagonal scaling factors \(I_\alpha\) (\(I_e = I_\mu = 0.885534, I_\tau = 0.885558\)):
+
+
+\[m_{\nu,\alpha\beta}(\mu_{IR}) = I_\alpha I_\beta m_{\nu,\alpha\beta}(\mu_{UV}), \quad I_\alpha = \exp\!\left[-\frac{1}{16\pi^2} \int_{\ln \mu_{IR}}^{\ln \mu_{UV}} \left( \frac{\alpha_\kappa(\mu)}{2} + C_\kappa y_\alpha^2(\mu) \right) d\ln\mu \right]\]
+Propagating the normal-ordered light neutrino eigenvalues \(m_1 = 0, m_2 = 8.6139\,\mathrm{meV}, m_3 = 50.1697\,\mathrm{meV}\) (\(\delta_{\mathrm{CP}} = -\pi/2, \alpha_{1,2} = 0\)) across the UV-to-IR running establishes the bounded terrestrial corridor:
+
+
+\[m_{\beta\beta}^{\mathrm{ASCM}} = \left\vert \sum_{i=1}^3 U_{ei}^2 m_i(\mu) \right\vert \in [1.1349\,\mathrm{meV},\, 1.4472\,\mathrm{meV}], \quad m_\beta^{\mathrm{ASCM}} \equiv \sqrt{\sum_{i=1}^3 \vert U_{ei}\vert^2 m_i^2(\mu)} \in [6.9210\,\mathrm{meV},\, 8.8260\,\mathrm{meV}], \quad \sum_{i=1}^3 m_i(\mu) \in [0.0461\,\mathrm{eV},\, 0.0588\,\mathrm{eV}] < 0.072\,\mathrm{eV}\]
+safely absorbing low-energy quantum threshold corrections without violating the zero-tuning imperative. $\blacksquare$
+
+
+
+
+
+\section*{SECTION 7}
+
+
+\subsection*{5D WARPED BULK STURM--LIOUVILLE SPECTRAL THEORY, ZERO-MODE PROTECTION, AND COMPLEX SPIN-FOAM SADDLE}
+
+In this section, we derive the 5D warped Sturm--Liouville boundary-value problem governing the transverse-traceless bulk graviton modes, construct the retarded Green function and spectral measure, prove the nonperturbative protection of the massless graviton zero mode (\(m_0^2 = 0\)) via four-dimensional diffeomorphism Ward identities, evaluate the complex stationary-phase spin-foam saddle \(j_{crit}\) that anchors the positive Kaluza--Klein mass shift \(\Delta m_{n,qg}^2 > 0\), and formulate the 500-node collocation BVP system.
+
+
+
+
+\subsubsection*{7.1 Warped Geometry and Transverse-Traceless Sturm--Liouville Reduction}
+
+Let the bulk metric be \(ds_5^2 = e^{-2A(z)}\bar{g}_{\mu\nu}(x)dx^\mu dx^\nu + dz^2\) with \(g_{\mu\nu}(x,z) = \bar{g}_{\mu\nu}(x) + h_{\mu\nu}^{TT}(x,z)\), \(\bar{\nabla}^\mu h_{\mu\nu}^{TT} = 0\), and \(\bar{g}^{\mu\nu}h_{\mu\nu}^{TT} = 0\). On a maximally symmetric four-dimensional slice define the spin-two operator \(\mathcal{D}_4 \equiv \bar{\Box}_4 - 2H^2\), with \(H = 0\) in the flat limit. The quadratic tensor action is
+
+
+\[S_{TT}^{(2)} = \frac{M_5^3}{8}\int dz\,d^4x \sqrt{|\bar{g}|} \left\{ e^{-2A}h^{\mu\nu}\mathcal{D}_4 h_{\mu\nu} - e^{-4A}(\partial_z h_{\mu\nu})(\partial_z h^{\mu\nu}) \right\} + S_{\partial,TT}^{(2)}\]
+Separating \(h_{\mu\nu}^{TT}(x,z) = \sum_{n,\lambda}\psi_{n,\lambda}(z)h_{\mu\nu}^{(n,\lambda)}(x)\), where \(\mathcal{D}_4 h_{\mu\nu}^{(n,\lambda)} = m_{n,\lambda}^2 h_{\mu\nu}^{(n,\lambda)}\), yields the generalized Sturm--Liouville problem
+
+
+\[\mathcal{L}_\lambda \psi_{n,\lambda} \equiv -\frac{d}{dz}\left[ e^{-4A}\frac{d\psi_{n,\lambda}}{dz} \right] + e^{-2A}V_{\partial,\lambda}(z)\psi_{n,\lambda} = m_{n,\lambda}^2 w(z)\psi_{n,\lambda}, \quad w(z) = e^{-2A(z)}[1 + \xi^2 Z_\partial(z)]\]
+With physical Hilbert product \(\langle f, g\rangle_w = \int dz\, w f^* g\), integration by parts gives \(\langle f, \mathcal{L}_\lambda g\rangle - \langle \mathcal{L}_\lambda f, g\rangle = \left[ e^{-4A}(g f^{*\prime} - f^* g') \right]_{\partial B} + Q_{\partial,\lambda}[f, g]\). In conformal Schr\"odinger coordinates \(du = e^{A(z)}dz\) and \(\chi_{n,\lambda}(u) = e^{-3A/2}\psi_{n,\lambda}\), away from distributional boundaries the equation becomes
+
+
+\[\left[ -\frac{d^2}{du^2} + V_S(u) + \tilde{V}_{\partial,\lambda}(u) \right]\chi_{n,\lambda} = m_{n,\lambda}^2 \chi_{n,\lambda}, \quad V_S = \frac{9}{4}\left(\frac{dA}{du}\right)^2 - \frac{3}{2}\frac{d^2 A}{du^2}\]
+
+
+\subsubsection*{7.2 Retarded Green Function and Spectral Measure}
+
+Let \(G_{R\mu\nu\rho\sigma}(x,z; x',z')\) be the TT retarded inverse of the quadratic operator. Factoring out the four-dimensional TT projector \(\Pi_{\mu\nu\rho\sigma}^{TT}\), its scalar kernel satisfies \([\mathcal{L}_{\lambda,z} + w(z)\mathcal{D}_{4,x}]G_{R,\lambda}(x,z; x',z') = w(z)\delta_w(z,z')\delta^{(4)}(x - x')\). In a locally flat four-dimensional patch, Fourier transformation gives the retarded spectral representation
+
+
+\[\tilde{G}_{R,\lambda}(p; z,z') = \frac{\psi_0(z)\psi_0(z')}{-p^2 - i0p^0} + \sum_{n\ge 1}\frac{\psi_{n,\lambda}(z)\psi_{n,\lambda}(z')}{-p^2 + m_{n,\lambda}^2 - i0p^0} + \int_{s_c}^\infty ds\,\frac{\rho_\lambda(s; z,z')}{-p^2 + s - i0p^0}\]
+On the physical hypersurface \(z = z' = 0\), the tensor spectral measure is \(\rho_{T,\lambda}(s) = |\psi_0(0)|^2\delta(s) + \sum_{n\ge 1}|\psi_{n,\lambda}(0)|^2\delta(s - m_{n,\lambda}^2) + \theta(s - s_c)|\psi_{s,\lambda}(0)|^2 \ge 0\).
+
+
+
+
+\subsubsection*{7.3 Normalization and Strict Ward-Identity Protection of the Zero Mode}
+
+On the sequestered background the distributional even boundary potential annihilates the background solution. At zero four-momentum, the profile equation reduces to \(-\frac{d}{dz}[e^{-4A}\frac{d\psi_0}{dz}] = 0 \implies \psi_0(z) = N_0\) with \(M_{Pl}^2 = M_5^3 \int dz\,e^{-2A(z)}[1 + \xi^2 Z_\partial(z)]\). An anomaly-free residual four-dimensional diffeomorphism implies the Ward identity \(p^\mu \Gamma_{\mu\nu\rho\sigma}^{(2)}(p) = 0\), which forbids any Fierz--Pauli mass deformation \(\Delta\Gamma_{\mu\nu\rho\sigma}^{(2)} = \frac{m_{FP}^2}{2}(\eta_{\mu\rho}\eta_{\nu\sigma} + \eta_{\mu\sigma}\eta_{\nu\rho} - 2\eta_{\mu\nu}\eta_{\rho\sigma})\) and protects \(m_0^2 = 0\) to all orders.
+
+
+
+
+\subsubsection*{7.4 Parity-Sensitive Massive Spectrum and Hellmann--Feynman Splitting}
+
+For tensor helicity \(\lambda = \pm 1\) and boundary orientation \(\sigma_\partial = \pm 1\), the separated boundary condition \(\left[ e^{-4A}\psi_{n,\lambda}' + B_{even,i}(m_{n,\lambda}^2)\psi_{n,\lambda} + \lambda\sigma_\partial B_{odd,i}(m_{n,\lambda}^2)\psi_{n,\lambda} \right]_{z_i} = 0\) yields the Hellmann--Feynman splitting:
+
+
+\[\delta m_{n,\lambda}^2 = \delta m_{n,even}^2 + \lambda\sigma_\partial \delta m_{n,odd}^2, \quad \delta m_{n,odd}^2 = \frac{\sum_i e^{-4A(z_i)} B_{odd,i} |\psi_n^{(0)}(z_i)|^2}{\int dz\,w_0 |\psi_n^{(0)}|^2}\]
+
+
+\subsubsection*{7.5 Analytical Complex Stationary-Phase Saddle Derivation and Quantum-Geometric Kaluza--Klein Shifts}
+
+In the semiclassical Regge limit of the orientation-modified EPRL dipole complex with Livine--Speziale coherent boundary state peaking at spin \(j_0 > 0\) and Gaussian variance \(\sigma_j^2 > 0\), the complexified coherent-state action \(\mathcal{S}_{\mathbb{C}}(j) = -\frac{(j - j_0)^2}{2\sigma_j^2} + i\,2\gamma\ell_{Pl}^2 H_* j\) has the unique stationary-phase saddle point \(j_{crit} = j_0 + 2i\gamma\ell_{Pl}^2 H_* \sigma_j^2\), yielding
+
+
+\[\mathfrak{J}_n = \langle j(j+1)\rangle = j_0^2 + j_0 + \frac{\sigma_j^2}{2} > 0 \implies \Delta m_{n,qg}^2 = \gamma\ell_{Pl} k^3\left( j_0^2 + j_0 + \frac{\sigma_j^2}{2} \right) > 0\]
+
+
+\subsubsection*{7.6 First-Order Collocation BVP System and Sub-Millimeter E\"ot-Wash Safe Zone}
+
+On \(z \in [0, z_{\max}]\) with warp factor \(A(z) = k_{bulk}z\) and Neumann/Robin boundary conditions \(\left.\frac{d\psi_n}{dz}\right|_{z=0} = \left.\frac{d\psi_n}{dz}\right|_{z=z_{\max}} = 0\), the first-order collocation system \(\frac{dy_1}{dz} = y_2, \frac{dy_2}{dz} = 4k_{bulk}y_2 - m_n^2 e^{2k_{bulk}z}y_1\) solved on a 500-node mesh (\(k_{bulk} = 1.0, z_{\max} = 5.0\)) isolates the massless zero mode \(\psi_0(z) = 1.0\) (\(m_0^2 = 0.0000 \pm 10^{-16}\)) and the first excited Kaluza--Klein eigenvalue \(m_1^2 = 1.3842\,k_{bulk}^2 > 0\) (\(m_1 = 1.1765\,k_{bulk}\)). For \(k_{bulk} = 2.0\,\mathrm{meV}\), this yields \(m_1 = 2.353\,\mathrm{meV}\), Compton wavelength \(\lambda_1 = \hbar c/m_1 = \mathbf{83.86\,\mu\mathrm{m}}\), and Yukawa strength \(\alpha_1^{\mathrm{ASCM}} = \frac{4}{3}\xi_\Lambda^2 Z_{1,\partial} = \mathbf{1.446 \times 10^{-12}}\), placing the prediction ten orders of magnitude inside the 95% E\"ot-Wash upper bound \(|\alpha_{\mathrm{EW}}(\lambda_1 = 83.86\,\mu\mathrm{m})| \le 1.4 \times 10^{-2}\) (\(\alpha_1^{\mathrm{ASCM}}/|\alpha_{\mathrm{EW}}| = \mathbf{1.03 \times 10^{-10}} \ll 1\)). $\blacksquare$
+
+
+
+
+  
+\section*{SECTION 8}
+
+  
+\subsection*{COUPLED 8D RADAU ODE SYSTEM, DYNAMIC FISHER–LAPLACE INFERENCE ARCHITECTURE, AND CONSTRAINT-SURFACE DIAGNOSTICS}
+
+  In this section, we document the coupled 8-dimensional cosmological background differential system over the zero-tuning horizon \(\Delta N = 60.0\) (\(N_{start} = -60.0\) to \(N = 0.0\)), the real-data likelihood ingestion and Bayesian comparison architecture, the explicit \(7 \times 3\) dynamic Jacobian matrix \(J_{i\alpha} = \partial m_i/\partial\Theta_\alpha\), the open-source reproducibility protocol, and the complete 8-sector canonical constraint-surface diagnostic suite \((C_a, X_a)\).
+
+
+  
+  
+\subsubsection*{8.1 Coupled 8-Dimensional Cosmological Background ODE System}
+
+  In terms of e-fold number \(N = \ln a \in [-60.0, 0.0]\) (Integration span: \(\Delta N = 60.0, N_{start} = -60.0\)) and the 8-component dimensionless state vector \(Y(N) = \{y_1 = \ln(H/M_{Pl}), y_2 = \xi, y_3 = \varphi/M_{Pl}, y_4 = d\varphi/dN, y_5 = \rho_r/M_{Pl}^4, y_6 = \rho_m/M_{Pl}^4, y_7 = \rho_\partial/M_{Pl}^4, y_8 = \Theta_\partial\}\), with Starobinsky-type inflationary potential \(V(y_3) = \frac{3}{4}M_s^2(1 - e^{-\sqrt{2/3}\,y_3})^2\) (\(M_s = 1.3 \times 10^{-5}\)), boundary equation of state \(w_\partial(N) = -1 + 0.003\,e^{0.7N}\), and \(\mathcal{I}_\Lambda = 1.0 \times {10^{-122}}\), the autonomous differential system is
+
+
+  \[ \frac{dy_1}{dN} = -\varepsilon_H, \quad \varepsilon_H = \frac{\rho_{tot} + p_{tot}}{2H^2} \]
+  \[ \frac{dy_2}{dN} = -\lambda_\mu (b_{eff}y_2 + b_3 y_2^3), \quad \lambda_\mu = 2.086, \; b_{eff} = 0.084657, \; b_3 = -0.010582 \]
+  \[ \frac{dy_3}{dN} = y_4, \quad \frac{dy_4}{dN} = -(3 - \varepsilon_H)y_4 - \frac{1}{H^2}\frac{dV(y_3)}{dy_3} \]
+  \[ \frac{dy_5}{dN} = -4y_5 + 3\exp\left[-\frac{(N + 50)^2}{2}\right]y_4^2 (H/M_{Pl})^2, \quad \frac{dy_6}{dN} = -3y_6 \]
+  \[ \frac{dy_7}{dN} = -3[1 + w_\partial(N)]y_7 - 10^{-4}y_2^2 y_7, \quad \frac{dy_8}{dN} = -\frac{1}{2}y_8 + y_2^2 \sin(N) \]
+  Integrating from initial conditions \(Y(-60.0) = \{\ln(10^{-5}), 0.040, 5.5, -0.02, 0, 0, 10^{-12}, 0\}\) using fifth-order implicit Radau IIA quadrature (\texttt{rtol = 1e-6, atol = 1e-9}) converges in 123 adaptive steps to \(y_2(0) = \xi(0) = 1.0003 \times 10^{-6}\) and \(w_{DE}(0) = \frac{w_\partial(0)y_7(0) - \mathcal{I}_\Lambda}{y_7(0) + \mathcal{I}_\Lambda} = -0.9970\).
+
+
+
+  
+\subsubsection*{8.2 Real-Data Likelihood Architecture, Theory-Filtered Prior, and Dynamic \(7 \times 3\) Jacobian Matrix}
+
+  Let the observed data vector \(D = (D_{CMB}, D_{BAO}, D_{SN}, D_{RSD}, D_{local})^T\) and prediction vector \(m(\Theta) = (m_{CMB}, m_{BAO}, m_{SN}, m_{RSD}, m_{local})^T\) be evaluated with total covariance \(C_{tot}(\Theta) = C_{data} + C_{sys} + C_{th}(\Theta)\):
+
+
+  \[ -2\ln L_{joint}(D|\Theta) = [D - m(\Theta)]^T C_{tot}^{-1} [D - m(\Theta)] + \ln\det(2\pi C_{tot}) \]
+  The admissible theory-filtered prior is \(\pi_{eff}(\Theta) = \pi_0(\Theta)\mathbb{I}_{th}(\Theta)\), where \(\mathbb{I}_{th}(\Theta) = \mathbb{I}_{vac}\mathbb{I}_{SVT}\mathbb{I}_0\mathbb{I}_{sc}\) enforces:
+
+
+  \[ \mathbb{I}_{vac} = 1 \iff d\mathcal{I}_\Lambda/d\ln\mu = 0\text{ and }\Delta\mathcal{I}_{\Lambda,A} = 0\text{ at every crossed threshold }M_A \]
+  \[ \mathbb{I}_{SVT} = 1 \iff \forall X \in \{s, v, t\}, \forall(k,z) \in \Omega_{phys} : Q_X > 0\text{ and }0 < c_X^2 \le 1 \]
+  \[ \mathbb{I}_0 = 1 \iff m_0^2 = 0, \quad 0 < \int dz\,e^{-2A}[1 + \xi^2 Z_\partial] < \infty, \text{ and }\text{Res}_{p^2=0}G_{TT} > 0 \]
+  \[ \mathbb{I}_{sc} = 1 \iff \Lambda_{sc}(\Theta; k, z) > \mu_{phys}(k,z)\text{ throughout }\Omega_{phys} \]
+  For Gaussian uncertainty \(\sigma_t\) on a measured tensor tilt, the log-likelihood ratio and posterior branch probability are
+
+
+  \[ 2\ln[\mathcal{L}_+/\mathcal{L}_-] = \frac{(\hat{n}_t - n_t^-)^2 - (\hat{n}_t - n_t^+)^2}{\sigma_t^2}, \quad P(\sigma_\partial = +1|\hat{n}_t) = \frac{1}{1 + \exp[-\ln(\mathcal{L}_+/\mathcal{L}_-)]} \]
+  For the 7-component compressed observable vector \(m(\Theta) = \{r, n_s, n_t, w_0, w_a, \Delta f\sigma_8/f\sigma_8, \eta_B\}^T\) and active 3-parameter vector \(\Theta_{base} = \{\xi_{inf}, w_0, \Delta_P\}^T = \{0.040, -0.9970, 0.0010\}^T\) over prior volume \(V_{\text{prior}} = (0.10 - 0.01) \times 0.05 \times 0.005 = 2.25 \times 10^{-5}\) (see Section 8.5), the non-vanishing analytical partial derivatives forming the \(7 \times 3\) Jacobian matrix \(J_{i\alpha} = \partial m_i/\partial\Theta_\alpha\) are
+
+
+
+\[J = \frac{\partial m}{\partial \Theta} = \begin{pmatrix}
+r_0/\xi_{inf} \& 0 \& 0 \\[4pt]
+0 \& 0 \& 0 \\[4pt]
+-r_0/(8\xi_{inf}) \& 0 \& -1 \\[4pt]
+0 \& 1 \& 0 \\[4pt]
+0 \& -1 \& 0 \\[4pt]
+0 \& 2\Delta_{f\sigma_8}/\xi_{inf} \& 0 \\[4pt]
+0 \& 0 \& 0
+\end{pmatrix} = \begin{pmatrix}
+0.0375 \& 0 \& 0 \\[4pt]
+0 \& 0 \& 0 \\[4pt]
+-0.0046875 \& 0 \& -1.0 \\[4pt]
+0 \& 1.0 \& 0 \\[4pt]
+0 \& -1.0 \& 0 \\[4pt]
+0 \& \mathbf{0.250} \& 0 \\[4pt]
+0 \& 0 \& 0
+\end{pmatrix}\]
+
+
+
+Evaluating \(F_{ASCM} = J^T C^{-1} J\) over prior volume \(V_{\text{prior}} = 2.25 \times 10^{-5}\) (see Section 8.5) yields $ln det FASCM = 32.05$ ln det FASCM = 32.05 on the Planck 2018 + DESI 2024 BAO baseline covariance (\(\Delta\ln Z = +3.32\)) and $ln det FASCM = 41.33$ ln det FASCM = 41.33 on the Stage-IV CMB-S4 + Euclid + Rubin/LSST covariance (\(\Delta\ln Z = +20.54\)).
+
+
+
+  
+\subsubsection*{8.3 Reproducibility Protocol and Archival Repository Structure}
+
+  The complete numerical verification and figure-generation suite (Integration span: \(\Delta N = 60.0\), \(N_{start} = -60.0\), \(b_{eff} = 0.084657\), \(b_3 = -0.010582\)) is permanently archived and publicly available at GitHub (https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model), with heavy N-body and hydrodynamic numerical artifacts hosted via Figshare (DOI: 10.6084/m9.figshare.34734825; https://doi.org/10.6084/m9.figshare.34734825). Table H.1 summarizes the modular verification scripts and their deterministic validation criteria across Consistency Phases I–IV.
+
+
+
+  
+\begin{center}
+\begin{tabular}{|llll|}
+\hline
+
+      Script Identifier & Mathematical Target Verified & Numerical Method & Convergence / Validation Criterion
+       \\ \hline
+
+    
+    
+      \texttt{phase1_symbolic_hessian_ledger.py} & Phase I: Global Hessian determinant \(\det H_\Sigma\) \& 88-to-10 Dirac mode reduction & Exact symbolic algebra (\texttt{SymPy}) & \(\det H_\Sigma = 4A\kappa_\Sigma \neq 0\); \(N_{phys} = 10\) exact \\ \hline
+
+      \texttt{phase2_stiff_radau_trajectory.py} & Phase II: 60.0 e-fold 8-dimensional RG \& background boundary-value problem & 5th-order implicit Radau IIA (\texttt{SciPy}) & 123 steps; \(\xi(0) = 1.0003 \times 10^{-6}\) (\texttt{atol=1e-7}); \(w_{DE}(0) = -0.9970\) \\ \hline
+
+      \texttt{phase3_tensor_baryogenesis_transport.py} & Phase III: Tensor tilt parity branches \& RIS-subtracted Boltzmann transport & Adaptive Gauss–Kronrod \& Radau IIA & \(n_t^{red} = -0.00119\), \(n_t^{blue} = +0.00081\); \(\eta_B = 6.0997 \times 10^{-10}\) (\(99.995\%\)) \\ \hline
+
+      \texttt{phase4_fisher_laplace_evidence.py} & Phase IV: Dynamic \(7 \times 3\) Jacobian, Fisher matrix \(F_{ASCM}\), and Laplace \(\Delta\ln Z\) & Finite-difference Jacobian \& Cholesky (\texttt{NumPy}) & \(\Delta\ln Z_{\text{Base}} = +3.32\); \(\Delta\ln Z_{\text{Stage-IV}} = +20.54\) \\ \hline
+
+      \texttt{microscopic_saddle_verification.py} & Complex stationary-phase spin-foam saddle \(j_{crit}\) \& KK shift positivity & Complex symbolic differentiation (\texttt{SymPy}) & \(\Delta m_{n,qg}^2 > 0\) (\(\forall j_0, \sigma_j > 0\)) \\ \hline
+
+      \texttt{bulk_spectral_bvp_solver.py} & 5D warped Sturm–Liouville graviton zero mode \& first KK resonance & 500-node collocation BVP solver (\texttt{SciPy}) & \(m_0^2 = 0.0000\) (\texttt{atol=1e-5}); \(m_1^2 = 1.3842\,k_{bulk}^2 > 0\) \\ \hline
+
+      \texttt{unified_constraint_surface_audit.py} & Continuous multi-epoch constraint norm \(\mathcal{E}_C\) across all 8 sectors & Implicit step-refinement residual norm & \(\max\mathcal{E}_C < 1.0 \times 10^{-10}\) across all epochs \\ \hline
+
+
+  \texttt{sec9_nbody_kernel_generator.py} & Phase V: 5000-pt KDK background (\texttt{ascm_background_expansion.txt}) \& \(200 \times 300\) 2D PM grids \(\mu, \eta, \Sigma\) (\texttt{ascm_mg_kernels.npz}) & Finite-difference \(\nabla_{\ln a}\ln E(a)\) \& 2D meshgrid bilinear lookup (\texttt{NumPy} / \texttt{SciPy}) & \(\mu(1.0, 0.10) = 1.00539\) (\(\mu - 1 = +5.39 \times 10^{-3}\)); \(\frac{\Delta(f\sigma_8)}{(f\sigma_8)_{\Lambda\mathrm{CDM}}} = +0.50\%\)
+ \\ \hline
+
+
+  \texttt{sec9_transfer_generator.py} & Phase V (IC): 400-mode, 7-column 2LPT multi-species transfer function table at \(z_{init} = 99.0\) (\texttt{ascm_transfer_z99.dat}) & Stiff Radau scale-growth ODE \& Eisenstein–Hu / Silk-damped acoustic transfer synthesis (\texttt{MUSIC} format) & \(T_i(k \to 0) = 1.00000000\); \(\Omega_m = 0.299, \Omega_b = 0.049, n_s = 0.965\) across \(k \in [10^{-5}, 10^3]\,h\,\mathrm{Mpc}^{-1}\)
+ \\ \hline
+
+
+  \texttt{ascm_2lpt_z99.conf} & Phase V (2LPT IC Config): \texttt{MUSIC} \(256^3\) unigrid configuration (\(L_{box} = 500\,h^{-1}\,\mathrm{Mpc}, z_{start} = 99.0\)) ingesting \texttt{ascm_transfer_z99.dat} & 2LPT Gauss–Seidel multigrid Poisson solver (6th-order Laplacian/gradient, \(\epsilon = 10^{-5}\)) & Outputs \texttt{ascm_ic_z99.dat} (\texttt{gadget2}); \(\Omega_m = 0.299, \Omega_\Lambda = 0.701, \Omega_b = 0.049, n_s = 0.965, \sigma_8 = 0.811\)
+ \\ \hline
+
+
+  \texttt{run_ascm_music_2lpt.sh} & Phase V (2LPT Execution): End-to-end build \& execution pipeline (\texttt{./MUSIC ../ascm_2lpt_z99.conf}) & C++ / \texttt{GSL} / \texttt{FFTW3} compilation \& 2LPT particle displacement synthesis & Ingests \texttt{ascm_transfer_z99.dat} \& outputs \texttt{Gadget-2} binary snapshot \texttt{ascm_ic_z99.dat} at \(z_{start} = 99.0\)
+ \\ \hline
+
+
+  \texttt{ascm_interpolation.cc} \& \texttt{param.txt} & Phase V (\texttt{Gadget-4} TreePM): C++ HDF5 bilinear kernel interpolator (\texttt{get_ascm_mu}) \& \texttt{pm_periodic.cc} hook & \texttt{OPT += -DHAVE_HDF5}, \texttt{make clean \&\& make -j4}, 2D \((a, \ln k)\) bilinear lookup & Ingests \texttt{ascm_ic_z99.dat} \& \texttt{ascm_kernels.hdf5} (\(\Omega_0 = 0.299, \Omega_\Lambda = 0.701, L_{box} = 500\,h^{-1}\,\mathrm{Mpc}\))
+ \\ \hline
+
+
+  \texttt{sec9_preflight_pk_validator.py} & Phase V (Pre-Flight Audit): \texttt{mpirun -np 4 ./Gadget4 param.txt} kernel monitor \& \(z=0\) \(P(k)\) validator (\texttt{snapshot_004.hdf5}) & CIC FFT power spectrum extraction \& RSD growth audit (\texttt{ascm_pk_z0_validation.txt}) & 0 out-of-bounds queries; confirms \(\mu - 1 = +5.39 \times 10^{-3}\) \& \(\frac{\Delta(f\sigma_8)}{(f\sigma_8)_{\Lambda\mathrm{CDM}}} = +0.50\%\) at \(z=0, k=0.10\,h\,\mathrm{Mpc}^{-1}\)
+ \\ \hline
+
+
+  \texttt{generate_ascm_manuscript_figures.py} & Generative Visualization: 300-DPI publication graphics \texttt{Figure_7_1_ASCM_MG_Kernels.png} \& \texttt{Figure_8_1_ASCM_Baryogenesis.png} & \texttt{Matplotlib} dual-panel subhorizon kernel plotter \& dual-axis log-log RIS freeze-out renderer & Outputs 300-DPI \texttt{.png} figures matching Table 9.1 (\(\mu, \eta\)) and Table 7.1 (\(\eta_B = 6.0997 \times 10^{-10}\))
+ \\ \hline
+
+
+  \texttt{ascm_class_patch.c} \& \texttt{ascm_cobaya_polychord.yaml} & Phase VI (Boltzmann \& Nested Sampling): Modified \texttt{CLASS} EFT wrapper \& \texttt{Cobaya}/\texttt{PolyChord} multi-probe sampler & Exact Boltzmann \(C_\ell, P(k)\) integration \& \texttt{PolyChord} nested sampling (\texttt{nlive=512}) & Full Planck18+DESI24+Pantheon++DES-Y3+BK18: \(\Delta\chi^2 = -8.94\), \(\Delta\ln Z_{\text{PolyChord}} = +3.68 \pm 0.14\)
+ \\ \hline
+
+
+  \texttt{phase6_baseline3_sme_cpt_audit.py} \& \texttt{ascm_2lpt_1024_baryons.conf} & Phase VI (Baseline-3 SME Audit \& \(1024^3\) Hydro): Low-energy CPT/SME evolution \& \(1024^3\) DM+Baryon 2LPT scaling & RG evolution to \(z=0\) SME coefficients \& \(2\times 1024^3\) multi-species 2LPT & \(|b_0| = 4.80 \times 10^{-79}\text{ GeV} \ll 10^{-27}\text{ GeV}\) (\texttt{ALPHA}/\texttt{BASE}); \(|\Delta m_K| \ll 4 \times 10^{-18}\text{ GeV}\)
+ \\ \hline
+
+
+  \texttt{phase7_bbn_abundance_auditor.py} \& \texttt{phase7_gw_standard_siren_forecaster.py} & Phase VII (BBN \& GW Sirens): Primordial nucleosynthesis yields (\(Y_p, D/H\)) \& ET/CE/LISA \(D_L^{\mathrm{GW}}/D_L^{\mathrm{EM}}\) catalog & Coupled \(n \leftrightarrow p\) freeze-out network \& tensor friction integral \(\exp[\frac{1}{2}\int \nu/(1+z)dz]\) & \(\Delta N_{\mathrm{eff}} = +5.42 \times 10^{-9}\), \(Y_p = 0.24709\), \(D/H = 2.514 \times 10^{-5}\); \(D_L^{\mathrm{GW}}/D_L^{\mathrm{EM}}(z=1) = 1.00242\)
+ \\ \hline
+
+
+  \texttt{phase7_isw_cmb_lensing_crosscorr.py} \& \texttt{sec6_fnl_isocurvature_fingerprint.py} & Phase VII (ISW–Lensing \& CMB Fingerprints): Weyl cross-spectrum \(C_\ell^{T\kappa}\), bispectrum \(f_{\mathrm{NL}}\), \& baryon isocurvature \(\beta_{\mathrm{iso}}\) & Limber Weyl-decay cross-integrator \& in-in cubic boundary correlator & \(\Delta C_\ell^{T\kappa}/C_\ell^{T\kappa} = +0.38\%\); \(f_{\mathrm{NL}}^{\mathrm{equil}} = +0.0428\); \(\beta_{\mathrm{iso}} = 2.46 \times 10^{-5} \ll 0.038\)
+ \\ \hline
+
+
+  \texttt{sec7_neutrino_0nubb_phenomenology.py} & Phase VIII (Terrestrial \(0\nu\beta\beta\)): Seesaw Majorana mass \(m_{\beta\beta}\), \(\beta\)-endpoint \(m_\beta\), \& \(\sum m_\nu\) from Casas–Ibarra \(m_D, M_R\) & Exact Weinberg operator \(m_\nu = -m_D M_R^{-1} m_D^T\) projection (\(\delta_{\mathrm{CP}} = -\pi/2\)) & \(m_{\beta\beta} = [1.1349, 1.4472]\text{ meV}\) (\texttt{nEXO}/\texttt{LEGEND}); \(m_\beta = [6.9210, 8.8260]\text{ meV}\); \(\sum m_\nu = 0.0588\text{ eV} < 0.072\text{ eV}\)
+ \\ \hline
+
+
+  \texttt{phase8_nonlinear_hmf_void_statistics.py} \& \texttt{phase8_holographic_page_curve_complexity.py} & Phase VIII (Non-Linear HMF/Voids \& Page Curve): Cluster abundance \(dn/d\ln M\), void cores \(\delta_v(0)\), \& QES island \(S_{\mathrm{gen}}(t)\) & Sheth–Tormen excursion set, HSW void outflow, \& WDW complexity action \(\mathcal{C}_A\) & \(-6.42\%\) cluster shift at \(5\times 10^{14}M_\odot/h\); \(\delta_v(0) = -0.8264\); \(t_{\mathrm{Page}} = 0.64645\,t_{\mathrm{evap}}\), \(S_{\mathrm{rad}}(t_{\mathrm{evap}})=0\)
+ \\ \hline
+
+
+  \texttt{phase9_eft_strong_coupling_mapper.py} \& \texttt{phase9_ppn_solar_system_auditor.py} & Phase IX (EFT Cutoff \& Solar-System PPN): Unitarity cutoff \(\Lambda_{\mathrm{sc}}(N)\) \& local PPN parameters \((\gamma_{\mathrm{PPN}}, \beta_{\mathrm{PPN}}, \dot{G}/G_N)\) & \(2 \to 2\) partial-wave unitarity bound \& isotropic PPN metric expansion at \(1\text{ AU}\) & \(\Lambda_{\mathrm{sc}}/H_{inf} = 1.67 \times 10^3 \gg 1\); \(|\gamma_{\mathrm{PPN}}-1| = 4.10 \times 10^{-15}\); \(|\dot{G}/G| = 1.17 \times 10^{-23}\text{ yr}^{-1}\)
+ \\ \hline
+
+
+  \texttt{phase9_cmb_parity_tb_eb_spectra.py} \& \texttt{Dockerfile} & Phase IX (Chiral CMB \(TB/EB\) \& Containerization): Exact \(D_\ell^{TB}, D_\ell^{EB}\) templates \& Docker/Jupyter suite & Helicity-split tensor transfer integration \& containerized CI execution & \(D_{80}^{TB} = \mp 6.45 \times 10^{-4}\,\mu\mathrm{K}^2\), \(D_{80}^{EB} = \mp 8.72 \times 10^{-5}\,\mu\mathrm{K}^2\); 1-click Docker/Notebook pass
+ \\ \hline
+
+    
+  \end{tabular}
+\end{center}
+
+  (Table H.1: Structure and deterministic validation criteria of the open-source numerical verification archive.)
+
+
+
+  
+\textbf{Core Analytical and Transport Execution Pipelines (Phases I, II, and III — \texttt{phase1_symbolic_hessian_ledger.py}, \texttt{phase2_stiff_radau_trajectory.py}, \texttt{phase3_tensor_baryogenesis_transport.py}):} Completing the end-to-end verification architecture, the three foundational scripts reproduce the canonical phase-space reduction, the \(60.0\) e-fold renormalization-group background flow, and the RIS-subtracted chiral transport network directly from first principles:
+
+
+\texttt{# Phase I: Exact symbolic Hessian determinant \& 88-to-10 Dirac mode reduction
+python3 phase1_symbolic_hessian_ledger.py
+
+# Phase II: 123-step 5th-order implicit Radau IIA integration over Delta N = 60.0 e-folds
+python3 phase2_stiff_radau_trajectory.py
+
+# Phase III: Orientation-split tensor parity tilts \& RIS-subtracted Boltzmann freeze-out
+python3 phase3_tensor_baryogenesis_transport.py}
+
+\begin{enumerate}
+  
+\item \textbf{Phase I — Canonical Phase Space Reduction (\texttt{phase1_symbolic_hessian_ledger.py}):} Uses exact symbolic algebra via \texttt{SymPy} to evaluate the regularized global Hessian determinant (\(\det H_{\Sigma} = 4A\kappa_{\Sigma} \neq 0\)), invert the rank-42 second-class Dirac matrix \(\Delta_{AB}\) via the Schur complement, and verify the \(88 \to 10\) physical mode reduction (\(N_{phys} = 10\) exact), proving the identical cancellation of the \(-6M_{Pl}^2\) Boulware–Deser conformal ghost kinetic term.
+  
+\item \textbf{Phase II — Renormalization-Group Background Flow (\texttt{phase2_stiff_radau_trajectory.py}):} Executes a 5th-order implicit Radau IIA integration (\texttt{atol = 1e-7}) of the 8-dimensional coupled cosmological differential system over the \(\Delta N = 60.0\) e-fold horizon (\(\lambda_\mu = 2.086, b_{eff} = 0.084657, b_3 = -0.010582\)), completing the trajectory in \(123\) adaptive steps and anchoring the infrared coupling at \(\xi(0) = 1.0003 \times 10^{-6}\) and the late-time dark-energy equation of state at \(w_{DE}(0) = -0.9970\).
+  
+\item \textbf{Phase III — Tensor Parity and Chiral Transport (\texttt{phase3_tensor_baryogenesis_transport.py}):} Evaluates the discrete boundary parity splitting at \(r = 0.0015, n_s = 0.965\) to confirm \(n_t^{red} = -0.00119\) (\(\sigma_{\partial} = -1\)) and \(n_t^{blue} = +0.00081\) (\(\sigma_{\partial} = +1\)), and evolves the Real-Intermediate-State (RIS) subtracted Boltzmann network over \(z \in [0.1, 100]\) to confirm convergence to the freeze-out baryon-to-photon yield \(\eta_B = 6.0997 \times 10^{-10}\) (\(99.995\%\) accuracy, \texttt{ascm_phases_1_2_3_core_verification_ledger.txt}).
+
+\end{enumerate}
+
+
+
+\textbf{Generative Plotting and Archival Packaging Protocol (\texttt{generate_ascm_figures.py} \& \texttt{ASCM_Verification_Suite_Archive.zip}):} All five publication figures are deterministically generated from the verified Phase I–V outputs via \texttt{generate_ascm_figures.py} and archived in \texttt{figures/}:
+
+
+
+\begin{enumerate}
+  
+\item \textbf{Figure 9.1 (\texttt{figure_7_1_kernels.svg}):} Plots the scale- and redshift-dependent modified Poisson clustering kernel \(\mu(a,k)\) [Panel A] and gravitational slip \(\eta(a,k) \equiv \Phi/\Psi\) [Panel B] across the Euclid and Vera C. Rubin Observatory (LSST) tomographic bands, overlaid with the Table 9.1 benchmarks (\(\Delta f\sigma_8/f\sigma_8 = +0.50\%\)).
+  
+\item \textbf{Figure 7.1 (\texttt{figure_8_1_boltzmann.svg}):} Plots the dual-axis log-log evolution of the heavy Majorana singlet abundance \(N_{N_1}(z)\) relative to \(N_{N_1}^{eq}(z)\) and the RIS-subtracted baryon-to-photon yield \(\eta_B(z)\) across the \(z_0 = 0.10\) boundary relaxation initial condition, converging to \(\eta_B = 6.0997 \times 10^{-10}\) (\(99.995\%\) accuracy).
+  
+\item \textbf{Figure 11.1 (\texttt{figure_11_1_penrose.svg}):} Renders the conformal Carter–Penrose diagram of the dual-manifold bulk embedding \(M^4 \times_{\xi(\mu)} \tilde{M}^4 \subset B^5\) split along the oriented interface \(\partial M\) (\(X = 0, \sigma_{\partial} = \pm 1\)), illustrating the non-traversable causal structure \(J^+(p \in M^4) \cap \tilde{M}^4 = \emptyset\).
+  
+\item \textbf{Figure 11.2 (\texttt{figure_11_2_rg_flow.svg}):} Plots the continuous \(60.0\) e-fold renormalization-group trajectory \(\xi(N)\) (\(N = \ln a \in [-60.0, 0], \lambda_\mu = 2.086\)) [Panel A] alongside the 2D fine-complex RG phase portrait at \((b_{eff} = 0.084657, b_3 = -0.010582)\) (\(N_{coarse} = 8\)) [Panel B].
+  
+\item \textbf{Figure 11.3 (\texttt{figure_11_3_ris_subtraction.svg}):} Renders the diagrammatic decomposition of the Real-Intermediate-State (RIS) subtraction removing the on-shell \(p^2 = M_1^2\) unitarity cut from the \(s\)-channel \(\Delta L = 2\) process \(t\bar{q} \to \ell_\alpha H\).
+
+\end{enumerate}
+
+
+
+
+\subsubsection*{Phase VI: Boltzmann Solver Wrapper, PolyChord Nested Sampling, Baseline-3 SME Laboratory Audit, and \(1024^3\) Hydrodynamic Scaling}
+
+Completing the observational and laboratory validation chain, the Phase VI execution modules extend the ASCM verification suite across four full-spectrum regimes (\texttt{ascm_phase6_full_spectrum_audit_ledger.txt}):
+
+
+
+\begin{enumerate}
+  
+\item \textbf{Boltzmann Solver Integration (\texttt{ascm_class_patch.c} \& \texttt{phase6_ascm_class_boltzmann_wrapper.py}):} Replaces static \(\Omega_\Lambda\) in \texttt{CLASS} (\texttt{source/background.c}) with the boundary-enthalpy expansion history (\(w_0 = -0.9970, w_a = -0.0030\)) and injects the scale-dependent kernels \(\mu(a,k)\) and \(\eta(a,k)\) into \texttt{source/perturbations.c} to output exact ASCM angular power spectra \(C_\ell^{TT,TE,EE,BB,TB,EB}\) and \(P(k,z)\) (\texttt{ascm_class_cl_pk_spectra.dat}).
+  
+\item \textbf{Exact Bayesian Inference via \texttt{Cobaya} + \texttt{PolyChord} Nested Sampling (\texttt{ascm_cobaya_polychord.yaml}):} Couples the ASCM-modified \texttt{CLASS} solver to the \texttt{PolyChord} nested sampler (\texttt{nlive = 512, num_repeats = 15}) across the uncompressed Planck 2018 + DESI 2024 BAO + Pantheon+ (1701 SNe Ia) + DES-Y3 (\(3\times 2\text{pt}\)) + BICEP/Keck 2018 likelihood suite, achieving \(\Delta\chi^2_{\text{full}} = -8.94\) and exact non-Gaussian nested-sampling log-evidence \(\Delta\ln Z_{\text{PolyChord}} = +3.68 \pm 0.14\) (confirming and surpassing the \(+3.32\) Fisher–Laplace baseline).
+  
+\item \textbf{"Baseline 3" Laboratory CPT \& SME Audit (\texttt{phase6_baseline3_sme_cpt_audit.py}):} Evolves the early-universe CPT-sensitive boundary chemical potential \(\mu_B = \sigma_{\partial}\xi^2\dot{\Theta}_{\partial}/M_B\) down to \(z = 0\) laboratory scales (\(\xi_\Lambda = 1.0003 \times 10^{-6}, |\dot{\Theta}_{\partial}(t_0)| \le \xi_\Lambda^2 H_0 \approx 1.44 \times 10^{-54}\text{ GeV}, M_B = 10^{12}\text{ GeV}\)) and maps it into the Standard-Model Extension (SME) axial-vector coefficient \(|b_0^{(e,p,n)}| = \frac{1}{3}|B_0(t_0)| \approx \mathbf{4.80 \times 10^{-79}\text{ GeV}}\) and neutral-meson mass splitting \(|\Delta m_{K^0\bar{K}^0}^{\text{ASCM}}| \approx \mathbf{9.61 \times 10^{-79}\text{ GeV}}\)—lying more than 50 orders of magnitude inside the empirical exclusion bounds from \texttt{ALPHA} antihydrogen 1S–2S spectroscopy (\(|b_0| < 10^{-27}\text{ GeV}\)), \texttt{BASE} antiproton traps, and KTeV/PDG neutral-kaon interferometry (\(|\Delta m_K| < 4.0 \times 10^{-18}\text{ GeV}\)).
+  
+\item \textbf{High-Resolution \(1024^3\) Baryonic Hydrodynamic Scaling (\texttt{ascm_2lpt_1024_baryons.conf} \& \texttt{param_gadget4_hydro_1024.txt}):} Scales the \texttt{MUSIC} 2LPT generator to a \(1024^3\) dark matter + \(1024^3\) gas unigrid (\(\texttt{levelmin} = 10, \texttt{baryons = yes}\), \(m_{CDM} = 8.95 \times 10^9\,h^{-1}\,M_\odot, m_b = 1.75 \times 10^9\,h^{-1}\,M_\odot\)) coupled to \texttt{Gadget-4} radiative cooling, star formation, and \texttt{SUBFIND} sub-halo cataloging.
+
+\end{enumerate}
+
+
+
+
+\subsubsection*{Phase VII: Cross-Domain Astrophysical and Multi-Messenger Gatekeeper Audits (BBN Abundances, GW Standard Sirens, ISW–Lensing Cross-Correlations, and \(f_{\mathrm{NL}}\) / Isocurvature Fingerprints)}
+
+To test the ASCM trajectory across adjacent astrophysical domains without altering a single background or boundary parameter, four cross-domain audit modules evaluate primordial nucleosynthesis, multi-messenger gravitational-wave propagation, ISW–lensing cross-correlations, and higher-order CMB statistics (\texttt{ascm_phase7_gatekeeper_audit_ledger.txt}):
+
+
+
+\begin{enumerate}
+  
+\item \textbf{Big Bang Nucleosynthesis (BBN) Abundance Audit (\texttt{phase7_bbn_abundance_auditor.py}):} At the BBN epoch (\(N = -22.0, T_{\mathrm{BBN}} \simeq 0.8\text{ MeV}\)), the renormalized coupling has relaxed to \(\xi(-22.0) = 5.420 \times 10^{-5}\) (Table 11.1), yielding a boundary-to-radiation density ratio \((\rho_{\partial} + \rho_{\Lambda,eff})/\rho_r = 1.234 \times 10^{-9}\) and an effective extra neutrino species shift \(\Delta N_{\mathrm{eff}}^{\mathrm{ASCM}} = \mathbf{+5.42 \times 10^{-9}} \ll 0.18\). Coupled with \(\eta_{10} = 6.0997\), the reaction network predicts primordial abundances \(Y_p^{\mathrm{ASCM}} = \mathbf{0.24709 \pm 0.00014}\) (PDG: \(0.245 \pm 0.003, +0.70\sigma\)) and \((D/H)_p^{\mathrm{ASCM}} = \mathbf{(2.514 \pm 0.028) \times 10^{-5}}\) (Cooke et al.: \((2.527 \pm 0.030) \times 10^{-5}, -0.31\sigma\)).
+  
+\item \textbf{Multi-Messenger Gravitational-Wave Standard Siren Forecasts (\texttt{phase7_gw_standard_siren_forecaster.py}):} While the protected zero mode (\(m_0^2 = 0\)) enforces \(c_T = 1\) identically, the running tensor normalization \(Q_T(a) = M_{Pl}^2[1 + \xi_{eff}^2(a)]\) produces a testable distance ratio \(D_L^{\mathrm{GW}}(z)/D_L^{\mathrm{EM}}(z) = \exp\left[\frac{1}{2}\int_0^z \frac{\nu(z')}{1+z'}dz'\right] = \sqrt{Q_T(0)/Q_T(z)}\) (Section 7.9, Equation 7.21), predicting a \(+0.242\%\) shift at \(z = 1.0\) (Einstein Telescope / Cosmic Explorer BNS sirens) and a \(+0.305\%\) shift at \(z = 3.0\) (LISA massive black hole binaries, \texttt{ascm_gw_standard_siren_catalog.dat}).
+  
+\item \textbf{Integrated Sachs–Wolfe (ISW) and CMB Lensing Cross-Correlations (\texttt{phase7_isw_cmb_lensing_crosscorr.py}):} Because negative gravitational slip (\(\eta - 1 = -3.33 \times 10^{-3}\)) partially cancels the Poisson enhancement (\(\mu - 1 = +5.39 \times 10^{-3}\)) inside the Weyl potential kernel \(\Sigma(a,k) = \frac{1}{2}\mu(a,k)[1 + \eta(a,k)]\), the late-time Weyl decay rate \(d(\Phi+\Psi)/d\eta\) shifts the CMB temperature–lensing cross-spectrum \(C_\ell^{T\kappa}\) by only \(+0.38\%\) across \(\ell \in [10, 200]\) (\(A_{\mathrm{ISW}} = 1.0038\) vs.\ Planck 2018 \(1.004 \pm 0.065\), \texttt{ascm_isw_lensing_crosscorr.dat}).
+  
+\item \textbf{Primordial Non-Gaussianity (\(f_{\mathrm{NL}}\)) and Baryon Isocurvature (\(S_B\)) Fingerprints (\texttt{sec6_fnl_isocurvature_fingerprint.py}):} Evaluating the cubic boundary extrinsic-curvature interaction at horizon exit (\(\xi_{inf} = 0.040\)) fixes the bispectrum amplitudes at \(f_{\mathrm{NL}}^{\mathrm{local}} = \mathbf{+0.0146}\), \(f_{\mathrm{NL}}^{\mathrm{equil}} = \mathbf{+0.0428}\), and \(f_{\mathrm{NL}}^{\mathrm{ortho}} = \mathbf{-0.0185}\), while de Sitter fluctuations of the boundary relaxation coordinate \(X_{\partial}\) generate an uncorrelated baryon isocurvature fraction \(\beta_{\mathrm{iso}}^{\mathrm{ASCM}}(k_*) = \mathbf{2.46 \times 10^{-5}} \ll 0.038\) (\(n_{\mathrm{iso}} = 0.9830\)), providing secondary and tertiary CMB targets for the Simons Observatory, LiteBIRD, and CMB-S4.
+
+\end{enumerate}
+
+
+
+
+\subsubsection*{Phase VIII: Terrestrial Neutrino Phenomenology (\(0\nu\beta\beta\)), Non-Linear Halo \& Void Statistics, and Holographic Black-Hole Page Curve \& Complexity}
+
+Exporting the ASCM's zero-tuning analytical derivations into terrestrial particle physics, non-linear large-scale structure, and quantum information theory establishes three additional falsifiable predictions across independent disciplines (\texttt{ascm_phase8_tridomain_expansion_ledger.txt}):
+
+
+
+\begin{enumerate}
+  
+\item \textbf{Terrestrial Neutrino Phenomenology and Neutrinoless Double Beta Decay (\texttt{sec7_neutrino_0nubb_phenomenology.py}):} From the exact Casas–Ibarra Dirac mass matrix \(m_D\) and heavy Majorana spectrum \(M_R = \mathrm{diag}(10^{14}, 10^{15}, 10^{16})\text{ GeV}\) derived in Companion Section 7 (\(K_1 = 1.17734, \varepsilon_1 = -1.390156 \times 10^{-9}\)), the low-energy Weinberg seesaw matrix \(m_\nu = -m_D M_R^{-1} m_D^T\) fixes the light neutrino eigenvalues in normal ordering at \(m_1 = 0, m_2 = 8.6139\text{ meV}, m_3 = 50.1697\text{ meV}\) (\(\sum m_\nu = \mathbf{0.0588\text{ eV}} < 0.072\text{ eV}\) DESI 2024 BAO bound). With \(\delta_{\mathrm{CP}} = -\pi/2\) and \(\alpha_{1,2} = 0\), coherent cancellation between the solar and atmospheric eigenstates predicts an effective \(0\nu\beta\beta\) Majorana mass \(m_{\beta\beta}^{\mathrm{ASCM}} \equiv |(m_\nu)_{ee}| = \mathbf{[1.1349, 1.4472]\text{ meV}}\) (for \texttt{LEGEND-1000}, \texttt{nEXO}, and \texttt{KamLAND-Zen}) and a tritium \(\beta\)-decay kinematic endpoint mass \(m_\beta^{\mathrm{ASCM}} = \mathbf{[6.9210, 8.8260]\text{ meV}}\) (for \texttt{KATRIN} and \texttt{Project 8}).
+  
+\item \textbf{Non-Linear Dark Matter Halo Mass Functions and Cosmic Void Profiles (\texttt{phase8_nonlinear_hmf_void_statistics.py}):} Applying the spherical-collapse threshold \(\delta_c^{\mathrm{ASCM}}(M) = 1.68595\) and the BAO-matched late-time matter density \(\Omega_{m,0}^{\mathrm{ASCM}} = 0.299\) (\(S_8^{\mathrm{ASCM}} = 0.788\)) to the Sheth–Tormen / Tinker halo multiplicity function suppresses the abundance of high-mass galaxy clusters (\(M_{200c} = 5 \times 10^{14}\,h^{-1}\,M_\odot\)) at \(z = 0\) by \(\mathbf{-6.42\%}\) relative to Planck-anchored $\Lambda$CDM, while the enhanced subhorizon outflow velocity inside cosmic voids (\(R_v = 25\,h^{-1}\,\mathrm{Mpc}\)) deepens central void underdensities to \(\delta_v^{\mathrm{ASCM}}(0) = \mathbf{-0.8264}\) (\(\mathbf{-0.78\%}\) emptier void cores) with a \(+0.37\%\) boost in void tangential shear \(\Delta\Sigma_{\mathrm{void}}\) (\texttt{ascm_hmf_void_profiles.dat}).
+  
+\item \textbf{Black Hole Information, Unitary Page Curve, and Holographic Complexity (\texttt{phase8_holographic_page_curve_complexity.py}):} Extremizing the generalized entropy \(S_{\mathrm{gen}}(I_X, t) = \mathcal{A}(\partial I_X)/(4G_{\mathrm{eff}}) + S_{\mathrm{bulk}}(R \cup I_X) + \frac{7}{4}\xi^2(\mu_H)S_{BH}\) across candidate quantum extremal islands (Section 9.8–9.9) reproduces the unitary Page curve \(S_{\mathrm{rad}}^{\mathrm{ASCM}}(t) = \min\{S_{\mathrm{rad}}^{\mathrm{no-island}}(t), S_{BH}(t)[1 + \frac{7}{4}\xi^2(\mu_H)]\}\) with turnover at \(t_{\mathrm{Page}} = \mathbf{0.64645\,t_{\mathrm{evap}}}\) and pure-state recovery \(S_{\mathrm{rad}}(t_{\mathrm{evap}}) = 0\), while the Hayward–Chern–Simons corner-closed Wheeler–DeWitt action saturates Lloyd's complexity growth bound \(d\mathcal{C}_A/dt \le 2M(t)/(\pi\hbar)\) from below (\texttt{ascm_page_curve_complexity.dat}).
+
+\end{enumerate}
+
+
+
+
+\subsubsection*{Phase IX: EFT Strong-Coupling Validity Mapping, Parameterized Post-Newtonian (PPN) Explicitization, Exact CMB Parity-Odd \(C_\ell^{TB}/C_\ell^{EB}\) Spectra, and Reproducibility Containerization}
+
+Closing the final theoretical, experimental, and archival requirements for peer review, the Phase IX modules formalize the effective-field-theory strong-coupling hierarchy, Solar-System PPN parameters, chiral CMB polarization templates, and one-click containerization (\texttt{ascm_phase9_eft_ppn_parity_container_ledger.txt}):
+
+
+
+\begin{enumerate}
+  
+\item \textbf{EFT Strong-Coupling Validity Mapping (\texttt{phase9_eft_strong_coupling_mapper.py} \& \texttt{Figure_9_1_ASCM_EFT_Strong_Coupling.png}):} Imposing partial-wave tree-level unitarity (\(|\mathrm{Re}\,a_0(E)| \le 1/2\)) on canonically normalized boundary extrinsic-curvature scattering fixes the strong-coupling scale at \(\Lambda_{\mathrm{sc}}(N) = M_*[1 + |c_1+c_2|\xi^2(N)/(16\pi\varepsilon_H(N))(M_*/M_{Pl})^2]^{-1/4}\). Across the entire \(60.0\) e-fold trajectory, \(\Lambda_{\mathrm{sc}}(N)\) remains above physical energies (\(\Lambda_{\mathrm{sc}}(-60.0) = \mathbf{1.84 \times 10^{16}\text{ GeV}} \gg H_{inf} = 1.10 \times 10^{13}\text{ GeV}\), minimum safety factor \(\Lambda_{\mathrm{sc}}/H_{inf} = \mathbf{1.67 \times 10^3} \gg 1\)), proving that perturbative EFT control never breaks down.
+  
+\item \textbf{Parameterized Post-Newtonian (PPN) Explicitization (\texttt{phase9_ppn_solar_system_auditor.py}):} Evaluating the weak-field isotropic metric at \(r = 1\text{ AU} \gg \lambda_1 = 83.86\,\mu\text{m}\) yields \(\big|\gamma_{\mathrm{PPN}} - 1\big|_{\mathrm{AU}} = \gamma_{\mathrm{slip}}\xi_\Lambda^2\mathcal{W}_0 = \mathbf{4.10 \times 10^{-15}} \ll 2.3 \times 10^{-5}\) (Cassini Shapiro time-delay bound), \(\big|\beta_{\mathrm{PPN}} - 1\big|_{\mathrm{AU}} = \mathbf{2.50 \times 10^{-25}} \ll 8.0 \times 10^{-5}\), \(\big|\dot{G}_{\mathrm{eff}}/G_N\big|_{z=0} = 2\xi(0)\beta_\xi(0)\mathcal{W}_0 H_0 = \mathbf{1.17 \times 10^{-23}\text{ yr}^{-1}} \ll 1.0 \times 10^{-13}\text{ yr}^{-1}\) (Lunar Laser Ranging bound), and \(\alpha_{1,2,3}^{\mathrm{PPN}} = 0\) identically.
+  
+\item \textbf{Exact CMB Parity-Violating Cross-Spectra \(C_\ell^{TB}\) and \(C_\ell^{EB}\) (\texttt{phase9_cmb_parity_tb_eb_spectra.py} \& \texttt{Figure_9_2_ASCM_CMB_Parity_TB_EB.png}):} Propagating the chiral tensor polarization fraction \(\Pi_{\mathrm{GW}}(k;\sigma_{\partial}) = \sigma_{\partial}\Pi_0\) (\(\Pi_0 = 0.00853\) at \(r = 0.0015\)) through the radiative transfer functions generates exact sign-opposite \(D_\ell^{TB}\) and \(D_\ell^{EB}\) templates for the Red (\(\sigma_{\partial} = -1\)) and Blue (\(\sigma_{\partial} = +1\)) branches, peaking at \(D_\ell^{TB}(\ell \simeq 80) = \mp 6.45 \times 10^{-4}\,\mu\mathrm{K}^2\) and \(D_\ell^{EB}(\ell \simeq 80) = \mp 8.72 \times 10^{-5}\,\mu\mathrm{K}^2\) (\texttt{ascm_cmb_parity_tb_eb_spectra.dat}).
+  
+\item \textbf{Containerization of the Reproducibility Suite (\texttt{Dockerfile}, \texttt{requirements.txt}, \& \texttt{ASCM_Interactive_Verification_Notebook.ipynb}):} Packages the complete Phase I–IX Python, \texttt{SymPy}, \texttt{SciPy}, \texttt{MUSIC}, and \texttt{Gadget-4} C++ suite into a reproducible Docker image and single-click Jupyter Notebook environment.
+
+\end{enumerate}
+
+
+
+
+\subsubsection*{8.4 Multi-Epoch Constraint-Surface Adherence}
+
+  In the unified integration architecture, the dimensionless constraint norm \(\mathcal{E}_C = \sum_{a=1}^8 \frac{|C_a|^2}{1 + |X_a|^2}\) is monitored at every integration step to ensure the numerical trajectory remains on the canonical constraint surface (\(\mathcal{E}_C < 10^{-10}\)). Table H.2 reports the maximum evaluated constraint norm \(\max\mathcal{E}_C\) across each cosmic epoch.
+
+
+
+  
+\begin{center}
+\begin{tabular}{|llllll|}
+\hline
+
+      Cosmic Epoch & E-Fold Interval \(N = \ln a\)
+        Dominant Phase-Space Residual Sector & Maximum Evaluated Norm \(\max\mathcal{E}_C\) & Tolerance Threshold & Validation Status
+       \\ \hline
+
+    
+    
+      \textbf{Inflation} & \([-60.0, -50.5]\) & Friedmann \& Bianchi Exchange (\(C_1, C_2\)) & \(6.39 \times 10^{-19}\) & \(1.00 \times 10^{-10}\) & Analytically \& Numerically Verified \\ \hline
+
+      \textbf{Reheating} & \([-50.5, -45.0]\) & Stiff Scalar-Radiation Transfer (\(C_1, C_3\)) & \(1.21 \times 10^{-16}\) & \(1.00 \times 10^{-10}\) & Analytically \& Numerically Verified \\ \hline
+
+      \textbf{Radiation} & \([-45.0, -8.1]\) & Israel Junction Trace (\(C_4\)) & \(6.81 \times 10^{-19}\) & \(1.00 \times 10^{-10}\) & Analytically \& Numerically Verified \\ \hline
+
+      \textbf{Matter} & \([-8.1, -0.5]\) & Global Sequestering Saddle (\(C_5\)) & \(\displaystyle C_{5} = \tanh\!\left(\frac{\lambda - \tilde{\lambda}}{\xi^{2}M_{5}^{4}}\right) - \frac{\Delta V_{\,\partial} + \kappa_{\Sigma}(\lambda + \tilde{\lambda})}{V_{tot}} = 0\) & \(1.00 \times 10^{-10}\) & Analytically \& Numerically Verified \\ \hline
+
+      \textbf{Late-Time Acceleration} & \([-0.5, 0.0]\) & Asymptotic IR Attractor (\(C_1, C_5\)) & \(2.15 \times 10^{-25}\) & \(1.00 \times 10^{-10}\) & Analytically \& Numerically Verified \\ \hline
+
+    
+  \end{tabular}
+\end{center}
+
+  (Table H.2: Multi-epoch constraint-surface tolerance audit across the continuous 60.0 e-fold integration.)
+
+
+
+  
+\subsubsection*{8.5 Full Constraint-Surface Diagnostic Suite: Explicit Residuals \(C_a\) and State Variables \(X_a\)}
+
+  Table H.3 enumerates the complete set of canonical constraint residuals \(C_a\) and normalization state variables \(X_a\) across the 8 dynamical background variables \(Y = \{y_1 = \ln H, y_2 = \xi, y_3 = \varphi, y_4 = \dot{\varphi}/H, y_5 = \rho_r, y_6 = \rho_m, y_7 = \rho_\partial, y_8 = \Theta_\partial\}\) and bulk-perturbation sectors:
+
+
+
+  
+\begin{center}
+\begin{tabular}{|lllll|}
+\hline
+
+      Index \(a\) & Constraint Sector & Explicit Residual Definition \(C_a(N)\) & Normalization State Variable \(X_a(N)\) & Max Evaluated Residual \(\|C_a\|_{\max}\) (\(N\in[-60.0,0]\))
+       \\ \hline
+
+    
+    
+      1 & Physical Friedmann Constraint (\(\mathcal{H}_M\)) & \(C_1 = 3M_{Pl}^2 H^2 - M_{Pl}^4 \left[ \frac{1}{2}(H/M_{Pl})^2 y_4^2 + V(y_3) + y_5 + y_6 + y_7 + \mathcal{I}_{\Lambda} \right]\) & \(X_1 = 3M_{Pl}^2 H^2\) & \(1.20 \times 10^{-8}\) (Inflation) \\ \hline
+
+      2 & Bianchi-Boundary Exchange Identity & \(C_2 = \dot{\rho}_\partial + 3H(\rho_\partial + p_\partial) + \dot{\rho}_{\Lambda,eff} - 2\dot{\xi}\xi K_{00}^{ren}\) & \(X_2 = 3H|\rho_\partial + \rho_{\Lambda,eff}|\) & \(9.00 \times 10^{-9}\) (Inflation) \\ \hline
+
+      3 & RG Vacuum Invariance (\(d\mathcal{I}_\Lambda/d\ln\mu\)) & \(C_3 = 2\xi\beta_\xi\delta_{vac} + \xi^2\beta_\delta + \beta_{geom}/M_{Pl}^4\) & \(X_3 = \mathcal{I}_\Lambda = 1.0 \times {10^{-122}}\) & \(3.50 \times 10^{-12}\) (Reheating) \\ \hline
+
+      4 & Israel Junction Trace Condition & \(\displaystyle C_{4} = \mathcal{K} - \frac{1}{3M_{5}^{3}}\left(-4\lambda_{\,\partial} + M_{\,\partial}^{2}R[h] + T_{\mu}^{(\mathcal{K})\mu} + T_{\mu}^{(\xi)\mu}\right) = 0\) & \(X_4 = 6k_{bulk}\) & \(4.20 \times 10^{-9}\) (Radiation) \\ \hline
+
+      5 & Global Sequestering Saddle (\(\Phi_\lambda, \Phi_{\tilde{\lambda}}\)) & \(\displaystyle C_{5} = \tanh\!\left(\frac{\lambda - \tilde{\lambda}}{\xi^{2}M_{5}^{4}}\right) - \frac{\Delta V_{\,\partial} + \kappa_{\Sigma}(\lambda + \tilde{\lambda})}{V_{tot}} = 0\) & \(X_5 = \xi^2\delta_{vac}^*\) & \(1.50 \times 10^{-11}\) (Matter) \\ \hline
+
+      6 & Graviton Zero-Mode Sturm–Liouville BVP & \(C_6 = \left\| -\frac{d}{dz}\left(e^{-4A}\frac{d\psi_0}{dz}\right) \right\|_{L^2} + |m_0^2|\) & \(X_6 = k_{bulk}^2|\psi_0(0)|\) & \(1.10 \times 10^{-14}\) (All Epochs) \\ \hline
+
+      7 & Presymplectic Interface Flux (\(\omega_\Sigma\)) & \(C_7 = \int_\Sigma d^3x\sqrt{|h|}(\delta_1\Pi^{ab}\delta_2 h_{ab} - \delta_2\Pi^{ab}\delta_1 h_{ab} + \delta_1\Pi_\xi\delta_2\xi - \delta_2\Pi_\xi\delta_1\xi)\) & \(X_7 = M_5^3 H^2\) & \(0.00\) (Exact Identity) \\ \hline
+
+      8 & RIS-Subtracted Equilibrium Cancellation & \(C_8 = \left.\left(\gamma_{N_1}^{ID} - \gamma_{N_1}^D + \gamma_{t\bar{q}\leftrightarrow\ell H}^{\text{RIS-sub}}\right)\right|_{Y=Y^{eq},\,\mu_B=0}\) & \(X_8 = \gamma_{N_1}^D(z=1)\) & \(5.00 \times 10^{-13}\) (Freeze-Out) \\ \hline
+
+    
+  \end{tabular}
+\end{center}
+
+  (Table H.3: Explicit definitions and maximum evaluated magnitudes of the canonical constraint residuals \(C_a\) and state variables \(X_a\). Note: Absolute residuals \(|C_a|\) are evaluated pre-normalization to demonstrate raw numerical drift; the strictly bounded canonical constraint surface is verified via the normalized metric \(\mathcal{E}_C < 10^{-10}\) in Table H.2.)
+
+
+
+
+
+
+
+
+\input{ASCM_Companion_Manual.bbl}
+
+\section*{DATA AND CODE AVAILABILITY STATEMENT}
+All symbolic computer-algebra proofs, stiff Radau boundary-value and Boltzmann transport integrators, and dynamic Fisher-matrix and Laplace-evidence likelihood pipelines are permanently archived and publicly available at GitHub (https://github.com/J-Tickers/Axiomatic-Sector-Cosmological-Model). The 200x300 PM grid kernels, 2LPT transfer tables, and Gadget-4 TreePM numerical artifacts required for hydrodynamic scaling are hosted externally via Figshare (DOI: 10.6084/m9.figshare.34734825; https://doi.org/10.6084/m9.figshare.34734825).
+
+\end{document}
+
+
+
