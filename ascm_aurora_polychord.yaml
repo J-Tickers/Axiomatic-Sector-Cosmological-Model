@@ -1,0 +1,26 @@
+theory:
+  classy:
+    extra_args:
+      non_linear: 'halofit'
+      ascm_boundary_coupling: 0.0000051
+      P_k_max_1/Mpc: 5.0
+      z_max_pk: 2.0
+      YHe: 0.245
+likelihood:
+  aurora_likelihood.AuroraPk:
+    python_path: .
+params:
+  H0:
+    prior: {min: 60, max: 80}
+  omega_b:
+    prior: {min: 0.01, max: 0.04}
+  omega_cdm:
+    prior: {min: 0.05, max: 0.20}
+  A_s:
+    prior: {min: 1e-9, max: 3e-9}
+  n_s:
+    prior: {min: 0.9, max: 1.1}
+sampler:
+  polychord:
+    nlive: 512
+output: chains/ascm_aurora_polychord/ascm_aurora
